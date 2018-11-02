@@ -50,6 +50,7 @@ header span {
   font-weight: bold;
   height: 2.75rem;
   line-height: 2.75rem;
+  opacity: 0.8;
   position: absolute;
   text-align: center;
   text-shadow: 0 0 15px #ffffff30;

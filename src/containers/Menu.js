@@ -43,17 +43,17 @@ function Menu ({ isMobile, isHidden, toggle, scrollY }) {
 	const hide = isMobile && isHidden
 	const asideStyle = isMobile ? { top: `${scrollY}px` } : undefined
 	return [
-		<Head>
+		<Head key="head">
 			<style>{style}</style>
 		</Head>,
 		isMobile && (
-			<button className={cn('showMenu', { isHidden: !hide })} onClick={toggle} />
+			<button className={cn('showMenu', { isHidden: !hide })} onClick={toggle} key="showMenu" />
 		),
-		<aside className={cn('menu', { isHidden: hide })} style={asideStyle}>
+		<aside className={cn('menu', { isHidden: hide })} style={asideStyle} key="menu">
 			<header>
 				<Image className="chao" src="chao.png" />
 			</header>
-			<nav onClick={isMobile && toggle}>
+			<nav onClick={isMobile ? toggle : undefined}>
 				<Link to="/read/cosmogony">Cosmogony</Link>
 				<Link to="/read/intro">Intro</Link>
 				<Link to="/read/stage">Stage</Link>

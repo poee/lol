@@ -12,26 +12,26 @@ import './app.css'
 import loadCss from './loadCss';
 
 const App = ({ fontSize, decrease, increase, sizeStyle }) => ([
-	<Head>
+	<Head key="head">
 		<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet" />
 		<link href="/image/favicon.png" rel="shortcut icon" />
 		<style>{loadCss}</style>
 	</Head>,
-	<Router>
+	<Router key="router">
 		<Loading>
 			{({ loading }) => {
 				if (loading) {
 					return <div class="heart"><div></div></div>
 				}
 				return [
-					<div className="pageContainer" style={sizeStyle}>
+					<div className="pageContainer" style={sizeStyle} key="container">
 						<Menu />
 						<article className="content">
 							<Header fontSize={fontSize} decrease={decrease} increase={increase} />
 							<Routes />
 						</article>
 					</div>,
-					<Footer />
+					<Footer key="footer" />
 				]
 			}}
 		</Loading>
