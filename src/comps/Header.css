@@ -52,12 +52,14 @@ header span {
   line-height: 2.75rem;
   position: absolute;
   text-align: center;
+  text-shadow: 0 0 15px #ffffff30;
   top: 0;
   width: 2.5rem;
 }
 
 .fontControl button:disabled {
-  color: #00000050;
+  color: black;
+  opacity: 0.4;
 }
 
 .fontControl button:first-child {
