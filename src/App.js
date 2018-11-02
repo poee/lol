@@ -42,20 +42,27 @@ const INCREMENT = 10
 const BASE_FONT = 95
 export const MIN_FONT = 75
 export const MAX_FONT = 155
+function makeNewFontState({ fontSize }, change = 0) {
+	fontSize = (
+		fontSize
+		|| typeof window !== 'undefined' && Number(window.localStorage.getItem('fontSize'))
+		|| BASE_FONT
+	) + change;
+	debugger
+	fontSize = Math.max(MIN_FONT, fontSize)
+	fontSize = Math.min(MAX_FONT, fontSize)
+	typeof window !== 'undefined' && window.localStorage.setItem('fontSize', fontSize)
+	return {
+		fontSize,
+		sizeStyle: {fontSize: `${fontSize / 100}rem`}
+	}
+}
+
 export default compose(
 	withStateHandlers(
-		() => (
-			{ fontSize: typeof window !== 'undefined' && Number(window.localStorage.getItem('fontSize'))
-				|| BASE_FONT }
-		), {
-			decrease: ({ fontSize }) => () => ({ fontSize: Math.max(MIN_FONT, fontSize - INCREMENT) }),
-			increase: ({ fontSize }) => () => ({ fontSize: Math.min(MAX_FONT, fontSize + INCREMENT) }),
-		}
-	),
-	mapProps(
-		(props) => {
-			typeof window !== 'undefined' && window.localStorage.setItem('fontSize', props.fontSize)
-			return {...props, sizeStyle: {fontSize: `${props.fontSize / 100}rem`}}
+		makeNewFontState, {
+			decrease: (state) => () => makeNewFontState(state, -INCREMENT),
+			increase: (state) => () => makeNewFontState(state, INCREMENT),
 		}
 	),
 	hot(module)
