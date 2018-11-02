@@ -3,7 +3,7 @@ import { withRouteData } from 'react-static'
 import DocumentTitle from 'react-document-title'
 
 import './Header.css'
-import { MIN_FONT, MAX_FONT } from '../App'
+import { MIN_FONT, MAX_FONT } from '../containers/PageContainer'
 
 function Header ({
 	page, fontSize, decrease, increase,
