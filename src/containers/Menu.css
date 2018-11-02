@@ -48,7 +48,7 @@ nav a {
 }
 
 button.showMenu {
-	background: #ffffff80 url('/image/list.png') no-repeat center;
+	background: #ffffffBB url('/image/list.png') no-repeat center;
 	height: 50px;
 	position: fixed;
 	width: 50px;

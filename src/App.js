@@ -9,47 +9,52 @@ import Header from './comps/Header'
 import Menu from './containers/Menu'
 
 import './app.css'
+import loadCss from './loadCss';
 
 const App = ({ fontSize, decrease, increase, sizeStyle }) => ([
 	<Head>
 		<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet" />
 		<link href="/image/favicon.png" rel="shortcut icon" />
+		<style>{loadCss}</style>
 	</Head>,
 	<Router>
-		<div className="pageContainer" style={sizeStyle}>
-			<Loading>
-				{({ loading }) => {
-					if (loading) {
-						// TODO - Return heart loader
-						return 'loading' + loading;
-					}
-					return [
-						<Menu />,
+		<Loading>
+			{({ loading }) => {
+				if (loading) {
+					return <div class="heart"><div></div></div>
+				}
+				return [
+					<div className="pageContainer" style={sizeStyle}>
+						<Menu />
 						<article className="content">
 							<Header fontSize={fontSize} decrease={decrease} increase={increase} />
 							<Routes />
 						</article>
-					]
-				}}
-			</Loading>
-		</div>
+					</div>,
+					<Footer />
+				]
+			}}
+		</Loading>
 	</Router>,
-	<Footer />
 ])
 
 const INCREMENT = 10
+const BASE_FONT = 95
 export const MIN_FONT = 75
 export const MAX_FONT = 155
 export default compose(
 	withStateHandlers(
-		() => ({ fontSize: Number(window && window.localStorage.getItem('fontSize')) || 95 }), {
+		() => (
+			{ fontSize: typeof window !== 'undefined' && Number(window.localStorage.getItem('fontSize'))
+				|| BASE_FONT }
+		), {
 			decrease: ({ fontSize }) => () => ({ fontSize: Math.max(MIN_FONT, fontSize - INCREMENT) }),
 			increase: ({ fontSize }) => () => ({ fontSize: Math.min(MAX_FONT, fontSize + INCREMENT) }),
 		}
 	),
 	mapProps(
 		(props) => {
-			window && window.localStorage.setItem('fontSize', props.fontSize)
+			typeof window !== 'undefined' && window.localStorage.setItem('fontSize', props.fontSize)
 			return {...props, sizeStyle: {fontSize: `${props.fontSize / 100}rem`}}
 		}
 	),

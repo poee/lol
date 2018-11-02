@@ -17,10 +17,11 @@ export default compose(
 		{ isHidden: true }, {
 			toggle: ({ isHidden, scrollY }) => e => {
 				e.stopPropagation()
-				if (isHidden) {
-					scrollY = window.scrollY + 10
+				isHidden = !isHidden
+				if (!isHidden) {
+					scrollY =  10
 				}
-				return { isHidden: !isHidden, scrollY }
+				return { isHidden, scrollY }
 			}
 		}
 	)
