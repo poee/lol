@@ -5,7 +5,7 @@ import chokidar from 'chokidar'
 chokidar.watch('content').on('all', () => reloadRoutes())
 
 export default {
-	siteRoot: 'http://poee.lol',
+	siteRoot: '',
 	generateSourceMaps: false,
   getSiteData: () => ({
     title: 'React Static',
