@@ -5,10 +5,12 @@ import DocumentTitle from 'react-document-title'
 import './Header.css'
 import { MIN_FONT, MAX_FONT } from '../App'
 
-function Header ({ page, fontSize, decrease, increase }) {
+function Header ({
+	page, fontSize, decrease, increase,
+}) {
 	const title = ['POEE']
 	if (page && page.title) {
-		title.unshift(page.title);
+		title.unshift(page.title)
 	}
 	return (
 		<DocumentTitle title={title.join(' - ')}>

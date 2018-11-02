@@ -1,6 +1,6 @@
 import React from 'react'
 import { Head, Loading, Router } from 'react-static'
-import { compose, mapProps, withStateHandlers } from 'recompose'
+import { compose, withProps, withStateHandlers } from 'recompose'
 import { hot } from 'react-hot-loader'
 import Routes from 'react-static-routes'
 
@@ -11,7 +11,7 @@ import Menu from './containers/Menu'
 import './app.css'
 import loadCss from './loadCss';
 
-const App = ({ fontSize, decrease, increase, sizeStyle }) => ([
+const App = (props) => ([
 	<Head key="head">
 		<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet" />
 		<link href="/image/favicon.png" rel="shortcut icon" />
@@ -21,13 +21,13 @@ const App = ({ fontSize, decrease, increase, sizeStyle }) => ([
 		<Loading>
 			{({ loading }) => {
 				if (loading) {
-					return <div class="heart"><div></div></div>
+					return <div className="heart"><div></div></div>
 				}
 				return [
-					<div className="pageContainer" style={sizeStyle} key="container">
+					<div className="pageContainer" style={props.sizeStyle} key="container">
 						<Menu />
 						<article className="content">
-							<Header fontSize={fontSize} decrease={decrease} increase={increase} />
+							<Header {...props} />
 							<Routes />
 						</article>
 					</div>,
@@ -42,28 +42,36 @@ const INCREMENT = 10
 const BASE_FONT = 95
 export const MIN_FONT = 75
 export const MAX_FONT = 155
-function makeNewFontState({ fontSize }, change = 0) {
-	fontSize = (
-		fontSize
-		|| typeof window !== 'undefined' && Number(window.localStorage.getItem('fontSize'))
-		|| BASE_FONT
-	) + change;
-	debugger
-	fontSize = Math.max(MIN_FONT, fontSize)
+function getLSValue() {
+	return typeof window !== 'undefined' && Number(window.localStorage.getItem('fontSize'))
+}
+function updateSize(oldValue, change) {
+	oldValue = oldValue || getLSValue()
+	let fontSize = Math.max(MIN_FONT, oldValue + change)
 	fontSize = Math.min(MAX_FONT, fontSize)
-	typeof window !== 'undefined' && window.localStorage.setItem('fontSize', fontSize)
 	return {
 		fontSize,
-		sizeStyle: {fontSize: `${fontSize / 100}rem`}
 	}
 }
 
 export default compose(
 	withStateHandlers(
-		makeNewFontState, {
-			decrease: (state) => () => makeNewFontState(state, -INCREMENT),
-			increase: (state) => () => makeNewFontState(state, INCREMENT),
+		{ fontSize: null }, {
+			decrease: ({ fontSize }) => () => updateSize(fontSize, -INCREMENT),
+			increase: ({ fontSize }) => () => updateSize(fontSize, +INCREMENT),
 		}
 	),
+	withProps(({ fontSize }) => {
+		if (typeof window !== 'undefined') {
+			fontSize = fontSize || getLSValue()
+			window.localStorage.setItem('fontSize', fontSize)
+		}
+		return {
+			fontSize,
+			sizeStyle: {
+				fontSize: `${fontSize / 100}rem`
+			}
+		}
+	}),
 	hot(module)
 )(App)
