@@ -43,7 +43,7 @@ const BASE_FONT = 95
 export const MIN_FONT = 75
 export const MAX_FONT = 155
 function getLSValue() {
-	return typeof window !== 'undefined' && Number(window.localStorage.getItem('fontSize'))
+	return typeof window !== 'undefined' && Number(window.localStorage.getItem('fontSize')) || BASE_FONT
 }
 function updateSize(oldValue, change) {
 	oldValue = oldValue || getLSValue()
