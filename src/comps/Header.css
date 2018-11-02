@@ -1,9 +1,10 @@
 .ribbon {
     border-radius: 2px 10px 0 0;
+    line-height: 2.75rem;
     position: relative;
     color: white;
-    padding: 10px 30px;
-    margin: 15px -2.25em 30px;
+    padding: 0 30px;
+    margin: 15px -2.25rem 30px;
 }
 
 .ribbon:before, .ribbon:after {
@@ -19,15 +20,49 @@
 
 .ribbon:before {
     left: 0;
-    border-width: .75em 0 0 .75em;
+    border-width: .75rem 0 0 .75rem;
 }
 
 .ribbon:after {
     right: 0;
-    border-width: .75em .75em 0 0;
+    border-width: .75rem .75rem 0 0;
 }
 
 header span {
-    font-size: 1.25em;
-    line-height: 1.5em;
+    font-size: 1.25rem;
+}
+
+.fontControl {
+  background: url('/image/format_size.svg') center no-repeat;
+  height: 2.75rem;
+  position: absolute;
+  top: 0;
+  right: 1rem;
+  width: 6rem;
+}
+
+.fontControl button {
+  background-color: transparent;
+  border-radius: 5px;
+  font-family: Consolas;
+  font-size: 1.5rem;
+  font-weight: bold;
+  height: 2.75rem;
+  line-height: 2.75rem;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 2.5rem;
+}
+
+.fontControl button:disabled {
+  color: #00000050;
+}
+
+.fontControl button:first-child {
+  left: 0;
+}
+
+.fontControl button:last-child {
+  right: 0;
 }

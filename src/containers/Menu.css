@@ -1,47 +1,48 @@
 article.content {
-  margin-bottom: 7em;
+  margin-bottom: 7rem;
 }
 
-aside {
+aside.menu {
   display: inline-block;
-  padding-right: 1.5em;
+  padding-right: 1.5rem;
   vertical-align: top;
   width: 25%;
 }
 
-aside img {
+.chao {
   width: 100%;
 }
 
-aside img, .ribbon {
+.chao, .ribbon {
   background-color: hsl(180, 15%, 40%);
   transition: background-color 2s;
 }
 
-aside header {
-  margin: 0 auto 1.5em auto;
+aside.menu header {
+  margin: 0 auto 1.5rem auto;
   max-width: 90%;
-  min-height: 8em;
-  width: 13em;
+  min-height: 8rem;
+  width: 13rem;
 }
 
 nav a {
   display: table;
-  margin-bottom: 0.45em;
+  padding: 0.35rem;
+  padding-left: 0;
 }
 
 .content {
   background-color: white;
   box-shadow: 0 0 6px rgba(0,0,0,0.2);
   display: inline-block;
-  padding: 0 1.5em 3em;
+  padding: 0 1.5rem 3rem;
   width: 75%;
 }
 
 .pageContainer {
   margin: auto;
   max-width: 900px;
-  padding: 3em 1em;
+  padding: 3rem 1rem;
   position: relative;
   width: 100%;
 }
@@ -74,38 +75,38 @@ button.showMenu.isHidden {
 
 /* Small screen rules */
 @media screen and (max-width: 767px) {
-  aside, .content {
+  aside.menu, .content {
     display: table;
   }
 
   .pageContainer {
-    padding: 0.5em;
+    padding: 0.5rem;
   }
 
-  aside.isHidden {
+  aside.menu.isHidden {
     left: -50%;
   }
 
-  aside {
+  aside.menu {
     background-color: #f2f1ed;
-    border-top-left-radius: 50% 5em;
-    border-top-right-radius: 50% 5em;
+    border-top-left-radius: 50% 5rem;
+    border-top-right-radius: 50% 5rem;
     border: thin solid #808080;
     border: thin solid #DDD;
     left: 50%;
     margin: auto;
-    padding: 1em;
+    padding: 1rem;
     position: absolute;
     top: 0;
     transition: left .3s;
     transform: translateX(-50%);
     width: 95%;
-    max-width: 25em;
+    max-width: 25rem;
     z-index: 23;
   }
-  aside header {
-    margin-bottom: 0.75em;
-    width: 8em;
+  aside.menu header {
+    margin-bottom: 0.75rem;
+    width: 8rem;
   }
   article.content {
     margin-left: auto;

@@ -3,8 +3,9 @@ import { withRouteData } from 'react-static'
 import DocumentTitle from 'react-document-title'
 
 import './Header.css'
+import { MIN_FONT, MAX_FONT } from '../App'
 
-function Header ({ page }) {
+function Header ({ page, fontSize, decrease, increase }) {
 	const title = ['POEE']
 	if (page && page.title) {
 		title.unshift(page.title);
@@ -13,6 +14,16 @@ function Header ({ page }) {
 		<DocumentTitle title={title.join(' - ')}>
 			<header className="ribbon">
 				<span>{title[0]}</span>
+				<aside className="fontControl">
+					<button aria-label="Decrease Font Size" className="decreaseFont"
+						disabled={fontSize <= MIN_FONT} onClick={decrease}>
+						&#x25BC;
+					</button>
+					<button aria-label="Increase Font Size" className="increaseFont"
+						disabled={fontSize >= MAX_FONT} onClick={increase}>
+						&#x25B2;
+					</button>
+				</aside>
 			</header>
 		</DocumentTitle>
 	)

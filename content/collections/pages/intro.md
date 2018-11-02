@@ -31,7 +31,7 @@ In our need to orient ourselves toward acceptable solutions to these problems, t
 
 > No comment.
 
-<p class="attribution">Our Lady of Discord, Ἔρις</p>
+<p class="attribution">Our Lady of Discord, Eris</p>
 
 <a href="/read/cosmogony" class="prev">Cosmogony</a>
 <a href="/read/stage" class="next">Stage</a>

@@ -18,9 +18,13 @@ html, body {
 body {
   background: #F2F1ED;
   color: #34495e;
-  font: 90%/1.5em "Noto Sans", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   margin: 0;
   padding: 0;
+}
+
+#root {
+  position: relative;
 }
 
 a {
@@ -36,7 +40,7 @@ a.next, a.prev {
   border: thin solid black;
   border-radius: 5px;
   display: inline-block;
-  margin-top: 1.5em;
+  margin-top: 1.5rem;
   padding: 5px;
   text-decoration: none;
 }
@@ -67,9 +71,9 @@ blockquote {
 
 blockquote + .attribution {
   border-left: 3px solid #1A7440;
-  font-size: 0.9em;
+  font-size: 0.9;
   margin-top: -15px;
-  margin-bottom: 2em;
+  margin-bottom: 2rem;
   text-align: right;
 }
 
@@ -83,9 +87,9 @@ footer {
   bottom: 0;
   color: #F2F1ED;
   font-size: .8em;
-  height: 2em;
+  height: 2rem;
   line-height: 1.6em;
-  padding: 0.2em 93px 0.2em 0;
+  padding: 0.2rem 93px 0.2rem 0;
   position: absolute;
   right: 0;
   text-align: right;
@@ -102,7 +106,7 @@ img {
 
 img.left, img.right {
   width: 30%;
-  margin: 0.5em;
+  margin: 0.5rem;
 }
 
 img.left {
@@ -114,21 +118,21 @@ img.right {
 }
 
 img.flush {
-  margin: 0 -2.25em;
+  margin: 0 -2.25rem;
   max-width: none;
-  width: calc(100% + 4.5em);
+  width: calc(100% + 4.5rem);
 }
 
 p {
-  margin: 1.2em 0;
+  margin: 1.2rem 0;
 }
 
 ul, ol {
-  margin-left: 1em;
+  margin-left: 1rem;
 }
 
 .prime {
-  font-size: 3em;
+  font-size: 3rem;
   text-align: center;
 }
 

@@ -33,7 +33,7 @@ function Menu ({ isMobile, isHidden, toggle, scrollY }) {
 		const hueSeed = Math.round((new Date()).getTime() / 2000) % 361
 		const ribbonHue = (150 + hueSeed) % 361
 		const ribbonColor = `hsl(${ribbonHue}, 45%, 40%)`;
-		style = `header img {background-color: hsl(${hueSeed}, 70%, 35%);}
+		style = `.chao {background-color: hsl(${hueSeed}, 70%, 35%);}
 			header.ribbon {background-color: ${ribbonColor};}
 			.ribbon:before, .ribbon:after {border-top-color: hsl(${ribbonHue}, 35%, 30%);}
 			blockquote, blockquote + .attribution { border-left-color: ${ribbonColor};}`
@@ -48,9 +48,9 @@ function Menu ({ isMobile, isHidden, toggle, scrollY }) {
 		isMobile && (
 			<button className={cn('showMenu', { isHidden: !hide })} onClick={toggle} />
 		),
-		<aside className={cn({ isHidden: hide })} style={asideStyle}>
+		<aside className={cn('menu', { isHidden: hide })} style={asideStyle}>
 			<header>
-				<Image src="chao.png" />
+				<Image className="chao" src="chao.png" />
 			</header>
 			<nav onClick={isMobile && toggle}>
 				<Link to="/read/cosmogony">Cosmogony</Link>
