@@ -34,7 +34,7 @@ header span {
 }
 
 .fontControl {
-  background: url('/image/format_size.svg') center no-repeat;
+  background: url('/image/svg/format_size.svg') center no-repeat;
   height: 2.75rem;
   position: absolute;
   top: 0;

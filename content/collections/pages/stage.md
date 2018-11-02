@@ -13,7 +13,7 @@ We emerge from a 3.5 billion year long evolutionary process, and find ourselves 
 
 It may be wise to take a look around and try to figure out where the hell we are, what the hell is going on around here, and who the hell's underwear we're wearing.
 
-<img class="center" src="/image/eyes.png" style="width:35%">
+<img class="w35" src="/image/eyes.png">
 
 The observable universe is a sphere centered around Earth. It measures **46 billion light-years** from Earth to edge, and represents all information which has reached Earth since the Big Bang.
 

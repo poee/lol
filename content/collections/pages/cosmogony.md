@@ -38,7 +38,7 @@ Eris lamented that VOID should beget her to bear only destruction and loss.
 <br>Then at once, a dream took hold of Sophia.
 <br>She moved through a senseless, endless emptiness.
 
-<br><img class="center" src="/image/eyes.png" style="width:35%">
+<br><img class="w35" src="/image/eyes.png">
 
 But look, therein she caught sight of five magnificent stones: of yellow; of red; of blue; of black; and of gold. Between them shone the essence of potential and the Laws of Elegant Light.
 

@@ -59,7 +59,7 @@ function Menu ({ isMobile, isHidden, toggle, scrollY }) {
 			</header>
 			<nav onClick={isMobile ? toggle : undefined}>
 				<Link to="/read/cosmogony">Cosmogony</Link>
-				<Link to="/read/intro">Intro</Link>
+				<Link to="/read/about">About</Link>
 				<Link to="/read/stage">Stage</Link>
 				<Link to="/read/light">Light</Link>
 				<Link to="/read/apple">Apple</Link>
@@ -70,10 +70,9 @@ function Menu ({ isMobile, isHidden, toggle, scrollY }) {
 				<Link to="/nom/holytimes">Holytimes</Link>
 				<Link to="/nom/holyprimes">Holyprimes</Link>
 				<Link to="/nom/holynames">Holynames</Link>
+				<Link to="/nom/floss">FLOSS</Link>
 				<Link to="/read/libber-v">Libber V</Link>
-				<Link to="/read/libber-v-signs">Libber V Signs</Link>
 				<Link to="/read/sefa">Sefa</Link>
-				<Link to="/read/unity">Unity</Link>
 				<Link to="/read/erisian-tarot-spread">Erisian Tarot Spread</Link>
 				<Link to="/read/kibbaler">Kibbaler</Link>
 				<Link to="/read/yod-nahmuitse">YOD NAHMUITSE</Link>

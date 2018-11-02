@@ -26,7 +26,7 @@ An evocative posture of the Sun. Raise your arms to the heavens and look upward,
 * Who: ERIS
 * Fourfold Name: ADNI
 
-<img src="/image/pan.sm.png" style="width: 50%">
+<img class="w50" src="/image/pan.sm.png">
 
 ### The sign of DEATH
 An evocative posture of Venus. Cross your arms over your chest and rest a hand on each shoulder, to form an X over the heart.

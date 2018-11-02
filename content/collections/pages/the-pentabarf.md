@@ -3,7 +3,7 @@ title: The Pentabarf
 slug: the-pentabarf
 ---
 
-<img class="center" src="/image/eyeball.png" style="width: 25%">
+<img class="w25" src="/image/eyeball.png">
 
 The PENTABARF was discovered by the hermit <a href="/nom/beati#zarathud">Apostle Zarathud</a> in the Fifth Year of The Caterpillar. He found them carved in gilded stone, while building a sun deck for his cave, but their import was lost for they were written in a mysterious cypher. However, after 10 weeks & 11 hours of intensive scrutiny he discerned that the message could be read by standing on his head and viewing it upside down.
 

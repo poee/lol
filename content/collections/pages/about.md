@@ -1,6 +1,6 @@
 ---
-title: Intro
-slug: intro
+title: About
+slug: about
 ---
 
 <img class="flush" src="/image/froodlarge.png">

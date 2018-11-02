@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Umbrage';
+  src: url('/font/umbrage2-webfont.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
   overflow-y:scroll;
 }
@@ -77,6 +84,10 @@ blockquote + .attribution {
   text-align: right;
 }
 
+.center {
+  text-align: center;
+}
+
 div, img {
   margin: auto;
   display: block;
@@ -102,6 +113,16 @@ footer {
 
 img {
   max-width: 100%;
+}
+
+img.w50 {
+  width: 50%;
+}
+img.w35 {
+  width: 35%;
+}
+img.w25 {
+  widtH: 25%;
 }
 
 img.left, img.right {
@@ -138,4 +159,14 @@ ul, ol {
 
 .scaps {
   font-variant: small-caps;
+}
+
+.stamp {
+  bottom: 1em;
+  font-family: Umbrage;
+  max-width: 15em;
+  position: absolute;
+  right: 1.5em;
+  text-align: center;
+  transform: rotate(-5deg);
 }
