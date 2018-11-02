@@ -1,0 +1,47 @@
+---
+title: Kibbaler
+slug: kibbaler
+---
+
+<p class="center">
+  <h3>The Mysteree of the Kibbaler
+  <br><small>Comprehensive Mystical Language Algorithm</small></h3>
+</p>
+<img src="/image/line-t.png" class="nozoom">
+
+*Sensing the imperative to forge a strong connection between numeric and verbal expressions, the ancient Illuminati devised an adept system and wove it into the languages of the world.*
+
+*Embedded in our modern-day linguistic roots and compounds lies their heretofore hidden principle — an understanding of which shall allow any magus to quickly ascertain the secret relation.*
+
+<img src="/image/line-b.png" class="nozoom">
+
+The Kibbaler does not require mastery of esoteric knowledge, Hebrew correspondences or even arithmetic. It is simple, accessible, and 105% reliable, utilizing an easy to memorize formula:
+
+<div class="well">Kibbalistic accounting := length of word</div>
+
+Mostly English Examples
+
+
+- **OI**: I, A, O, E
+- **II**: BY, IS, AS, IN, ON, OF, AT
+- **III**: OUR, FOR, SIT, AND, WHY, BUT, DUO
+- **IV**: CHAO, MIND, LOVE, NOUS, JOVE, GOOD, CODE, AXIS, IAOE, OBEY, KING, THAT, THIS, HERE, FIAT, WALL
+- **V**: APPLE, HEART, SPEAR, AGENT, CREATE, GRASP, WEAVE, POINT, LIGHT, SENSE, STATE, KHUIT, RIGHT, FORTH, BLOOD, INNER, ACTOR, SPECK, POWER, FORCE, TORCH
+- **VI**: BEAUTY, VIRTUE, GOLDEN, SACRED, STRIVE, ORACLE, SPIRAL, ORIGIN, OCCULT, GROWTH, BURNER, FUSION, SOLACE, FRIEND
+- **VII**: SENSATE, PROPHET, INQUIRY, WHISPER, CUMMING, HARMONY, REVERBS, SHIMMER, DEATHLY, THUNDER, BOUQUET, PASSION, VICTORY
+- **VIII**: LANGUAGE, HERMETIC, GUARDIAN, INSPIRED, SYMPHONY, MODERATE, RELIGION, THINKING, INSTRUCT, DESIGNER, APOSTLES, WARDSMEN
+- **IX**: FIRMAMENT, POLYAMORY, REFLECTED, PROMETHEA, INTUITION, SECRETIVE, MOONSHEWN, BLACKNESS, CHALLENGE, SEMAPHORE
+- **X**: EXALTATION, SURPASSING, ALCHEMICAL, SUBSTANCED, TRANSFORMS, COLLECTION, MULTIVERSE, 0.MEATSPACE
+
+<hr/>
+<h3>¡Beware of <span style="color: red">RED HERRINGS</span>!</h3>
+
+Although the <span class="scaps">Illuminated Seers</span> sought to craft languages with perfect Kibbalistic attributions, their aspiration was not without opposition.
+
+<span class="scaps">The Powers That Be</span>, seeking to obfuscate the Kibbaler and deny the masses its wisdom, introduced countless additional words (many of them fnords and plurals) to the lingua franca.
+
+As you come to greater understanding of the mystereeous system here revealed, beware their peppered red herrings, which lurk in lexeme galore.
+
+<img src="/image/rabbit+quill.png" class="center nozoom">
+
+<img src="/image/world.sm.png">

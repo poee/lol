@@ -1,0 +1,18 @@
+---
+title: On Optimism
+slug: optimism
+---
+
+<img class="flush" src="/image/geodesic.sm.jpg" data-source="<a href='https://secure.flickr.com/photos/somethingness/7686828996/'>Nic Redhead - Flickr</a>" data-license="https://creativecommons.org/licenses/by-sa/2.0/">
+
+> *What do you foresee for the future of the planet and its people? Is there reason for optimism?*
+>
+> I suspect or intuit that, as Lenin said, "the machine is running the engineers." We can't dismount, even if the horse seems to have gotten out of control. Information will continue to double faster all the time, leading to new technologies, and the new technologies will unleash Chaos (in the mathematical sense), and society will change in unpredictable and unexpected ways. I suspect or intuit that this ever-accelerating info-techno-sociological rev-and-ev-olution follows the laws of organic systems and continually re-organizes on higher and higher levels of coherence, until something kills it.
+>
+> Since gene-pools last much, much longer than biological units, or persons, I assume gene-pools have higher intelligence than the isolated units. Since species last longer than their sub-divided gene-pools, I assume that a species has a higher intelligence than any gene-pool within it. And since Gaia or the Big Computer or whatever you want to call the total Terran Geo-bio-mass has lasted billions of years --despite floods and earthquakes and meteors and massive extinctions and Ice Ages -- I assume it has more smarts than any sub-sets like kingdoms, families, genera, gene-pools, etc.
+>
+> The reason for optimism lies in the biological fact that it keeps you happy and busy, whereas pessimism just leads to lying around and bitching. I'd rather keep happy and busy than lie around bitching, but I know this will not convince those who really like lying around and bitching. As Nietzsche said that optimism and good health always go together, and so do pessimism and morbidity, in the medical sense of the word.
+
+<p class="attribution">An interview with Robert Anton Wilson</p>
+
+<a class="next" href="http://www.subgenius.com/bigfist/fun/devivals/XXDAYad/X0022_Robert_Anton_Wilson_.html">read more</a>

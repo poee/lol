@@ -1,0 +1,33 @@
+.ribbon {
+    border-radius: 2px 10px 0 0;
+    position: relative;
+    color: white;
+    padding: 10px 30px;
+    margin: 15px -2.25em 30px;
+}
+
+.ribbon:before, .ribbon:after {
+    border-color: transparent;
+    border-style: solid;
+    border-top-color: hsl(180, 10%, 30%);
+    content: "";
+    display: block;
+    position: absolute;
+    top: 100%;
+    transition: border-top-color 2s;
+}
+
+.ribbon:before {
+    left: 0;
+    border-width: .75em 0 0 .75em;
+}
+
+.ribbon:after {
+    right: 0;
+    border-width: .75em .75em 0 0;
+}
+
+header span {
+    font-size: 1.25em;
+    line-height: 1.5em;
+}

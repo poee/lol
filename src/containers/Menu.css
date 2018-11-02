@@ -1,0 +1,115 @@
+article.content {
+  margin-bottom: 7em;
+}
+
+aside {
+  display: inline-block;
+  padding-right: 1.5em;
+  vertical-align: top;
+  width: 25%;
+}
+
+aside img {
+  width: 100%;
+}
+
+aside img, .ribbon {
+  background-color: hsl(180, 15%, 40%);
+  transition: background-color 2s;
+}
+
+aside header {
+  margin: 0 auto 1.5em auto;
+  max-width: 90%;
+  min-height: 8em;
+  width: 13em;
+}
+
+nav a {
+  display: table;
+  margin-bottom: 0.45em;
+}
+
+.content {
+  background-color: white;
+  box-shadow: 0 0 6px rgba(0,0,0,0.2);
+  display: inline-block;
+  padding: 0 1.5em 3em;
+  width: 75%;
+}
+
+.pageContainer {
+  margin: auto;
+  max-width: 900px;
+  padding: 3em 1em;
+  position: relative;
+  width: 100%;
+}
+
+button.showMenu {
+	background: #ffffff80 url('/image/list.png') no-repeat center;
+	height: 50px;
+	position: fixed;
+	width: 50px;
+	z-index: 23;
+  background-position-x: 1.55rem;
+  background-position-y: 1.55rem;
+  background-size: 40px 40px;
+  border-radius: 50%;
+  bottom: -0.85rem;
+  box-shadow: grey -2px -1px 7px;
+  height: 50px;
+  opacity: 0.9;
+  padding: 3.35rem;
+  position: fixed;
+  right: -1rem;
+  transition: opacity .3s;
+  width: 50px;
+  z-index: 23;
+}
+
+button.showMenu.isHidden {
+  opacity: 0;
+}
+
+/* Small screen rules */
+@media screen and (max-width: 767px) {
+  aside, .content {
+    display: table;
+  }
+
+  .pageContainer {
+    padding: 0.5em;
+  }
+
+  aside.isHidden {
+    left: -50%;
+  }
+
+  aside {
+    background-color: #f2f1ed;
+    border-top-left-radius: 50% 5em;
+    border-top-right-radius: 50% 5em;
+    border: thin solid #808080;
+    border: thin solid #DDD;
+    left: 50%;
+    margin: auto;
+    padding: 1em;
+    position: absolute;
+    top: 0;
+    transition: left .3s;
+    transform: translateX(-50%);
+    width: 95%;
+    max-width: 25em;
+    z-index: 23;
+  }
+  aside header {
+    margin-bottom: 0.75em;
+    width: 8em;
+  }
+  article.content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+  }
+}
