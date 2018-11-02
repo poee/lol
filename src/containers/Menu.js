@@ -2,7 +2,7 @@ import React from 'react'
 import { Link, Head } from 'react-static'
 import withSizes from 'react-sizes';
 import cn from 'classnames'
-import { compose, withStateHandlers } from 'recompose'
+import { compose, withStateHandlers, pure } from 'recompose'
 
 import './Menu.css'
 import Image from '../comps/Image'
@@ -18,13 +18,17 @@ export default compose(
 			toggle: ({ isHidden, scrollY }) => e => {
 				e.stopPropagation()
 				isHidden = !isHidden
-				if (!isHidden) {
-					scrollY =  10
+				if (isHidden) {
+					scrollY = 0
+				} else {
+					// When showing, scroll the menu to the current window position
+					scrollY =  window.scrollY + 10
 				}
-				return { isHidden, scrollY }
+				return { isHidden, scrollY: scrollY }
 			}
 		}
-	)
+	),
+	pure
 )(Menu)
 
 function Menu ({ isMobile, isHidden, toggle, scrollY }) {

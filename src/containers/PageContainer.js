@@ -1,15 +1,15 @@
-import React, { PureComponent } from 'react'
+import React, { Component } from 'react'
 import Routes from 'react-static-routes'
 import Header from '../comps/Header'
 import Menu from './Menu'
 
 
 const BASE_FONT = 95
-const INCREMENT = 10
-export const MIN_FONT = 75
-export const MAX_FONT = 155
+const INCREMENT = 15
+export const MIN_FONT = 65
+export const MAX_FONT = 185
 
-class PageContainer extends PureComponent {
+class PageContainer extends Component {
 	constructor(props) {
 		super(props)
 		this.inBrowser = typeof window !== 'undefined'

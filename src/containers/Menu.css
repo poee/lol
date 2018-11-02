@@ -85,6 +85,7 @@ button.showMenu.isHidden {
 
   aside.menu.isHidden {
     left: -50%;
+    transition: top 3s;
   }
 
   aside.menu {
