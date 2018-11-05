@@ -6,6 +6,6 @@ import convert from 'htmr'
 export default withRouteData(({ page }) => (
 	<div>
 		{convert(page.contents)}
-		<hr />
+		<hr className="end" />
 	</div>
 ))

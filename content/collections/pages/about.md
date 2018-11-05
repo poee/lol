@@ -7,24 +7,39 @@ slug: about
 
 -----------------------------
 
+
 <img src="/image/flake.png" class="left" style="width: 15%; margin-right: 10px; opacity: 0.2;">
-As we apply science and reason to once cherished beliefs, religion seems fnord less and less relevant to our present and future. As recording devices become more and more ubiquitous, the lack of concrete evidence for miracles mocks the claims of yesterday's popular religions.
+Did you know that you have a lopsided pineal gland?
+<br><br>Well, probably you do have one, and it’s unfortunate because lopsided Pineal Glands have perverted the Free Spirit of Humanity, and subverted Life into a frustrating, unhappy and hopeless mess.
+<br><br>Fortunately, you have before you a guide that will show you how to discover your salvation fnord through
+<span class="scaps">Eris, the Goddess of Confusion</span>. It will advise you how to balance your Pineal Gland and reach spiritual Illumination. <br>And it will teach you how to turn your miserable mess into a beautiful, joyful, and splendid one.
 
-Failure of religion to bring peace, and often brazen efforts of religious organizations to stifle science and promote claims without rational basis has led some to see religion as a societal cancer that wastes the species' crucial mental and physical resources on violence and irrelevance.
+<blockquote>
+POEE is one manifestation of
+<br>THE DISCORDIAN SOCIETY
+<br>about which you will learn more
+<br>and understand
+<br>less
 
-Religion's demonstrated and seemingly unequaled ability to motivate human cruelty has reshaped the meaning of the word itself.
+<img class="right" src="/image/svg/poo.svg">
 
-For many the whole enterprise is a wash, when thoughts of 'religion' now recall oppression and strife rather than peace and wisdom.
+<br><br>We are a tribe of philosophers, theologians,
+<br>magicians, scientists, artists, clowns,
+<br>and similar maniacs
+<br>who are intrigued with
+<br>ERIS GODDESS OF CONFUSION
+<br>and with Her
+<br>Doings
+</blockquote>
+
+Now with half of the answers, and five times the questions.
+<br>Our species stands at a critical time in its history.
+<br>We have made it through the beginnings of the information revolution with blinding speed, and are left stunned as we try to face energy demands, social restructuring, threats of fascism, and looming destruction.
 
 <img src="/image/bnyp.png" class="right">
-
-<span class="scaps">Yet</span>, our species stands at a critical time in its history.
-<br>We have made it through the beginnings of the information revolution with blinding speed, and are left stunned as we try to face the energy demands, threats to freedom, social restructuring, and looming destruction that our current technological level entails.
-
-This period in history will be far more reformative than the industrial revolution was, and we will emerge from it in a state which would be unrecognizable to our present selves, if we emerge at all.
-
-In our need to orient ourselves toward acceptable solutions to these problems, the teleological questions inherent to religious practice are more relevant for humanity today than ever before.
-
+Disorder is growing in a most visible sense.
+<br>Hail Eris! All Hail Discordia!
+<hr>
 > Everyone has a belief system, B.S., the trick is to learn not to take anyone's B.S. too seriously, especially your own.
 
 <p class="attribution"><i>Reality Is What You Can Get Away With</i> ~ <a href="https://www.youtube.com/watch?list=UUkSH88oT4dDl3aZQZKM_BIw&feature=player_detailpage&v=zTLkiJUX05A">Robert Anton Wilson</a></p>

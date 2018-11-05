@@ -5,7 +5,7 @@ import convert from 'htmr'
 import Image from '../comps/Image'
 
 
-export default withRouteData(Principia)
+export default withRouteData(Discordia)
 
 function onError (error) {
 	if (error.target.src !== '/image/mancala.png') {
@@ -13,7 +13,7 @@ function onError (error) {
 	}
 }
 
-function Principia ({ page }) {
+function Discordia ({ page }) {
 	if (typeof window !== 'undefined' && window.location && window.location.hash) {
 		const number = window.location.hash.match(/#(\d{5})/)
 		if (number) {

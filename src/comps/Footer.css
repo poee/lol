@@ -1,0 +1,22 @@
+footer {
+  background-color: #535351;
+  bottom: 0;
+  color: #F2F1ED;
+  font-size: .8em;
+  height: 2rem;
+  line-height: 2rem;
+  padding: 0 1.5rem;
+  position: absolute;
+  right: 0;
+  text-align: left;
+  width: 100%;
+}
+
+footer::before {
+  background: url('/image/JugOfWine.png') no-repeat;
+  content: '';
+  height: 130px;
+  position: absolute;
+  top: -130px;
+  width: 286px;
+}

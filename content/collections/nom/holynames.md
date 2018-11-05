@@ -7,7 +7,7 @@ slug: holynames
 >
 > And also TITLES OF MYSTICAL IMPORT.
 
-<p class="attribution"><a href="/principia/#00035">Principia Discordia - 00035</a></p>
+<p class="attribution"><a href="/discordia/#00035">Principia Discordia - 00035</a></p>
 
 <img class="flush" src="/pd/00036.sm.png" data-source="Principia Discordia 00036">
 

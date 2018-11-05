@@ -14,3 +14,8 @@ The hand reaches, grasps and tangles strands of night.
 Embedded clutching liken, weaving moonray staves.
 
 An intersection of prehensile apprehensions holds fast to silent light.
+
+
+<p class="stamp">
+DEDICATED TO AN ADVANCED UNDERSTANDING OF THE PARAPHYSICAL MANIFESTATIONS OF EVERYDAY CHAOS
+</p>

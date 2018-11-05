@@ -1,5 +1,5 @@
 ---
-title: Adoration of SOPHIA
+title: Adoration of Nuit
 slug: adoration-of-nuit
 ---
 

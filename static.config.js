@@ -11,7 +11,7 @@ export default {
     title: 'React Static',
   }),
   getRoutes: async () => {
-    const { pages, nom, semel, principia, home, about  } = await jdown('content')
+    const { pages, nom, semel, discordia, home, about  } = await jdown('content')
     return [
       {
         path: '/',
@@ -21,9 +21,9 @@ export default {
         }),
       },
 			{
-				path: '/principia',
-				component: 'src/containers/Principia',
-				getData: (blah, route) => ({ page: principia, route }),
+				path: '/discordia',
+				component: 'src/containers/Discordia',
+				getData: (blah, route) => ({ page: discordia, route }),
 			},
       {
         path: '/nom',
