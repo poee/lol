@@ -9,9 +9,9 @@ The PENTABARF was discovered by the hermit <a href="/nom/beati#zarathud">Apostle
 
 The original tablets are since lost to the ages but Zarathud's followers preserved their holesome content down to this very day.
 
-### KNOW YE THIS O MAN OF FAITH!
+### KNOW YE THIS O PEEPS OF FAITH!
 
-I - There is no god but ERIS and SOPHIA and HADIT and IAOE and PAN and THOTH and EYSIS and They are Probably Your God(dess)(e)(s). And every Golden Apple Corps is the beloved home of a Golden Worm named RAY.<sup>*</sup>
+I - There is no god but ERIS and SOPHIA and HADIT and PAN and THOTH and EYSIS and They are Probably Your God(dess)(e)(s). There is no Erisian Movement but The Erisian Movement and it is The Erisian Movement. And every Golden Apple Corps is the beloved home of a Golden Worm named RAY.<sup>\*</sup>
 
 II - A Discordian Shall Always use the Official Discordian Numbering System.
 
@@ -19,9 +19,9 @@ III - A Discordian is Required during their early Illumination to Go Off Alone &
 
 IV - A Discordian shall Partake of No Hot Dog Buns, for Such was the Solace of Our Goddess when She was Confronted with The Original Snub.
 
-V - A Discordian is Prohibited of Believing what he reads.
+V - A Discordian is Prohibited of Believing what they read.
 
 #### IT IS SO WRITTEN! SO BE IT. HAIL DISCORDIA!
 <br>PROSECUTORS WILL BE TRANSGRESSICUTED.
 
-<small><sup>*</sup> known alias: 'Willie Yam'</small>
+<small><sup>\*</sup> known alias: 'Willie Yam'</small>

@@ -15,9 +15,8 @@ slug: holynames
 <p class="attribution">P.O.E.E. Head Temple</p>
 
 
-<p style="text-align: center">poee.lol is brought to you by
-<h3 style="text-align: center">Episkopos Ad Infinitum Cervidaen NOM, KSC</h3>
+<p class="center">poee.lol is brought to you by
+<h3 style="text-align: center">Episkopos Folle Ad Infinitum GNOM, KSC</h3>
 <br><img src="/image/inf.sm.png">
-
-<div style="clear: both;"></div><br>
+<hr>
 </p>

@@ -10,7 +10,7 @@ import loadCss from './loadCss'
 
 const App = () => ([
 	<Head key="head">
-		<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css?family=Noto+Sans|Gloria+Hallelujah" rel="stylesheet" />
 		<link href="/image/favicon.png" rel="shortcut icon" />
 		<style>{loadCss}</style>
 	</Head>,

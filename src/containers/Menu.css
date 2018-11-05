@@ -95,9 +95,10 @@ button.showMenu.isHidden {
     border-top-right-radius: 50% 5rem;
     border: thin solid #808080;
     border: thin solid #DDD;
+    font-size: 1.25em;
     left: 50%;
     margin: auto;
-    padding: 1rem;
+    padding: 1rem 2rem;
     position: absolute;
     top: 0;
     transition: left .3s;
@@ -114,5 +115,9 @@ button.showMenu.isHidden {
     margin-left: auto;
     margin-right: auto;
     width: 95%;
+  }
+
+  nav a {
+    padding: 0.6rem;
   }
 }
