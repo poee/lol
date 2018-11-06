@@ -96,6 +96,10 @@ blockquote + .attribution {
   text-align: center;
 }
 
+.mirror {
+  transform: scaleX(-1);
+}
+
 div, img {
   margin: auto;
   display: block;

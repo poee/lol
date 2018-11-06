@@ -49,20 +49,20 @@ nav a {
 }
 
 button.showMenu {
-	background: #ffffffBB url('/image/list.png') no-repeat center;
+	background: gray url('/image/list.png') no-repeat center;
 	height: 50px;
 	position: fixed;
 	width: 50px;
 	z-index: 23;
-  background-position-x: 1.55rem;
-  background-position-y: 1.55rem;
-  background-size: 40px 40px;
+  background-position-x: 1.25rem;
+  background-position-y: 1.25rem;
+  background-size: 32px 30px;
   border-radius: 50%;
   bottom: -0.85rem;
   box-shadow: grey -2px -1px 7px;
   height: 50px;
-  opacity: 0.9;
-  padding: 3.35rem;
+  opacity: 0.5;
+  padding: 2.5rem;
   position: fixed;
   right: -1rem;
   transition: opacity .3s;

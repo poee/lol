@@ -4,8 +4,7 @@ import { withRouteData, Link } from 'react-static'
 
 import sort from 'array-sort'
 
-
-function TOC ({ pages, match = {} }) {
+function TOC ({ pages, match = {}, prefix }) {
 	const sorted = sort(pages, 'title')
 	return (
 		<div>
@@ -14,7 +13,7 @@ function TOC ({ pages, match = {} }) {
 			<ul>
 				{sorted.map(page => (
 					<li key={page.slug}>
-						<Link to={`${match.url || '/'}${page.slug}/`}>
+						<Link to={`${prefix || match.url || '/'}${page.slug}`}>
 							{page.title}
 						</Link>
 					</li>

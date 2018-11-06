@@ -8,7 +8,7 @@ export default {
 	siteRoot: '',
 	generateSourceMaps: false,
   getSiteData: () => ({
-    title: 'React Static',
+    title: 'POEE',
   }),
   getRoutes: async () => {
     const { pages, nom, semel, discordia, home  } = await jdown('content')
