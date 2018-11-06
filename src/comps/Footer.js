@@ -1,12 +1,12 @@
 import React from 'react'
 
 import './Footer.css'
+import Kopy from './Kopy'
 
 export default function Footer () {
-	const year = (new Date()).getFullYear()
 	return (
 		<footer>
-			{`Ⓚ 3.7bya YOLD - ${year} EV. All rites reversed.`}
+			<Kopy />
 		</footer>
 	)
 }

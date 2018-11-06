@@ -35,7 +35,7 @@ function Menu ({ isMobile, isHidden, toggle, scrollY }) {
 	// Change hue seed every 30 seconds when in the browser
 	let style;
 	if (typeof window !== 'undefined') {
-		const hueSeed = Math.round((new Date()).getTime() / 2000) % 361
+		const hueSeed = Math.round((new Date()).getTime() / 2300) % 361
 		const ribbonHue = (150 + hueSeed) % 361
 		const ribbonColor = `hsl(${ribbonHue}, 45%, 40%)`;
 		style = `.chao {background-color: hsl(${hueSeed}, 70%, 35%);}
@@ -63,14 +63,16 @@ function Menu ({ isMobile, isHidden, toggle, scrollY }) {
 				<Link to="/discordia/">The Cacophonia</Link>
 				<Link to="/read/light">Light</Link>
 				<Link to="/read/apple">Apple</Link>
-				<Link to="/nom/frood">Frood</Link>
 				<Link to="/read/the-pentabarf">The Pentabarf</Link>
-				<Link to="/nom/beati">Beati</Link>
-				<Link to="/read/empty-space">Regions of Empty Space</Link>
+				<small>Names and Words</small>
+				<Link to="/nom/frood">Frood</Link>
+				<Link to="/nom/beati">Five Star Divas</Link>
+				<Link to="/nom/floss">FLOSS</Link>
 				<Link to="/nom/holytimes">Holytimes</Link>
 				<Link to="/nom/holyprimes">Holyprimes</Link>
 				<Link to="/nom/holynames">Holynames</Link>
-				<Link to="/nom/floss">FLOSS</Link>
+				<small>Phrases and Notes</small>
+				<Link to="/read/empty-space">Regions of Empty Space</Link>
 				<Link to="/read/erisian-tarot-spread">Erisian Tarot Spread</Link>
 				<Link to="/read/optimism">On Optimism</Link>
 				<Link to="/read/the-rich-economy">The RICH Economy</Link>

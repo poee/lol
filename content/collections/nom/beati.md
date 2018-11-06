@@ -3,7 +3,7 @@ title: Beati
 slug: beati
 ---
 
-## Five Star Apostles
+## Five Star Divas
 <a id="hongmeng"></a>
 <img class="right morph" src="/image/hungmeng.png" data-source="Principia Discordia 00044" data-link="/discordia/#00044" data-morph="http://image.poee.lol/chao.filled.black.sm.png">
 

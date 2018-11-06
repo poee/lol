@@ -65,50 +65,10 @@ a.prev:before {
   content: '< ';
 }
 
-.attribution {
-  background-color: #EAEAEA;
-  border-radius: 0 0 5px 5px;
-  margin: 0;
-  padding: 4px 10px;
-}
-
 blockquote {
   border-left: 3px solid #1A7440;
   padding-left: 15px;
   padding-bottom: 15px;
-}
-
-blockquote + .attribution {
-  border-left: 3px solid #1A7440;
-  font-size: 0.9;
-  margin-top: -15px;
-  margin-bottom: 2rem;
-  text-align: right;
-}
-
-img + .attribution {
-  font-size: 0.9em;
-  position: absolute;
-  top: 100%;
-  padding: 0.4em;
-  text-align: center;
-  widtH: 100%;
-}
-
-.left {
-  float: left;
-}
-
-.right {
-  float: right;
-}
-
-.center {
-  text-align: center;
-}
-
-.mirror {
-  transform: scaleX(-1);
 }
 
 div, img {
@@ -144,13 +104,17 @@ img.left, img.right {
 }
 
 img.flush {
-  margin: 0 -2.25rem;
+  margin: 0 -1.5rem;
   max-width: none;
-  width: calc(100% + 4.5rem);
+  width: calc(100% + 3rem);
 }
 
 img.showInfo {
   margin-bottom: 3em;
+}
+
+li {
+  margin-bottom: 0.5rem;
 }
 
 p {
@@ -165,6 +129,46 @@ ul.soc {
   background: no-repeat right bottom url(/image/svg/stool.svg);
   background-size: 85px;
   min-height: 85px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.center {
+  text-align: center;
+}
+
+.mirror {
+  transform: scaleX(-1);
+}
+
+.attribution {
+  background-color: #EAEAEA;
+  border-radius: 0 0 5px 5px;
+  margin: 0;
+  padding: 4px 10px;
+}
+
+blockquote + .attribution {
+  border-left: 3px solid #1A7440;
+  font-size: 0.9;
+  margin-top: -15px;
+  margin-bottom: 2rem;
+  text-align: right;
+}
+
+img + .attribution {
+  font-size: 0.9em;
+  position: absolute;
+  top: 100%;
+  padding: 0.4em;
+  text-align: center;
+  widtH: 100%;
 }
 
 .license {

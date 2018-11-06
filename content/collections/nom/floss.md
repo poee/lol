@@ -10,8 +10,8 @@ slug: floss
   <br>FLOSS - *Free/Libre Open Source Scripture* poetic license.
 
 <br><br>The insights expressed are not necessarily those of the authors.
-<br>Some images are under other licenses. Additions welcome. All rites reversed.
-<br>Scripture is available [on github](https://github.com/poee/lol).
+<br><kopy></kopy> Some images are under other licenses.
+<br>Scripture is available [on github](https://github.com/poee/lol). Colliberation welcome.
 
 </p>
 
