@@ -61,7 +61,7 @@ function Discordia () {
 	return (
 		<div>
 			{content || (
-				<TOC pages={pages} prefix={ROUTE_PREFIX} />
+				<TOC pages={pages} prefix={ROUTE_PREFIX} unsorted />
 			)}
 			<hr />
 			{prevPage && (

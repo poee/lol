@@ -4,8 +4,11 @@ import { withRouteData, Link } from 'react-static'
 
 import sort from 'array-sort'
 
-function TOC ({ pages, match = {}, prefix }) {
-	const sorted = sort(pages, 'title')
+function TOC ({ pages, match = {}, prefix, unsorted }) {
+	let sorted = pages
+	if (!unsorted) {
+		sorted = sort(pages, 'title')
+	}
 	return (
 		<div>
 			<h2>Table of Contents</h2>
