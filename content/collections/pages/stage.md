@@ -3,7 +3,7 @@ title: Stage
 slug: stage
 ---
 
-<img class="flush" src="/image/milkyway.sm.jpg" data-source="'Grand Design' Spiral Galaxy M81 ~ <a href=http://hubblesite.org/newscenter/archive/releases/2007/19/image/a/ target=_blank>HubbleSite Photographs</a>">
+<img class="flush" src="/image/milkyway.sm.jpg" data-source="'Grand Design' Spiral Galaxy M81 ~ HubbleSite Photographs" data-link="http://hubblesite.org/newscenter/archive/releases/2007/19/image/a/">
 
 > In the beginning there was VOID, who had two daughters; one (the smaller) was that of BEING, named ERIS, and one (the larger) was of NON-BEING, named ANERIS. (To this day, the fundamental truth that Aneris is the larger is apparent to all who compare the great number of things that do not exist with the comparatively small number of things that do exist.)
 

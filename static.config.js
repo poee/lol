@@ -8,7 +8,7 @@ export default {
 	siteRoot: '',
 	generateSourceMaps: false,
   getSiteData: () => ({
-    title: 'POEE',
+    title: 'POEE.lol',
   }),
   getRoutes: async () => {
     const { pages, nom, semel, discordia, home  } = await jdown('content')
@@ -27,7 +27,7 @@ export default {
 			},
       {
         path: '/nom',
-        component: 'src/containers/TOC',
+        component: 'src/containers/SOC',
         getData: () => ({
 					pages: nom,
         }),
@@ -41,7 +41,7 @@ export default {
       },
       {
         path: '/read',
-        component: 'src/containers/TOC',
+        component: 'src/containers/SOC',
         getData: () => ({
 					pages,
         }),

@@ -3,7 +3,7 @@ title: Stele
 slug: stele
 ---
 
-<img class="flush" src="/image/stele.sm.jpg" data-source="<a href='https://commons.wikimedia.org/wiki/File:Stelae_front.jpg'>Wikimedia Commons</a>">
+<img class="flush" src="/image/stele.sm.jpg" data-source="Wikimedia Commons" data-link="https://commons.wikimedia.org/wiki/File:Stelae_front.jpg">
 <blockquote>
 <p>Above, the gemmed azure is
 <br>&nbsp;&nbsp;The naked splendour of Nuit;

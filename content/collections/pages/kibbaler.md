@@ -36,9 +36,9 @@ Mostly English Examples
 <hr/>
 <h3>¡Beware of <span style="color: red">RED HERRINGS</span>!</h3>
 
-Although the <span class="scaps">Illuminated Seers</span> sought to craft languages with perfect Kibbalistic attributions, their aspiration was not without opposition.
+Although the ~~Illuminated Seers~~ sought to craft languages with perfect Kibbalistic attributions, their aspiration was not without opposition.
 
-<span class="scaps">The Powers That Be</span>, seeking to obfuscate the Kibbaler and deny the masses its wisdom, introduced countless additional words (many of them fnords and plurals) to the lingua franca.
+~~The Powers That Be~~, seeking to obfuscate the Kibbaler and deny the masses its wisdom, introduced countless additional words (many of them fnords and plurals) to the lingua franca.
 
 As you come to greater understanding of the mystereeous system here revealed, beware their peppered red herrings, which lurk in lexeme galore.
 

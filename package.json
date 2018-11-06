@@ -7,13 +7,14 @@
     "start": "react-static start",
     "stage": "react-static build --staging",
     "build": "react-static build",
-    "serve": "serve dist -p 3000"
+    "serve": "serve dist -p 3000",
+    "lint": "eslint ."
   },
   "dependencies": {
     "array-sort": "^1.0.0",
     "chokidar": "2.0.3",
     "classnames": "^2.2.6",
-    "htmr": "0.6.3",
+    "htmr": "^0.7.0",
     "jdown": "^0.3.0",
     "react": "^16.0.0",
     "react-document-title": "^2.0.3",

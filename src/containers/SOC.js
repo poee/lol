@@ -4,16 +4,16 @@ import { withRouteData, Link } from 'react-static'
 
 import sort from 'array-sort'
 
-function TOC ({ pages, match = {}, prefix, unsorted }) {
+function SOC ({ pages, match = {}, prefix, unsorted }) {
 	let sorted = pages
 	if (!unsorted) {
 		sorted = sort(pages, 'title')
 	}
 	return (
 		<div>
-			<h2>Table of Contents</h2>
+			<h2>Stool of Contents</h2>
 			<br />
-			<ul>
+			<ul className="soc">
 				{sorted.map(page => (
 					<li key={page.slug}>
 						<Link to={`${prefix || match.url || '/'}${page.slug}`}>
@@ -26,4 +26,4 @@ function TOC ({ pages, match = {}, prefix, unsorted }) {
 	)
 }
 
-export default withRouteData(TOC)
+export default withRouteData(SOC)

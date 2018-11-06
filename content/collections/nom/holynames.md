@@ -9,7 +9,7 @@ slug: holynames
 
 <p class="attribution"><a href="/discordia/#00035">Principia Discordia - 00035</a></p>
 
-<img class="flush" src="/pd/00036.sm.png" data-source="Principia Discordia 00036">
+<img class="flush" src="/pd/00036.sm.png" data-source="Principia Discordia 00036" data-link="/discordia/#00036" >
 
 > Every man, woman, person and child on this Earth is a genuine and authorized Pope.
 <p class="attribution">P.O.E.E. Head Temple</p>

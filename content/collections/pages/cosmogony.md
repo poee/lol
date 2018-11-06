@@ -29,7 +29,7 @@ Unknowing, Eris danced and spun, beaming. Yet her joy soon waned.
 <img src="/image/line-t.png" class="nozoom">
 <p style="text-align: center">
 Eris lamented that VOID should beget her to bear only destruction and loss.
-<br><br>In her loneliness Sophia cursed, "<span class="scaps">Why?</span>", and slept.
+<br><br>In her loneliness Sophia cursed, "~~Why?~~", and slept.
 <br><br>And for three eras in silence she slept.
 </p>
 

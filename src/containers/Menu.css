@@ -49,7 +49,7 @@ nav a {
 }
 
 button.showMenu {
-	background: gray url('/image/list.png') no-repeat center;
+	background: #80808088 url('/image/list.png') no-repeat center;
 	height: 50px;
 	position: fixed;
 	width: 50px;
@@ -58,13 +58,12 @@ button.showMenu {
   background-position-y: 1.25rem;
   background-size: 32px 30px;
   border-radius: 50%;
-  bottom: -0.85rem;
-  box-shadow: grey -2px -1px 7px;
   height: 50px;
-  opacity: 0.5;
+  opacity: 0.7;
   padding: 2.5rem;
   position: fixed;
-  right: -1rem;
+  bottom: -0.7rem;
+  right: -0.7rem;
   transition: opacity .3s;
   width: 50px;
   z-index: 23;

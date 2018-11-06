@@ -71,4 +71,4 @@ Let your arms fall, and step outside the circle.
 -----
 
 <br> <h3 style="text-align: center">Libber V should be performed at least 5 times daily for full affect.</h3>
-<img class="center" src="/image/nuit.gif" data-source="Hyrax riding tortoise - <a href='http://animals-riding-animals.tumblr.com/post/50292705047/hyrax-riding-tortoise'>animals-riding-animals.tumblr.com</a>" style="width: 55%">
+<img class="center" src="/image/nuit.gif" data-source="Hyrax riding tortoise - animals-riding-animals.tumblr.com" data-link="http://animals-riding-animals.tumblr.com/post/50292705047/hyrax-riding-tortoise" style="width: 55%">

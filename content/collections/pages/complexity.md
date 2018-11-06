@@ -3,7 +3,7 @@ title: Complexity
 slug: complexity
 ---
 
-<img class="flush" src="/image/complex.sm.jpg" data-source="<a href=https://secure.flickr.com/photos/michaelheiss/3090102907 target=_blank> Michael Heiss - Flickr</a>" data-license="https://creativecommons.org/licenses/by-nc-sa/2.0/">
+<img class="flush" src="/image/complex.sm.jpg" data-source=" Michael Heiss - Flickr" data-link="https://secure.flickr.com/photos/michaelheiss/3090102907" data-license="https://creativecommons.org/licenses/by-nc-sa/2.0/">
 
 By developing language, we opened ourselves up to **information**, and began to use it as a resource.
 

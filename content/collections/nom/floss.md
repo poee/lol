@@ -9,7 +9,8 @@ slug: floss
   Frood Cabal releases writings under a
   <br>FLOSS - *Free/Libre Open Source Scripture* poetic license.
 
-<br><br>The insights expressed are not necessarily those of the authors. Submissions welcome. All rites reversed.
+<br><br>The insights expressed are not necessarily those of the authors.
+<br>Some images are under other licenses. Additions welcome. All rites reversed.
 <br>Scripture is available [on github](https://github.com/poee/lol).
 
 </p>

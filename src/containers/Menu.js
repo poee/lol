@@ -60,32 +60,25 @@ function Menu ({ isMobile, isHidden, toggle, scrollY }) {
 			<nav onClick={isMobile ? toggle : undefined}>
 				<Link to="/read/cosmogony">Cosmogony</Link>
 				<Link to="/read/about">About</Link>
-				<Link to="/discordia">The Cacophonia</Link>
-				<Link to="/read/stage">Stage</Link>
+				<Link to="/discordia/">The Cacophonia</Link>
 				<Link to="/read/light">Light</Link>
 				<Link to="/read/apple">Apple</Link>
-				<Link to="/read/the-pentabarf">The Pentabarf</Link>
 				<Link to="/nom/frood">Frood</Link>
+				<Link to="/read/the-pentabarf">The Pentabarf</Link>
 				<Link to="/nom/beati">Beati</Link>
 				<Link to="/read/empty-space">Regions of Empty Space</Link>
 				<Link to="/nom/holytimes">Holytimes</Link>
 				<Link to="/nom/holyprimes">Holyprimes</Link>
 				<Link to="/nom/holynames">Holynames</Link>
 				<Link to="/nom/floss">FLOSS</Link>
-				<Link to="/read/libber-v">Libber V</Link>
-				<Link to="/read/sefa">Sefa</Link>
 				<Link to="/read/erisian-tarot-spread">Erisian Tarot Spread</Link>
-				<Link to="/read/kibbaler">Kibbaler</Link>
-				<Link to="/read/yod-nahmuitse">YOD NAHMUITSE</Link>
-				<Link to="/read/stele">Stele</Link>
-				<Link to="/read/growth">The Nɒti Growth</Link>
-				<Link to="/read/beauty-and-form">Beauty and Form</Link>
-				<Link to="/read/how-many-people">How Many People Have Ever Lived?</Link>
 				<Link to="/read/optimism">On Optimism</Link>
 				<Link to="/read/the-rich-economy">The RICH Economy</Link>
 				<Link to="/read/the-richest-85">The Richest 85</Link>
+				<Link to="/read/stage">Stage</Link>
+				<Link to="/read/stele">Stele</Link>
+				<Link to="/read/beauty-and-form">Beauty and Form</Link>
 				<Link to="/read/entheatrope">As Many Wisefolk Have Said.</Link>
-				<Link to="/read/adoration-of-nuit">Adoration of NUIT</Link>
 			</nav>
 		</aside>
 	];

@@ -12,7 +12,7 @@ slug: about
 Did you know that you have a lopsided pineal gland?
 <br><br>Well, probably you do have one, and it’s unfortunate because lopsided Pineal Glands have perverted the Free Spirit of Humanity, and subverted Life into a frustrating, unhappy and hopeless mess.
 <br><br>Fortunately, you have before you a guide that will show you how to discover your salvation fnord through
-<span class="scaps">Eris, the Goddess of Confusion</span>. It will advise you how to balance your Pineal Gland and reach spiritual Illumination. <br>And it will teach you how to turn your miserable mess into a beautiful, joyful, and splendid one. Your very liff depends on it.
+~~Eris, the Goddess of Confusion~~. It will advise you how to balance your Pineal Gland and reach spiritual Illumination. <br>And it will teach you how to turn your miserable mess into a beautiful, joyful, and splendid one. Do you believe that?
 
 <blockquote>
 POEE is one manifestation of
@@ -32,9 +32,10 @@ POEE is one manifestation of
 <br>Doings
 </blockquote>
 
-Now with half of the answers, and five times the questions.
+Now with half of the answers, and five times the questions
+<br>on which your very Liff depends.
 <br>Our species stands at a critical time in its history.
-<br>We have made it through the beginnings of the information revolution with blinding speed, and are left stunned as we try to face energy demands, social restructuring, threats of fascism, and looming destruction.
+<br>We have made it through the beginnings of the information revolution with blinding speed, and are left stunned as we try to face energy demands, social restructuring, threats of fuschism, and looming destruction.
 
 <img src="/image/bnyp.png" class="right">
 Disorder is growing in a most visible sense.

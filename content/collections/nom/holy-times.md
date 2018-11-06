@@ -93,5 +93,4 @@ slug: holytimes
 </form>
 </div>
 
-<img src="/image/time.jpg" data-source="<a href=https://secure.flickr.com/photos/5tein/1100742634/>
-Mr_Stein - Flickr</a>" class="flush" data-license="https://creativecommons.org/licenses/by-nc-sa/2.0/">
+<img src="/image/time.jpg" data-link="https://secure.flickr.com/photos/5tein/1100742634/" data-source="Mr_Stein - Flickr" class="flush" data-license="https://creativecommons.org/licenses/by-nc-sa/2.0/">

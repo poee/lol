@@ -15,7 +15,7 @@ I - There is no god but ERIS and SOPHIA and HADIT and PAN and THOTH and EYSIS an
 
 II - A Discordian Shall Always use the Official Discordian Numbering System.
 
-III - A Discordian is Required during their early Illumination to Go Off Alone & Partake Joyously of a <span class="scaps">Vegan Hot Dog with Cheese on a Friday</span>; this Devotive Ceremony to Remonstrate against the popular Paganisms of the Day: of Catholic Christendom (no meat on Friday), of Judaism (no meat of Pork), of Hindic Peoples (no meat of Beef), of Buddhists (no meat of animal), of Discordians (no Hot Dog Buns), of Literalists (no non-Meat), and of Dogmatists (no Cheese).
+III - A Discordian is Required during their early Illumination to Go Off Alone & Partake Joyously of a ~~Vegan Hot Dog with Cheese on a Friday~~; this Devotive Ceremony to Remonstrate against the popular Paganisms of the Day: of Catholic Christendom (no meat on Friday), of Judaism (no meat of Pork), of Hindic Peoples (no meat of Beef), of Buddhists (no meat of animal), of Discordians (no Hot Dog Buns), of Literalists (no non-Meat), and of Dogmatists (no Cheese).
 
 IV - A Discordian shall Partake of No Hot Dog Buns, for Such was the Solace of Our Goddess when She was Confronted with The Original Snub.
 

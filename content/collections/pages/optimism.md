@@ -3,7 +3,7 @@ title: On Optimism
 slug: optimism
 ---
 
-<img class="flush" src="/image/geodesic.sm.jpg" data-source="<a href='https://secure.flickr.com/photos/somethingness/7686828996/'>Nic Redhead - Flickr</a>" data-license="https://creativecommons.org/licenses/by-sa/2.0/">
+<img class="flush" src="/image/geodesic.sm.jpg" data-source="Nic Redhead - Flickr" data-link="https://secure.flickr.com/photos/somethingness/7686828996/" data-license="https://creativecommons.org/licenses/by-sa/2.0/">
 
 > *What do you foresee for the future of the planet and its people? Is there reason for optimism?*
 >

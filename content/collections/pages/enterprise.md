@@ -5,7 +5,7 @@ slug: enterprise
 
 Approximately 2.6 million years ago, humans began using the first stone tools, created by breaking sharp pieces off of larger rocks.
 
-<img class="right" src="/image/acheulean.jpg" data-source="An Acheulean - stone tool after exposure to one million years of human ephemeralization. ~ <a href=https://en.wikipedia.org/wiki/File:Acheuleanhandaxes.jpg target=_blank>Wikipedia</a>">
+<img class="right" src="/image/acheulean.jpg" data-source="An Acheulean - stone tool after exposure to one million years of human ephemeralization. ~ Wikipedia" data-link="https://en.wikipedia.org/wiki/File:Acheuleanhandaxes.jpg">
 For *one million years*, these broken river rocks represented the height of human technology. Eventually, the early humans developed finer control over how the stones broke, and were able to shape symmetrical pointed handaxes.
 
 From there, it took more than a million years for humans to begin controlling fire, and 300,000 more years before the control of fire was widespread. Around the same time, we started creating jewelery, trading, and creating more complex tools by attaching stone to wood.

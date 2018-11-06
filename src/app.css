@@ -12,6 +12,7 @@ html {
 * {
   margin: 0;
   padding: 0;
+  position: relative;
   border: 0;
   box-sizing: border-box;
   text-rendering: optimizelegibility;
@@ -67,6 +68,7 @@ a.prev:before {
 .attribution {
   background-color: #EAEAEA;
   border-radius: 0 0 5px 5px;
+  margin: 0;
   padding: 4px 10px;
 }
 
@@ -82,6 +84,15 @@ blockquote + .attribution {
   margin-top: -15px;
   margin-bottom: 2rem;
   text-align: right;
+}
+
+img + .attribution {
+  font-size: 0.9em;
+  position: absolute;
+  top: 100%;
+  padding: 0.4em;
+  text-align: center;
+  widtH: 100%;
 }
 
 .left {
@@ -138,12 +149,28 @@ img.flush {
   width: calc(100% + 4.5rem);
 }
 
+img.showInfo {
+  margin-bottom: 3em;
+}
+
 p {
   margin: 1.2rem 0;
 }
 
 ul, ol {
   margin-left: 1rem;
+}
+
+ul.soc {
+  background: no-repeat right bottom url(/image/svg/stool.svg);
+  background-size: 85px;
+  min-height: 85px;
+}
+
+.license {
+  background: no-repeat left url('/image/cc.png');
+  margin-left: 1em;
+  padding-left: 20px;
 }
 
 .prime {

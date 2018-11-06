@@ -3,7 +3,7 @@ title: Apple
 slug: apple
 ---
 
-<img class="flush" src="/image/ris.sm.jpg" data-source="<a href=http://sec.gsfc.nasa.gov/sec_resources_imagegallery.htm target=_blank>Heliophysics Resources - NASA</a>">
+<img class="flush" src="/image/ris.sm.jpg" data-source="Heliophysics Resources - NASA" data-link="http://sec.gsfc.nasa.gov/sec_resources_imagegallery.htm">
 
 <iframe id="ytplayer" type="text/html"  width="100%" height="420" src="https://www.youtube.com/embed/kG4YnA_bo9s?origin=http://poee.lol&start=182&end=292&showinfo=0&theme=light&modestbranding=1"
   frameborder="0" data-link="http://www.youtube.com/watch?feature=player_detailpage&v=kG4YnA_bo9s#t=182"></iframe><br>
@@ -33,6 +33,6 @@ Where there are rocks, watch out, watch out!
 
 -----
 
-<img class="flush" src="/image/appleglow.sm.jpg" data-source="<a href='https://secure.flickr.com/photos/cayusa/4402315029/'>Bart - Flickr</a>" data-license="https://creativecommons.org/licenses/by-nc/2.0/">
+<img class="flush" src="/image/appleglow.sm.jpg" data-source="Bart - Flickr" data-link="https://secure.flickr.com/photos/cayusa/4402315029/" data-license="https://creativecommons.org/licenses/by-nc/2.0/">
 
-<img src="/image/applefig.jpg" class="flush" data-source="Apples and fig - <a href='https://secure.flickr.com/photos/protactinium/2992460621'>Scott - Flickr</a>" data-license="https://creativecommons.org/licenses/by/2.0/">
+<img src="/image/applefig.jpg" class="flush" data-source="Apples and fig - Scott - Flickr" data-link="https://secure.flickr.com/photos/protactinium/2992460621" data-license="https://creativecommons.org/licenses/by/2.0/">
