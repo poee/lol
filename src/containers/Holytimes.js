@@ -16,7 +16,7 @@ export default function Holytimes () {
 	const holyDates = holytimes.map((time, idx) => <Date key={idx} {...time} />)
 	return (
 		<div>
-			Today is ${(new DDate()).toDateString()}.
+			Today is the first day of the rest of your liff.
 			{holyDates}
 		</div>
 	)

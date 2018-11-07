@@ -3,7 +3,7 @@ import React from 'react'
 import { withRouteData, Link } from 'react-static'
 
 import sort from 'array-sort'
-const ADD_SLASH = /([^/])$/
+const ADD_SLASH = /([^/#])$/
 function addSlash (string) {
 	string = string || '/'
 	return string.replace(ADD_SLASH, '$1/')
