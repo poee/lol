@@ -64,7 +64,7 @@ function Menu ({ isMobile, isHidden, toggle, scrollY }) {
 				<Link to="/read/light">Light</Link>
 				<Link to="/read/apple">Apple</Link>
 				<Link to="/read/the-pentabarf">The Pentabarf</Link>
-				<small>Names and Words</small>
+				<small>Names and Lists</small>
 				<Link to="/nom/frood">Frood</Link>
 				<Link to="/nom/beati">Five Star Divas</Link>
 				<Link to="/nom/floss">FLOSS</Link>

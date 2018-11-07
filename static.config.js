@@ -39,6 +39,10 @@ export default {
           }),
         })),
       },
+			{
+				path: '/nom/times',
+				component: 'src/containers/Holytimes',
+			},
       {
         path: '/read',
         component: 'src/containers/SOC',
