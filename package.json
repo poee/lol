@@ -1,7 +1,10 @@
 {
-  "name": "react-static-example-basic",
-  "version": "1.0.1",
+  "name": "POEE.lol",
+  "version": ".001",
   "main": "index.js",
+  "keywords": [
+    "poee", "discordian", "fnord", "frood", "eris"
+  ],
   "license": "MIT",
   "scripts": {
     "start": "react-static start",
@@ -14,6 +17,7 @@
     "array-sort": "^1.0.0",
     "chokidar": "2.0.3",
     "classnames": "^2.2.6",
+    "ddate": "^0.1.10",
     "htmr": "^0.7.0",
     "jdown": "^0.3.0",
     "react": "^16.0.0",
@@ -23,7 +27,8 @@
     "react-router": "^4.2.0",
     "react-sizes": "^1.0.4",
     "react-static": "^5.9.12",
-    "recompose": "^0.30.0"
+    "recompose": "^0.30.0",
+    "shebang-loader": "0.0.1"
   },
   "devDependencies": {
     "eslint-config-react-tools": "1.x.x",

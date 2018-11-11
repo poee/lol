@@ -4,6 +4,7 @@ article.content {
 
 aside.menu {
   display: inline-block;
+  margin-bottom: 170px;
   padding-right: 1.5rem;
   vertical-align: top;
   width: 25%;
@@ -102,6 +103,7 @@ button.showMenu.isHidden {
     font-size: 1.25em;
     left: 50%;
     margin: auto;
+    margin-bottom: 0;
     padding: 1rem 2rem;
     position: absolute;
     top: 0;

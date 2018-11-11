@@ -5,11 +5,17 @@ import chokidar from 'chokidar'
 chokidar.watch('content').on('all', () => reloadRoutes())
 
 export default {
-	siteRoot: '',
+	siteRoot: 'https://poee.lol',
 	generateSourceMaps: false,
   getSiteData: () => ({
     title: 'POEE.lol',
   }),
+	webpack: (config, { defaultLoaders }) => {
+		config.module.rules.push(
+			{ test: /ddate\.js$/, loader: 'shebang-loader' },
+		)
+		return config
+	},
   getRoutes: async () => {
     const { pages, nom, semel, discordia, home  } = await jdown('content')
     return [
