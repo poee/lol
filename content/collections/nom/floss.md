@@ -11,7 +11,7 @@ slug: floss
 
 <br><br>The insights expressed are not necessarily those of the authors.
 <br><kopy></kopy> Some images are under other licenses.
-<br>Scripture is available [on github](https://github.com/poee/lol). Colliberation welcome.
+<br>Scripture is available [on github](https://github.com/poee/lol). Coliberation welcome.
 
 </p>
 

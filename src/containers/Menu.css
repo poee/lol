@@ -26,13 +26,13 @@ aside.menu header {
   width: 13rem;
 }
 
-nav a {
+.menu nav a {
   display: table;
   padding: 0.35rem;
   padding-left: 0;
 }
 
-nav small {
+.menu nav small {
   margin-top: 1rem;
   display: block;
 }

@@ -1,6 +1,5 @@
 {
   "name": "POEE.lol",
-  "version": ".001",
   "main": "index.js",
   "keywords": [
     "poee", "discordian", "fnord", "frood", "eris"

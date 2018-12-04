@@ -9,7 +9,7 @@ slug: semel
 <br><br>
 <img class="flush nozoom" src="/image/markofthebeaut.png">
 <br><br>
-<a href="/read/about">
+<a href="/read/wtf">
   <img class="left" src="/image/card-l.png">
 </a>
 <a href="/read/cosmogony">

@@ -11,7 +11,7 @@ The original tablets are since lost to the ages but Zarathud's followers preserv
 
 ### KNOW YE THIS O PEEPS OF FAITH!
 
-I - There is no god but ERIS and SOPHIA and HADIT and PAN and THOTH and EYSIS and They are Probably Your God(dess)(e)(s). There is no Erisian Movement but The Erisian Movement and it is The Erisian Movement. And every Golden Apple Corps is the beloved home of a Golden Worm named RAY.<sup>\*</sup>
+I - There is no god but ERIS and SOPHIA and HADIT and PAN and THOTH and EYSIS and They are Probably Your God(dess)(e)(s). There is no Erisian Movement but The Erisian Movement and it is The Erisian Movement. And every Golden Apple Corps is the beloved home of a Golden Worm.
 
 II - A Discordian Shall Always use the Official Discordian Numbering System.
 
@@ -23,5 +23,3 @@ V - A Discordian is Prohibited of Believing what they read.
 
 #### IT IS SO WRITTEN! SO BE IT. HAIL DISCORDIA!
 <br>PROSECUTORS WILL BE TRANSGRESSICUTED.
-
-<small><sup>\*</sup> known alias: 'Willie Yam'</small>

@@ -1,6 +1,6 @@
 ---
-title: About
-slug: about
+title: WTF
+slug: wtf
 ---
 
 <img class="flush" src="/image/froodlarge.png">

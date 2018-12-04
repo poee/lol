@@ -59,7 +59,7 @@ function Menu ({ isMobile, isHidden, toggle, scrollY }) {
 			</header>
 			<nav onClick={isMobile ? toggle : undefined}>
 				<Link to="/read/cosmogony">Cosmogony</Link>
-				<Link to="/read/about">About</Link>
+				<Link to="/read/wtf">WTF</Link>
 				<Link to="/discordia/">The Cacophonia</Link>
 				<Link to="/read/light">Light</Link>
 				<Link to="/read/apple">Apple</Link>

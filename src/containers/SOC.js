@@ -10,7 +10,9 @@ function addSlash (string) {
 }
 
 
-function SOC ({ pages, match = {}, prefix, unsorted }) {
+function SOC ({
+	pages, match = {}, prefix, unsorted
+}) {
 	let sorted = pages
 	if (!unsorted) {
 		sorted = sort(pages, 'title')
@@ -20,13 +22,21 @@ function SOC ({ pages, match = {}, prefix, unsorted }) {
 			<h2>Stool of Contents</h2>
 			<br />
 			<ul className="soc">
-				{sorted.map(page => (
-					<li key={page.slug}>
-						<Link to={`${addSlash(prefix || match.url)}${page.slug}`}>
-							{page.title}
-						</Link>
-					</li>
-				))}
+				{sorted.map(page => {
+					if (typeof page === 'string') {
+						// Do not display in SOC
+						return null
+					}
+					const displayedSlug = Number(page.slug)
+					return (
+						<li key={page.slug}>
+							<Link to={`${addSlash(prefix || match.url)}${page.slug}`}>
+								{!isNaN(displayedSlug) && `${displayedSlug} - `}
+								{page.title}
+							</Link>
+						</li>
+					)
+				})}
 			</ul>
 		</div>
 	)
