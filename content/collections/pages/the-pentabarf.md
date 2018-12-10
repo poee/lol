@@ -22,4 +22,5 @@ IV - A Discordian shall Partake of No Hot Dog Buns, for Such was the Solace of O
 V - A Discordian is Prohibited of Believing what they read.
 
 #### IT IS SO WRITTEN! SO BE IT. HAIL DISCORDIA!
-<br>PROSECUTORS WILL BE TRANSGRESSICUTED.
+
+<p class="stamp">PROSECUTORS WILL BE TRANSGRESSICUTED.</p>

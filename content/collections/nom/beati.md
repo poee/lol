@@ -17,7 +17,6 @@ slug: beati
 * Vibrational attribution: Laughter
 * Lucky Number: 6
 
-----
 <a id="vanvanmojo"></a>
 <img class="right morph" src="/image/van_van_mojo.png" data-source="Principia Discordia 00059" data-link="/discordia/#00059" data-morph="http://image.poee.lol/v.sm.png">
 
@@ -31,7 +30,6 @@ slug: beati
 * Vibrational attribution: Roar
 * Lucky Number: 2
 
-----
 <a id="srisyadasti"></a>
 <img class="right morph" src="/image/sri.png" data-source="Principia Discordia 00039" data-link="/discordia/#00039" data-morph="http://image.poee.lol/moon.sm.png">
 
@@ -45,7 +43,6 @@ slug: beati
 * Vibrational attribution: Icaro
 * Lucky Number: 3
 
-----
 <a id="zarathud"></a>
 <img class="right morph" src="/image/zarathud.png" data-source="Principia Discordia 00006" data-link="/discordia/#00006" data-morph="http://image.poee.lol/growth.sm.png">
 
@@ -59,7 +56,6 @@ slug: beati
 * Vibrational attribution: Samādhi
 * Lucky Number: 10
 
-----
 <a id="mal-1"></a>
 <img class="right morph" src="/image/mal1.png" data-source="Principia Discordia 00060" data-link="/discordia/#00060" data-morph="http://image.poee.lol/3y3.sm.png">
 
@@ -124,5 +120,4 @@ slug: beati
 </random>
 
 <img class="right" src="/image/spacecadets.png" style="width: 63%">
-<hr>
 <img class="left" src="/image/gulik.png" style="position: relative; bottom: -55px">

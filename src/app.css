@@ -97,6 +97,12 @@ img.w35 {
 img.w25 {
   widtH: 25%;
 }
+img.o75 {
+  opacity: 0.75;
+}
+img.o25 {
+  opacity: 0.25;
+}
 
 img.left, img.right {
   width: 30%;

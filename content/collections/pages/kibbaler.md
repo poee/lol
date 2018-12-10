@@ -7,13 +7,13 @@ slug: kibbaler
   <h3>The Mysteree of the Kibbaler
   <br><small>Comprehensive Mystical Language Algorithm</small></h3>
 </p>
-<img src="/image/line-t.png" class="nozoom">
+- - -
 
 *Sensing the imperative to forge a strong connection between numeric and verbal expressions, the ancient Illuminati devised an adept system and wove it into the languages of the world.*
 
 *Embedded in our modern-day linguistic roots and compounds lies their heretofore hidden principle — an understanding of which shall allow any magus to quickly ascertain the secret relation.*
 
-<img src="/image/line-b.png" class="nozoom">
+- - -
 
 The Kibbaler does not require mastery of esoteric knowledge, Hebrew correspondences or even arithmetic. It is simple, accessible, and 105% reliable, utilizing an easy to memorize formula:
 
@@ -33,7 +33,8 @@ Mostly English Examples
 - **IX**: FIRMAMENT, POLYAMORY, REFLECTED, PROMETHEA, INTUITION, SECRETIVE, MOONSHEWN, BLACKNESS, CHALLENGE, SEMAPHORE
 - **X**: EXALTATION, SURPASSING, ALCHEMICAL, SUBSTANCED, TRANSFORMS, COLLECTION, MULTIVERSE, 0.MEATSPACE
 
-<hr/>
+- - -
+
 <h3>¡Beware of <span style="color: red">RED HERRINGS</span>!</h3>
 
 Although the ~~Illuminated Seers~~ sought to craft languages with perfect Kibbalistic attributions, their aspiration was not without opposition.

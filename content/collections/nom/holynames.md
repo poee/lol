@@ -16,7 +16,6 @@ slug: holynames
 
 
 <p class="center">poee.lol is brought to you by
-<h3 style="text-align: center">Episkopos Folle Ad Infinitum GNOM, KSC</h3>
-<br><img src="/image/inf.sm.png">
-<hr>
+  <h3 style="text-align: center">Episkopos Folle Ad Infinitum GNOM, KSC</h3>
+  <br><img src="/image/inf.sm.png">
 </p>

@@ -42,7 +42,7 @@ Give the sign of the Bornless God.
 
 <img src="/image/3y3.sm.png">
 
------
+- - -
 
 # Second Phase - Diction and Devotion
 
@@ -68,7 +68,7 @@ Let your arms fall, and step outside the circle.
 
 <a class="next" href="/read/libber-v-signs">signs</a>
 
------
+- - -
 
 <br> <h3 style="text-align: center">Libber V should be performed at least 5 times daily for full affect.</h3>
 <img class="center" src="/image/nuit.gif" data-source="Hyrax riding tortoise - animals-riding-animals.tumblr.com" data-link="http://animals-riding-animals.tumblr.com/post/50292705047/hyrax-riding-tortoise" style="width: 55%">

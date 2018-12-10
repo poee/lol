@@ -16,6 +16,4 @@ Psychedelics and Mental Health: A Population Study
 
 <a href="http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0063972" class="next">read more</a>
 
-----
-
 * [LSD and other psychedelics not linked with mental health problems](http://www.eurekalert.org/pub_releases/2013-08/nuos-lao081813.php)

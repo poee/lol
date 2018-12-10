@@ -13,8 +13,6 @@ The Erisian spread can only be done once, when a new deck is opened.
 4. When you're done, cut the deck once and draw a card, placing it on the opposite side of the center card.
 5. If you have a face down card from step 1, turn it over now. If one of your cards is the deck publisher's logo that you forgot to remove in step 1, congratulations - you are the lucky winner of 2 flax.
 
------
-
 The meaning of the spread is Self-explanatory.
 
 <a class="next" href="/tarot">refer</a>

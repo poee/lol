@@ -5,10 +5,7 @@ slug: wtf
 
 <img class="flush" src="/image/froodlarge.png">
 
------------------------------
-
-
-<img src="/image/flake.png" class="left" style="width: 15%; margin-right: 10px; opacity: 0.2;">
+<img src="/image/flake.png" class="left o25" style="width: 15%; margin-right: 10px;">
 Did you know that you have a lopsided pineal gland?
 <br><br>Well, probably you do have one, and it’s unfortunate because lopsided Pineal Glands have perverted the Free Spirit of Humanity, and subverted Life into a frustrating, unhappy and hopeless mess.
 <br><br>Fortunately, you have before you a guide that will show you how to discover your salvation fnord through
@@ -36,10 +33,10 @@ Now with half of the answers, and five times the questions on which your very Li
 Our species stands at a critical time in its history.
 <br>We have made it through the beginnings of the information revolution with blinding speed, and are left stunned as we try to face energy demands, social restructuring, rise of fuschism, and looming destruction.
 
-<img src="/image/bnyp.png" class="right">
+<img alt="be not ye paranoid" src="/image/bnyp.png" class="right">
 Disorder is growing in a most visible sense.
 <br>Hail Eris! All Hail Discordia!
-<hr>
+
 > Everyone has a belief system, B.S., the trick is to learn not to take anyone's B.S. too seriously, especially your own.
 
 <attr>

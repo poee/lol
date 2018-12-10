@@ -40,7 +40,7 @@ This means that likely everything you have *ever found interesting* — everythi
 <img class="center" src="/image/observable_universe.jpg">
 
 <a href="/read/light" class="next">Light</a>
-- - -
+
 #### Info
 * [The Scale of the Universe](http://htwins.net/scale2/)
 * [Wikipedia - Observable universe](https://en.wikipedia.org/wiki/Observable_universe)

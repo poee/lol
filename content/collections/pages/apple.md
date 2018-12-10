@@ -29,10 +29,8 @@ But we're thinking in a way, you see, that disconnects the intelligence from the
 Where there are rocks, watch out, watch out!
 <br>Because the rocks are going eventually to come alive.
 
-<a href="/nom/frood" class="next">Frood</a>
-
------
-
 <img class="flush" src="/image/appleglow.sm.jpg" data-source="Bart - Flickr" data-link="https://secure.flickr.com/photos/cayusa/4402315029/" data-license="https://creativecommons.org/licenses/by-nc/2.0/">
 
 <img src="/image/applefig.jpg" class="flush" data-source="Apples and fig - Scott - Flickr" data-link="https://secure.flickr.com/photos/protactinium/2992460621" data-license="https://creativecommons.org/licenses/by/2.0/">
+
+<a class="next" href="/nom/frood">Frood</a>

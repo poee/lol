@@ -15,4 +15,3 @@ slug: semel
 <a href="/read/cosmogony">
   <img class="right" src="/image/card-r.png">
 </a>
-<hr>
