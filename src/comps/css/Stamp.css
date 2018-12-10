@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Special Elite';
+  src: url('/font/SpecialElite-webfont.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.stamp {
+  font-family: Special Elite;
+  position: relative;
+  text-align: right;
+}
+
+.stamp > p {
+  font-size: 1.1em;
+  display: inline-block;
+  max-width: 15em;
+  text-align: center;
+  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
+  transform: rotate(-5deg);
+}

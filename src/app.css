@@ -1,10 +1,3 @@
-@font-face {
-  font-family: 'Umbrage';
-  src: url('/font/umbrage2-webfont.woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
 html {
   overflow-y:scroll;
 }
@@ -81,7 +74,7 @@ hr {
 }
 
 hr.end {
-  height: 3em;
+  height: 1rem;
 }
 
 img {
@@ -194,14 +187,4 @@ img + .attribution {
 
 .scaps {
   font-variant: small-caps;
-}
-
-.stamp {
-  bottom: 1em;
-  font-family: Umbrage;
-  max-width: 15em;
-  position: absolute;
-  right: 1.5em;
-  text-align: center;
-  transform: rotate(-5deg);
 }

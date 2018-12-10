@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './Footer.css'
+import './css/Footer.css'
 import Kopy from './Kopy'
 
 export default function Footer () {

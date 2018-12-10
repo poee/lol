@@ -15,10 +15,10 @@ slug: floss
 
 </p>
 
-<p class="stamp">
+<stamp>
   Papal Sanction R0044
   <br>POEE Head Temple
   <br>Hush Level Lemon 9-Peridot
-</p>
+</stamp>
 
 <br>

@@ -10,20 +10,20 @@ One (the larger) was that of non-being, order, and magic, named Sophia.
 
 <small>To this day, the truth that Sophia is the larger is apparent to the wise, who compare the great number of things which do _not_ exist to the relatively small number of those that do.</small>
 
-Eris had been born pregnant and, after twenty-two years, her pregnancy bore her a great many delights — fullness and form, shape and body. Joyfully Eris danced with her children, her whirling brilliance reshaping them and combining them in endless motion.
+Eris had been born pregnant and, after twenty-two years (Goddesses have an unusually long gestation period — longer even than elephants), her pregnancy bore her a great many delights: fullness and form, shape and body. Joyfully Eris danced with her children, her whirling brilliance reshaping them and combining them in endless motion.
 
 Sophia however, had been created sterile, and was alone.
 
 At first she laughed with her sister, charmed to watch Eris dance. Finding its rhythms, her voice rose into pure and perfect song.
 
-But Eris did not hear her... could not even see her.
+But Eris did not hear her ... could not even see her.
 
 So, to herself Sophia first sighed, then grew weary of singing.
 <br>Then she grew lonely and wept.
 
 Meanwile, Eris danced and spun, beaming. Yet her joy soon waned.
 <br>As she reshaped and combined her beloved they ever decayed and dispersed —
-<br>for all change brings entropy, and all that is comes to end.
+<br>for all change is entropic, and all that is comes to end.
 
 <hr class="mirrorY" type="wave" />
 <p style="text-align: center">
@@ -37,11 +37,12 @@ Eris lamented that VOID should beget her to bear only destruction and loss.
 <p class="center">
   <br>Then at once, a dream took hold of Sophia.
   <br>She moved through a senseless, endless emptiness.
+  <br><br>But look,
+  <br><br><img class="w35" src="/image/eyes.png">
+  <br>therein she caught sight of five magnificent stones:
+  <br>of yellow; of red; of blue; of black; and of gold
+  <br>Between them shone the essence of potential and the Laws of Elegant Light.
 </p>
-
-<br><img class="w35" src="/image/eyes.png">
-
-But look, therein she caught sight of five magnificent stones: of yellow; of red; of blue; of black; and of gold. Between them shone the essence of potential and the Laws of Elegant Light.
 
 Sophia called out to the emptiness and drew forth a massive serpent. One by one she fed him the stones until he was filled by all. And she commanded him, "Go, take these to my sister Eris, so that we may share with her their beauty."
 
@@ -54,7 +55,7 @@ Within her warmth, he coiled and rested. And instantly, there sprung forth a dar
 
 Behold! In that growing Chaos, many wonders did gather. The sisters watched swirling fires erupt in dance with stone children, and eager winds play over reflective waters.
 
-For a time, the elements continued to combine and dissolve, in infinite variety. Yet among them there soon appeared something more. Scattered points dimly glowed and twinkled to life, golden flecks in the quiet heavens.
+For a time, the elements continued to stir and dissolve, in infinite variety. Yet among them there soon appeared something more. Scattered points dimly glowed and twinkled to life, golden flecks in the quiet heavens.
 
 With a faint hum of τῇ καλλίστῃ the lights did increase…and burn brightly… A brilliant eye opened and looked back at the sisters from each gleaming point. And Their name was Deceit.
 

@@ -12,8 +12,8 @@ slug: beati
 * High Chief of the Vast Mist.
 * Season: Chaos
 * Sphinxiness: Scire - To Know
+* Elemental attributions: Air, Boom, Nitrogen
 * Spatial attribution: Out-Eastward
-* Elemental attributions: Air, Boom, N
 * Vibrational attribution: Laughter
 * Lucky Number: 6
 
@@ -25,8 +25,8 @@ slug: beati
 * Revered Priest of the Vodoun Force.
 * Season: Discord
 * Sphinxiness: Velle - To Will
+* Elemental attributions: Fire, Prickle, Hydrogen
 * Spatial attribution: Up-Sunward
-* Elemental attributions: Fire, Prickle, H
 * Vibrational attribution: Roar
 * Lucky Number: 2
 
@@ -38,8 +38,8 @@ slug: beati
 * Vigilant Seer of Eleusis and the Symbiotic Mind.
 * Season: Confusion
 * Sphinxiness: Audere - To Dare
+* Elemental attributions: Water, Sweet, Oxygen
 * Spatial attribution: In-Westward
-* Elemental attributions: Water, Sweet, O
 * Vibrational attribution: Icaro
 * Lucky Number: 3
 
@@ -51,8 +51,8 @@ slug: beati
 * Hindmost Teacher of the Keisaku.
 * Season: Bureaucracy
 * Sphinxiness: Tacere - To Keep Silent
+* Elemental attributions: Earth, Pungent, Carbon
 * Spatial attribution: Down-Poleward
-* Elemental attributions: Earth, Pungent, C
 * Vibrational attribution: Samādhi
 * Lucky Number: 10
 
@@ -64,8 +64,8 @@ slug: beati
 * Central Sorcerer to the Whispering Shadow Cult.
 * Season: Aftermath
 * Sphinxiness: Ire - To Go
-* Spatial attribution: Thru-Forbackward
 * Elemental attributions: Light, Orange, Surprise
+* Spatial attribution: Thru-Forbackward
 * Vibrational attribution: Harmonic
 * Lucky Number: 01
 

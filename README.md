@@ -12,3 +12,5 @@ To run locally:
 npm install
 npm start
 ```
+
+![Folle](public/image/inf.sm.png)
