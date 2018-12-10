@@ -9,6 +9,8 @@ slug: empty-space
 >
 > In fact, if humans came on the scene, for the first time, a trillion years from now, we never would have learned about the cosmic microwave background, about distant galaxies, clusters, or have seen a single "spiral nebula" in the night sky. Because dark energy is going to accelerate that all away. Even [the Virgo cluster](http://en.wikipedia.org/wiki/Virgo_Cluster), the closest large collection of galaxies to us, will disappear from view.
 
-<p class="attribution">Empty space has more energy than everything in the Universe, combined - <a href="http://scienceblogs.com/startswithabang/2012/07/26/empty-space-has-more-energy-than-everything-in-the-universe-combined/">ScienceBlogs</a></p>
+<attr>Empty space has more energy than everything in the Universe, combined - <a href="http://scienceblogs.com/startswithabang/2012/07/26/empty-space-has-more-energy-than-everything-in-the-universe-combined/">ScienceBlogs</a></attr>
 
 <a href="http://scienceblogs.com/startswithabang/2012/07/26/empty-space-has-more-energy-than-everything-in-the-universe-combined/" class="next">read more</a>
+
+<img src="/image/questions.png" class="shins">

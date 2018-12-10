@@ -9,5 +9,6 @@ the world.
 >
 >  This massive concentration of economic resources in the hands of fewer people presents a significant threat to inclusive political and economic systems. Instead of moving forward together, people are increasingly separated by economic and political power, inevitably heightening social tensions and increasing the risk of societal breakdown.
 
-<p class="attribution">
-Working for the Few - <a href="http://www.oxfam.org/sites/www.oxfam.org/files/bp-working-for-few-political-capture-economic-inequality-200114-summ-en.pdf">Oxfam Briefing Paper</a></p>
+<attr>
+  Working for the Few - <a href="http://www.oxfam.org/sites/www.oxfam.org/files/bp-working-for-few-political-capture-economic-inequality-200114-summ-en.pdf">Oxfam Briefing Paper</a>
+</attr>

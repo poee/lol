@@ -7,12 +7,12 @@ slug: holynames
 >
 > And also TITLES OF MYSTICAL IMPORT.
 
-<p class="attribution"><a href="/discordia/#00035">Principia Discordia - 00035</a></p>
+<attr><a href="/discordia/#00035">Principia Discordia - 00035</a></attr>
 
 <img class="flush" src="/pd/00036.sm.png" data-source="Principia Discordia 00036" data-link="/discordia/#00036" >
 
 > Every man, woman, person and child on this Earth is a genuine and authorized Pope.
-<p class="attribution">P.O.E.E. Head Temple</p>
+<attr>P.O.E.E. Head Temple</attr>
 
 
 <p class="center">poee.lol is brought to you by

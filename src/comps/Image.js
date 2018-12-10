@@ -2,6 +2,8 @@ import React, { PureComponent } from 'react'
 import cn from 'classnames'
 import { compose, withState, withProps } from 'recompose'
 
+import Attribution from './Attribution'
+
 const URL = '/image/'
 
 class Image extends PureComponent {
@@ -13,7 +15,7 @@ class Image extends PureComponent {
 
 	render () {
 		const {
-			className, info, src, isAttributed,
+			className, info, src, isAttributed, setInfo,
 			...otherProps
 		} = this.props
 		const isQualified = typeof src === 'string' && src.match(/^\//)
@@ -30,14 +32,14 @@ class Image extends PureComponent {
 			const source = combinedProps['data-source']
 			const license = combinedProps['data-license']
 			infoPanel = (
-				<p className="attribution" key="attribution">
+				<Attribution key="attribution">
 					{link ? <a href={link} target="_blank" rel="noopener noreferrer">{source}</a> : source}
 					{license && (
 						<span className="license">
-							<a href={license} target="_blank" rel="noopener noreferrer">Create Commons License</a>
+							<a href={license} target="_blank" rel="noopener noreferrer">Creative Commons License</a>
 						</span>
 					)}
-				</p>
+				</Attribution>
 			)
 		}
 		return [

@@ -13,6 +13,6 @@ slug: optimism
 >
 > The reason for optimism lies in the biological fact that it keeps you happy and busy, whereas pessimism just leads to lying around and bitching. I'd rather keep happy and busy than lie around bitching, but I know this will not convince those who really like lying around and bitching. As Nietzsche said that optimism and good health always go together, and so do pessimism and morbidity, in the medical sense of the word.
 
-<p class="attribution">An interview with Robert Anton Wilson</p>
+<attr>An interview with Robert Anton Wilson</attr>
 
 <a class="next" href="http://www.subgenius.com/bigfist/fun/devivals/XXDAYad/X0022_Robert_Anton_Wilson_.html">read more</a>

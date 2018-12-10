@@ -5,7 +5,7 @@ slug: how-many-people
 
 > <img src="/image/prb.png">
 
-<p class="attribution"><a href="http://www.prb.org/Publications/Articles/2002/HowManyPeopleHaveEverLivedonEarth.aspx"><i>Population Reference Bureau</i></a></p>
+<attr><a href="http://www.prb.org/Publications/Articles/2002/HowManyPeopleHaveEverLivedonEarth.aspx"><i>Population Reference Bureau</i></a></attr>
 
 <iframe id="ytplayer" type="text/html" width="100%" height="420"
   src="https://www.youtube.com/embed/7WTctr5kviA?origin=http://poee.lol&theme=light&modestbranding=1"

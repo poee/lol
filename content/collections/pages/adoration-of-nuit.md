@@ -19,6 +19,6 @@ slug: adoration-of-nuit
 </p>
 </blockquote>
 
-<p class="attribution">Soror Meral - 1980</p>
+<attr>Soror Meral - 1980</attr>
 
 <a class="next" href="http://cotnorcal.org/soror-meral/adoration-of-nuit/">read more</a>

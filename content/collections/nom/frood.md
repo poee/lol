@@ -5,8 +5,8 @@ slug: frood
 
 *adj*.
 
-* of summation surpassing constituency
 * integrated, whole, way illuminized
+* of summation surpassing constituency
 
 *n*.
 
@@ -21,4 +21,4 @@ slug: frood
 > "Hey, you sass that hoopy Ford Prefect? There's a frood who really knows where his towel is."  
 > *(Sass: know, be aware of, meet, have sex with; hoopy: really together guy; frood: really amazingly together guy.)*  
 
-<p class="attribution">Douglas Adams, <i>The Hitchhiker's Guide to the Galaxy</i></p>
+<attr>Douglas Adams, <i>The Hitchhiker's Guide to the Galaxy</i></attr>

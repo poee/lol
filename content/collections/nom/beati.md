@@ -56,7 +56,7 @@ slug: beati
 * Sphinxiness: Tacere - To Keep Silent
 * Spatial attribution: Down-Poleward
 * Elemental attributions: Earth, Pungent, C
-* Vibrational attribution: SamÄdhi
+* Vibrational attribution: Samādhi
 * Lucky Number: 10
 
 ----
@@ -80,9 +80,9 @@ slug: beati
 <br>- Lucifer St. Douchebag the Genius
 <br>- Polyfather of Virginity in Gold, Malaclypse the Younger AB, DD, KSC
 <br>- The Grand Ballyhoo of Egypt, Lord Omar Khayyam Ravenhurst
-<br>- St. TRIMTAB the Optimist<sup>â€¡</sup>
+<br>- St. TRIMTAB the Optimist<sup>‡</sup>
 <br>- St. Tib the Unaccounted<sup>*</sup>
-<br>- St. Gulik the Messenger<sup>â€ </sup>
+<br>- St. Gulik the Messenger<sup>†</sup>
 <br>- Nt. Aristotle the Advancer
 <br>- Nt. Turing who Grokked
 <br>- Nt. Jung the Wholey
@@ -90,39 +90,38 @@ slug: beati
 
 ### Assorted Venerables, Memorables, and Indefatigables
 
-<ul class="random">
-<li>Edward Snowden</li>
-<li>Aaron Swartz</li>
-<li>Susan B. Anthony</li>
-<li>Claudette Colvin</li>
-<li>Fire and Earth Erowid</li>
-<li>R. Gordon Wasson</li>
-<li>Margaret Sanger</li>
-<li>Alasdair MacIntyre</li>
-<li>Alan Moore</li>
-<li>Tim Berners-Lee</li>
-<li>Grace Hopper</li>
-<li>Arthur C. Clarke</li>
-<li>Rosalind Franklin</li>
-<li>Carl Sagan</li>
-<li>Marie Curie</li>
-<li>Fred Rogers</li>
-<li>Abraham Lincoln</li>
-<li>Eleanor Roosevelt</li>
-<li>Richard Stallman</li>
-<li>Lady Frieda Harris</li>
-<li>Douglas Adams</li>
-<li>Isadora Duncan</li>
-<li>Georgia O'Keeffe</li>
-<li>Peter Carroll</li>
-<li>Timothy Leary</li>
-<li>Carlos Castenada</li>
-<li>Elron Flubbard</li>
-<li>Terence McKenna</li>
-<li>Neil Gaiman</li>
-<li>Wilhelm Reich</li>
-
-</ul>
+<random>
+  <li>Edward Snowden</li>
+  <li>Aaron Swartz</li>
+  <li>Susan B. Anthony</li>
+  <li>Claudette Colvin</li>
+  <li>Fire and Earth Erowid</li>
+  <li>R. Gordon Wasson</li>
+  <li>Margaret Sanger</li>
+  <li>Alasdair MacIntyre</li>
+  <li>Alan Moore</li>
+  <li>Tim Berners-Lee</li>
+  <li>Grace Hopper</li>
+  <li>Arthur C. Clarke</li>
+  <li>Rosalind Franklin</li>
+  <li>Carl Sagan</li>
+  <li>Marie Curie</li>
+  <li>Fred Rogers</li>
+  <li>Abraham Lincoln</li>
+  <li>Eleanor Roosevelt</li>
+  <li>Richard Stallman</li>
+  <li>Lady Frieda Harris</li>
+  <li>Douglas Adams</li>
+  <li>Isadora Duncan</li>
+  <li>Georgia O'Keeffe</li>
+  <li>Peter Carroll</li>
+  <li>Timothy Leary</li>
+  <li>Carlos Castenada</li>
+  <li>Elron Flubbard</li>
+  <li>Terence McKenna</li>
+  <li>Neil Gaiman</li>
+  <li>Wilhelm Reich</li>
+</random>
 
 <img class="right" src="/image/spacecadets.png" style="width: 63%">
 <hr>

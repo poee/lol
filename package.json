@@ -2,7 +2,11 @@
   "name": "POEE.lol",
   "main": "index.js",
   "keywords": [
-    "poee", "discordian", "fnord", "frood", "eris"
+    "poee",
+    "discordian",
+    "fnord",
+    "frood",
+    "eris"
   ],
   "license": "MIT",
   "scripts": {
@@ -19,6 +23,7 @@
     "ddate": "^0.1.10",
     "htmr": "^0.7.0",
     "jdown": "^0.3.0",
+    "knuth-shuffle": "^1.0.8",
     "react": "^16.0.0",
     "react-document-title": "^2.0.3",
     "react-dom": "^16.0.0",

@@ -7,7 +7,7 @@ slug: stage
 
 > In the beginning there was VOID, who had two daughters; one (the smaller) was that of BEING, named ERIS, and one (the larger) was of NON-BEING, named ANERIS. (To this day, the fundamental truth that Aneris is the larger is apparent to all who compare the great number of things that do not exist with the comparatively small number of things that do exist.)
 
-<p class="attribution"><a href="http://www.principiadiscordia.com/book/63.php">Principia Discordia - 00056</a></p>
+<attr><a href="http://www.principiadiscordia.com/book/63.php">Principia Discordia - 00056</a></attr>
 
 We emerge from a 3.5 billion year long evolutionary process, and find ourselves awake in a bed we don't recognize.
 
@@ -23,7 +23,7 @@ For the sake of comparison, the entire Milky Way galaxy is more than 400,000 tim
 
 > The Universe consists of non-simultaneously apprehended events.
 
-<p class="attribution">St. TRIMTAB the Optimist</p>
+<attr>St. TRIMTAB the Optimist</attr>
 
 **46 billion light-years** is an easy number to talk about but a difficult number to fully comprehend.  A light-year is the distance light travels over one year, and is a lot further than you'd expect.
 

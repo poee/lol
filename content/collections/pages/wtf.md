@@ -42,11 +42,13 @@ Disorder is growing in a most visible sense.
 <hr>
 > Everyone has a belief system, B.S., the trick is to learn not to take anyone's B.S. too seriously, especially your own.
 
-<p class="attribution"><i>Reality Is What You Can Get Away With</i> ~ <a href="https://www.youtube.com/watch?list=UUkSH88oT4dDl3aZQZKM_BIw&feature=player_detailpage&v=zTLkiJUX05A">Robert Anton Wilson</a></p>
+<attr>
+  <i>Reality Is What You Can Get Away With</i> ~ <a href="https://www.youtube.com/watch?list=UUkSH88oT4dDl3aZQZKM_BIw&feature=player_detailpage&v=zTLkiJUX05A">Robert Anton Wilson</a>
+</attr>
 
 > No comment.
 
-<p class="attribution">Our Lady of Discord, Eris</p>
+<attr>Our Lady of Discord, Eris</attr>
 
 <a href="/read/cosmogony" class="prev">Cosmogony</a>
-<a href="/read/stage" class="next">Stage</a>
+<a href="/read/light" class="next">Light</a>

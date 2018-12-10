@@ -22,6 +22,6 @@ slug: beauty-and-form
 > "But someone who, to take the opposite case, believes in the beautiful itself, can see both it and the things that participate in it and doesn't believe that the participants are it or that it itself is the participants--is he living in a dream or is he awake?"  
 > "He's very much awake."
 
-<p class="attribution"><i>Republic</i> Bk. V, 475e-476d, translation G.M.A Grube</p>
+<attr><i>Republic</i> Bk. V, 475e-476d, translation G.M.A Grube</attr>
 
 <img src="/image/ADN_animation.gif">

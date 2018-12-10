@@ -9,10 +9,10 @@ slug: entheatrope
 >
 > 21,967 respondents (13.4% weighted) reported lifetime psychedelic use. There were no significant associations between lifetime use of any psychedelics, lifetime use of specific psychedelics (LSD, psilocybin, mescaline, peyote), or past year use of LSD and increased rate of any of the mental health outcomes. Rather, in several cases psychedelic use was associated with lower rate of mental health problems.
 
-<p class="attribution">
+<attr>
 Psychedelics and Mental Health: A Population Study
 <br><a href="http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0063972">Teri S. Krebs, Pål-Ørjan Johansen, PLOS ONE</a>
-</p>
+</attr>
 
 <a href="http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0063972" class="next">read more</a>
 

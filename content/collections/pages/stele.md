@@ -48,6 +48,6 @@ slug: stele
 <br>Abide with me, Ra-Hoor-Khuit!
 </p>
 </blockquote>
-<p class="attribution"><a href="http://www.thelemapedia.org/index.php/Stele_of_Revealing">Stele of Revealing ~ Ankh-af-na-khonsu c/o Frater Perdurabo</a></p>
+<attr><a href="http://www.thelemapedia.org/index.php/Stele_of_Revealing">Stele of Revealing ~ Ankh-af-na-khonsu c/o Frater Perdurabo</a></attr>
 
 <img src="/image/weaving.png" class="shins">

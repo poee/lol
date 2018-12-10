@@ -11,7 +11,7 @@ slug: the-rich-economy
 >
 > The inevitable direction of any technology, and of any rational species such as Homo sap., is toward what Buckminster Fuller calls [ephemeralization](https://en.wikipedia.org/wiki/Ephemeralization), or doing-more-with-less. For instance, a modern computer does more (handles more bits of information) with less hardware than the proto-computers of the late '40's and '50's. One worker with a modern teletype machine does more in an hour than a thousand medieval monks painstakingly copying scrolls for a century. Atomic fission does more with a cubic centimeter of matter than all the engineers of the 19th Century could do with a million tons, and fusion does even more.
 
-<p class="attribution">Robert Anton Wilson, <a href="http://www.deepleafproductions.com/wilsonlibrary/texts/raw-RICH.html"><i>The RICH Economy</i></a></p>
+<attr>Robert Anton Wilson, <a href="http://www.deepleafproductions.com/wilsonlibrary/texts/raw-RICH.html"><i>The RICH Economy</i></a></attr>
 
 
 <a href="http://www.deepleafproductions.com/wilsonlibrary/texts/raw-RICH.html" class="next">read more</a>

@@ -26,14 +26,14 @@ Unknowing, Eris danced and spun, beaming. Yet her joy soon waned.
 <br>As she reshaped and combined her beloved they ever decayed and dispersed —
 <br>for all change brings entropy, and all that is comes to end.
 
-<img src="/image/line-t.png" class="nozoom">
+<img src="/image/svg/divider.svg" style="max-width: 50%" class="mirrorY">
 <p style="text-align: center">
 Eris lamented that VOID should beget her to bear only destruction and loss.
 <br><br>In her loneliness Sophia cursed, "~~Why?~~", and slept.
 <br><br>And for three eras in silence she slept.
 </p>
 
-<img src="/image/line-b.png" class="nozoom">
+<img src="/image/svg/divider.svg" style="max-width: 50%" class="">
 
 <br>Then at once, a dream took hold of Sophia.
 <br>She moved through a senseless, endless emptiness.
@@ -55,17 +55,15 @@ For a time, the elements continued to combine and dissolve, in infinite variety.
 
 With a faint hum of τῇ καλλίστῃ the lights did increase…and burn brightly… A brilliant eye opened and looked back at the sisters from each gleaming point. And Their name was Deceit.
 
-<img src="/image/horus.png" width="250px">
-
 Meeting Their gaze Sophia finally knew love, and was loved in return.
 
 > For I am divided for love's sake, for the chance of union.
 > This is the creation of the world, that the pain of division is as nothing, and the joy of dissolution all.
 
-<p class="attribution">Sophia, c/o <a href="http://www.sacred-texts.com/oto/engccxx.htm">Aiwass</a></p>
+<attr>Sophia, c/o <a href="http://www.sacred-texts.com/oto/engccxx.htm">Aiwass</a></attr>
 
 *And so it is that we do awake from the Chao, a still-drowsy yet radiant I.<br>Our heart reaches for our bride Sophia, and we dance with our mother Eris until we return to VOID, where all things begin.*
 
-<a href="/nom/frood" class="next">Frood</a>
+<img src="/image/svg/alleyesonher.svg">
 
-<img src="/image/questions.png" class="shins">
+<a href="/nom/frood" class="next">Frood</a>
