@@ -29,7 +29,6 @@ aside.menu header {
 .menu nav a {
   display: table;
   padding: 0.35rem;
-  padding-left: 0;
 }
 
 .menu nav small {

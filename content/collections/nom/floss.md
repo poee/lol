@@ -20,5 +20,3 @@ slug: floss
   <br>POEE Head Temple
   <br>Hush Level Lemon 9-Peridot
 </stamp>
-
-<br>
