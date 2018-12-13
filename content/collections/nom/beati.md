@@ -5,7 +5,7 @@ slug: beati
 
 ## Five Star Divas
 <a id="hongmeng"></a>
-<img class="right morph" src="/image/hungmeng.png" data-source="Principia Discordia 00044" data-link="/discordia/#00044" data-morph="http://image.poee.lol/chao.filled.black.sm.png">
+<img class="right morph" src="/image/hungmeng.png" data-morph="http://image.poee.lol/chao.filled.black.sm.png">
 
 ### Hong Meng
 * A Sage of Ancient China, he originally devised the Sacred Chao. An apostle of many names.
@@ -18,7 +18,7 @@ slug: beati
 * Lucky Number: 6
 
 <a id="vanvanmojo"></a>
-<img class="right morph" src="/image/van_van_mojo.png" data-source="Principia Discordia 00059" data-link="/discordia/#00059" data-morph="http://image.poee.lol/v.sm.png">
+<img class="right morph" src="/image/van_van_mojo.png" data-morph="http://image.poee.lol/v.sm.png">
 
 ### Dr. Van Van Mojo
 * D.H.V., Doctor of Hoodoo and Vexes. Magickal researcher and possessor of great power. Maker of fine dolls.
@@ -30,12 +30,8 @@ slug: beati
 * Vibrational attribution: Roar
 * Lucky Number: 2
 
-<a id="srisyadasti"></a>
-<img class="right morph" src="/image/sri.png" data-source="Principia Discordia 00039" data-link="/discordia/#00039" data-morph="http://image.poee.lol/moon.sm.png">
-
-### Sri Syadasti Syadavaktavya Syadasti Syannasti Syadasti Cavaktavyasca Syadasti Syannasti Syadavatavyasca Syadasti Syannasti Syadavaktavyasca
-* Commonly called just Sri Syadasti. His name in Sanskrit means: <i>All affirmations are true in some sense, false in some sense, meaningless in some sense, true and false in some sense, true and meaningless in some sense, false and meaningless in some sense, and true and false and meaningless in some sense.</i>
-* Vigilant Seer of Eleusis and the Symbiotic Mind.
+His name in Sanskrit means: <i>All affirmations are true in some sense, false in some sense, meaningless in some sense, true and false in some sense, true and meaningless in some sense, false and meaningless in some sense, and true and false and meaningless in some sense.</i>
+* Vigilant Seer of Eleusis and Musicmaker to the Symbiotic Mind.
 * Season: Confusion
 * Sphinxiness: Audere - To Dare
 * Elemental attributions: Water, Sweet, Oxygen
@@ -44,7 +40,7 @@ slug: beati
 * Lucky Number: 3
 
 <a id="zarathud"></a>
-<img class="right morph" src="/image/zarathud.png" data-source="Principia Discordia 00006" data-link="/discordia/#00006" data-morph="http://image.poee.lol/growth.sm.png">
+<img class="right morph" src="/image/zarathud.png" data-morph="http://image.poee.lol/growth.sm.png">
 
 ### Zarathud the Staunch
 * A hard nosed Hermit of Medieval Europe and Chaosphe Bible Banger. Discovered <a href="/read/the-pentabarf">the Five Commandments</a>.
@@ -57,7 +53,7 @@ slug: beati
 * Lucky Number: 10
 
 <a id="mal-1"></a>
-<img class="right morph" src="/image/mal1.png" data-source="Principia Discordia 00060" data-link="/discordia/#00060" data-morph="http://image.poee.lol/3y3.sm.png">
+<img class="right morph" src="/image/mal1.png" data-morph="http://image.poee.lol/3y3.sm.png">
 
 ### Malaclypse the Elder
 * Little is known of him, a shady figure of antiquity and rumored secret agent. Known to be a wanderer and shapeshifter, he followed a 5-pointed Star through the alleys of Rome, Damascus, Baghdad, Jerusalem, Mecca and Cairo, bearing a sign that seemed to read "DOOM". This is a misunderstanding; the sign actually read "DUMB". Mal-1 is a Non-Prophet. Inventor of bingo.

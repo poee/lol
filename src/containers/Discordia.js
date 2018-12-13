@@ -29,8 +29,18 @@ function zeroPad (string) {
 
 
 class Discordia extends Component {
+	constructor(props) {
+		super(props)
+		this.imageRef = React.createRef()
+	}
+
 	componentDidUpdate(prevProps) {
-		window.scrollTo(0, 110)
+		let yPos = 50
+		const imageRef = this.imageRef.current
+		if (imageRef && imageRef.getBoundingClientRect) {
+			yPos = imageRef.getBoundingClientRect().top + window.scrollY - 15
+		}
+		window.scrollTo(0, yPos)
 	}
 
 	render() {
@@ -48,7 +58,10 @@ class Discordia extends Component {
 			content = <SOC pages={PAGES} prefix={ROUTE_PREFIX} unsorted />
 			title = 'Stool of Contents'
 		} else {
-			content = <Image src={`/pd/${page}.png`} alt={`page ${page}`} onError={onError} />
+			content = (
+				<Image ref={this.imageRef}
+					src={`/pd/${page}.png`} alt={`page ${page}`} onError={onError} />
+			)
 		}
 
 		// Look for the page meta to determine title and prev/next pages

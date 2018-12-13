@@ -64,7 +64,9 @@ Meeting Their gaze Sophia finally knew love, and was loved in return.
 > For I am divided for love's sake, for the chance of union.
 > This is the creation of the world, that the pain of division is as nothing, and the joy of dissolution all.
 
-<attr>Sophia, c/o <a href="http://www.sacred-texts.com/oto/engccxx.htm">Aiwass</a></attr>
+<attr>
+  Sophia, c/o <a href="http://www.sacred-texts.com/oto/engccxx.htm">Aiwass</a>
+</attr>
 
 *And so it is that we do awake from the Chao, a still-drowsy yet radiant I.<br>Our heart reaches for our bride Sophia, and we dance with our mother Eris until we return to VOID, where all things begin.*
 

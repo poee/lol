@@ -15,7 +15,7 @@ class Image extends PureComponent {
 
 	render () {
 		const {
-			className, info, src, isAttributed, setInfo,
+			className, forwardedRef, info, src, isAttributed, setInfo,
 			...otherProps
 		} = this.props
 		const isQualified = typeof src === 'string' && src.match(/^\//)
@@ -44,6 +44,7 @@ class Image extends PureComponent {
 		}
 		return [
 			<img alt="" key="image" {...combinedProps}
+				ref={forwardedRef}
 				onClick={this.showInfo}
 				onFocus={this.showInfo}
 				onKeyDown={this.showInfo}
@@ -53,9 +54,13 @@ class Image extends PureComponent {
 	}
 }
 
-export default compose(
+const ImageHOC = compose(
 	withState('info', 'setInfo', false),
 	withProps(props => ({
 		isAttributed: props['data-source'] || props['data-license'],
 	}))
 )(Image)
+
+export default React.forwardRef(
+	(props, ref) => <ImageHOC {...props} forwardedRef={ref} />
+)

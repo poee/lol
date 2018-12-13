@@ -22,7 +22,7 @@ POEE is one manifestation of
 
 <br><br>We are a tribe of philosophers, theologians,
 <br>magicians, scientists, artists, clowns,
-<br>and similar maniacs
+<br>and similar lunatics
 <br>who are intrigued with
 <br>ERIS GODDESS OF CONFUSION
 <br>and with Her

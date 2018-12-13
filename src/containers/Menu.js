@@ -51,7 +51,9 @@ function Menu ({ isMobile, isHidden, toggle, scrollY }) {
 			<style>{style}</style>
 		</Head>,
 		isMobile && (
-			<button className={cn('showMenu', { isHidden: !hide })} onClick={toggle} key="showMenu" />
+			<div className="showMenuWrapper">
+				<button className={cn('showMenu', { isHidden: !hide })} onClick={toggle} key="showMenu" />
+			</div>
 		),
 		<aside className={cn('menu', { isHidden: hide })} style={asideStyle} key="menu">
 			<header>
