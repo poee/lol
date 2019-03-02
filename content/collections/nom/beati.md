@@ -65,53 +65,58 @@ His name in Sanskrit means: <i>All affirmations are true in some sense, false in
 * Vibrational attribution: Harmonic
 * Lucky Number: 01
 
+- - -
+
 ## Saints/Nites Second Class
 
 <img src="/image/she.png" class="right nozoom">
-<p>- Pope Bob the Irreverant Omnirelevant
-<br>- Lucifer St. Douchebag the Genius
-<br>- Polyfather of Virginity in Gold, Malaclypse the Younger AB, DD, KSC
-<br>- The Grand Ballyhoo of Egypt, Lord Omar Khayyam Ravenhurst
-<br>- St. TRIMTAB the Optimist<sup>‡</sup>
-<br>- St. Tib the Unaccounted<sup>*</sup>
-<br>- St. Gulik the Messenger<sup>†</sup>
-<br>- Nt. Aristotle the Advancer
-<br>- Nt. Turing who Grokked
-<br>- Nt. Jung the Wholey
-</p>
+<ul>
+<li>Pope Bob the Irreverant Omnirelevant
+<li>Lucifer St. Douchebag the Genius
+<li>Polyfather of Virginity in Gold, Malaclypse the Younger AB, DD, KSC
+<li>The Grand Ballyhoo of Egypt, Lord Omar Khayyam Ravenhurst
+<li>St. Tib the Unaccounted<sup>*</sup>
+<li>St. TRIMTAB the Optimist<sup>‡</sup>
+<li>St. Gulik the Messenger<sup>†</sup>
+<li>Nt. Aristotle the Advancer
+<li>Nt. Turing who Grokked
+<li>Nt. Jung the Wholey
+</ul>
+
+- - -
 
 ### Assorted Venerables, Memorables, and Indefatigables
 
 <random>
-  <li>Edward Snowden</li>
   <li>Aaron Swartz</li>
-  <li>Susan B. Anthony</li>
-  <li>Claudette Colvin</li>
-  <li>Fire and Earth Erowid</li>
-  <li>R. Gordon Wasson</li>
-  <li>Margaret Sanger</li>
-  <li>Alasdair MacIntyre</li>
-  <li>Alan Moore</li>
-  <li>Tim Berners-Lee</li>
-  <li>Grace Hopper</li>
-  <li>Arthur C. Clarke</li>
-  <li>Rosalind Franklin</li>
-  <li>Carl Sagan</li>
-  <li>Marie Curie</li>
-  <li>Fred Rogers</li>
   <li>Abraham Lincoln</li>
-  <li>Eleanor Roosevelt</li>
-  <li>Richard Stallman</li>
-  <li>Lady Frieda Harris</li>
-  <li>Douglas Adams</li>
-  <li>Isadora Duncan</li>
-  <li>Georgia O'Keeffe</li>
-  <li>Peter Carroll</li>
-  <li>Timothy Leary</li>
+  <li>Alan Moore</li>
+  <li>Alasdair MacIntyre</li>
+  <li>Arthur C. Clarke</li>
+  <li>Carl Sagan</li>
   <li>Carlos Castenada</li>
+  <li>Claudette Colvin</li>
+  <li>Douglas Adams</li>
+  <li>Edward Snowden</li>
+  <li>Eleanor Roosevelt</li>
   <li>Elron Flubbard</li>
-  <li>Terence McKenna</li>
+  <li>Fire and Earth Erowid</li>
+  <li>Fred Rogers</li>
+  <li>Georgia O'Keeffe</li>
+  <li>Grace Hopper</li>
+  <li>Isadora Duncan</li>
+  <li>Lady Frieda Harris</li>
+  <li>Margaret Sanger</li>
+  <li>Marie Curie</li>
   <li>Neil Gaiman</li>
+  <li>Peter Carroll</li>
+  <li>R. Gordon Wasson</li>
+  <li>Richard Stallman</li>
+  <li>Rosalind Franklin</li>
+  <li>Susan B. Anthony</li>
+  <li>Terence McKenna</li>
+  <li>Tim Berners-Lee</li>
+  <li>Timothy Leary</li>
   <li>Wilhelm Reich</li>
 </random>
 

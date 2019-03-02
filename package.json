@@ -9,6 +9,10 @@
     "eris"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/poee/lol.git"
+  },
   "scripts": {
     "start": "react-static start",
     "stage": "react-static build --staging",
@@ -24,9 +28,9 @@
     "htmr": "^0.7.0",
     "jdown": "^0.3.0",
     "knuth-shuffle": "^1.0.8",
-    "react": "^16.0.0",
+    "react": "^16.8.3",
     "react-document-title": "^2.0.3",
-    "react-dom": "^16.0.0",
+    "react-dom": "^16.8.3",
     "react-hot-loader": "^4.0.0-beta.21",
     "react-router": "^4.2.0",
     "react-sizes": "^1.0.4",
@@ -35,6 +39,7 @@
     "shebang-loader": "0.0.1"
   },
   "devDependencies": {
+    "chai": "^4.2.0",
     "eslint-config-react-tools": "1.x.x",
     "serve": ">=7.0.0"
   }

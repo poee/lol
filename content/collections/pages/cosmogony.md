@@ -8,7 +8,7 @@ One (the smaller) was that of being, disorder, and passion, named Eris.
 
 One (the larger) was that of non-being, order, and magic, named Sophia.
 
-<small>To this day, the truth that Sophia is the larger is apparent to the wise, who compare the great number of things which do _not_ exist to the relatively small number of those that do.</small>
+<span class="glimmer">To this day, the truth that Sophia is the larger is apparent to the wise, who compare the great number of things which do _not_ exist to the relatively small number of those that do.</span>
 
 Eris had been born pregnant and, after twenty-two years (Goddesses have an unusually long gestation period — longer even than elephants), her pregnancy bore her a great many delights: fullness and form, shape and body. Joyfully Eris danced with her children, her whirling brilliance reshaping them and combining them in endless motion.
 

@@ -35,12 +35,11 @@ class Discordia extends Component {
 	}
 
 	componentDidUpdate(prevProps) {
-		let yPos = 50
 		const imageRef = this.imageRef.current
 		if (imageRef && imageRef.getBoundingClientRect) {
-			yPos = imageRef.getBoundingClientRect().top + window.scrollY - 15
+			const yPos = imageRef.getBoundingClientRect().top + window.scrollY - 85
+			window.scrollTo(0, yPos)
 		}
-		window.scrollTo(0, yPos)
 	}
 
 	render() {
@@ -54,7 +53,7 @@ class Discordia extends Component {
 			? slug[2] ? zeroPad(slug[2]) : slug[1] // For numeric slugs, zero pad
 			: 'front' // Default page
 
-		if (page === 'soc') {
+		if (page === 'stool') {
 			content = <SOC pages={PAGES} prefix={ROUTE_PREFIX} unsorted />
 			title = 'Stool of Contents'
 		} else {
@@ -100,8 +99,8 @@ class Discordia extends Component {
 							<img alt="next page" title="next page" src="/image/arrow.png" />
 						</Link>
 					)}
-					{page !== 'soc' && (
-						<Link to={`${ROUTE_PREFIX}soc`} key="soc">
+					{page !== 'stool' && (
+						<Link to={`${ROUTE_PREFIX}stool`} key="soc">
 							<img alt="stool of contents" title="stool of contents" className="stool" src="/image/amanita.png" />
 						</Link>
 					)}

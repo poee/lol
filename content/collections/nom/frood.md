@@ -10,7 +10,7 @@ slug: frood
 
 *n*.
 
-* the individuated agent of Chaos
+* the individuated agent of 💗
 
 **Etymology**
 
