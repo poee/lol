@@ -39,7 +39,7 @@ function Menu ({ isMobile, isHidden, toggle, scrollY }) {
 		const ribbonHue = (150 + hueSeed) % 361
 		const ribbonColor = `hsl(${ribbonHue}, 45%, 40%)`;
 		style = `.chao {background-color: hsl(${hueSeed}, 70%, 35%);}
-			header.ribbon {background-color: ${ribbonColor};}
+			header.ribbon {background-color: ${ribbonColor};transition: background-color 2s;}
 			.ribbon:before, .ribbon:after {border-top-color: hsl(${ribbonHue}, 35%, 30%);}
 			blockquote, blockquote + .attribution { border-left-color: ${ribbonColor};}`
 	}

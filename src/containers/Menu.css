@@ -16,7 +16,6 @@ aside.menu {
 
 .chao, .ribbon {
   background-color: hsl(180, 15%, 40%);
-  transition: background-color 2s;
 }
 
 aside.menu header {

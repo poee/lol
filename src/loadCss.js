@@ -1,5 +1,35 @@
 const color = '#943838'
 const loadCss = `
+html {
+  overflow-y:scroll;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  border: 0;
+  box-sizing: border-box;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: #F2F1ED;
+  color: #34495e;
+  font-family: "Noto Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  position: relative;
+}
+
 .heart {
   display: inline-block;
   width: 64px;

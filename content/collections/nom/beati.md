@@ -76,8 +76,8 @@ His name in Sanskrit means: <i>All affirmations are true in some sense, false in
 <li>Polyfather of Virginity in Gold, Malaclypse the Younger AB, DD, KSC
 <li>The Grand Ballyhoo of Egypt, Lord Omar Khayyam Ravenhurst
 <li>St. Tib the Unaccounted<sup>*</sup>
-<li>St. TRIMTAB the Optimist<sup>‡</sup>
 <li>St. Gulik the Messenger<sup>†</sup>
+<li>St. TRIMTAB the Optimist<sup>‡</sup>
 <li>Nt. Aristotle the Advancer
 <li>Nt. Turing who Grokked
 <li>Nt. Jung the Wholey
