@@ -53,34 +53,29 @@ aside.menu header {
 }
 
 .showMenuWrapper {
+  left: calc(50% - 2rem);
   position: fixed;
-  bottom: 0;
-  right: 0;
-	z-index: 23;
+  top: 0.5rem;
+  padding-top: 0;
+  transition: padding-top .3s;
+  z-index: 23;
+}
+.showMenuWrapper:not(.raised) {
+  z-index: 15;
+}
+.showMenuWrapper.raised {
+  padding-top: 0.5rem;
+  position: absolute;
+  z-index: 470;
 }
 
 button.showMenu {
-	background: #80808088 url('/image/list.png') no-repeat center;
-	height: 50px;
-	position: fixed;
-	width: 50px;
-  background-position-x: 1.25rem;
-  background-position-y: 1.25rem;
-  background-size: 32px 30px;
+  background-image: url('/image/chao.png');
+  background-size: cover;
+	height: 4rem;
+	width: 4rem;
   border-radius: 50%;
-  height: 50px;
-  opacity: 0.7;
-  padding: 2.5rem;
-  position: absolute;
-  bottom: -0.7rem;
-  right: -0.7rem;
-  transition: opacity .3s;
-  width: 50px;
   z-index: 23;
-}
-
-button.showMenu.isHidden {
-  opacity: 0;
 }
 
 /* Small screen rules */
@@ -94,8 +89,9 @@ button.showMenu.isHidden {
   }
 
   aside.menu.isHidden {
-    left: -50%;
-    transition: top 3s;
+    opacity: 0;
+    max-height: 0;
+    z-index: 0;
   }
 
   aside.menu {
@@ -105,25 +101,27 @@ button.showMenu.isHidden {
     border: thin solid #808080;
     border: thin solid #DDD;
     font-size: 1.25em;
-    left: 50%;
     margin: auto;
     margin-bottom: 0;
+    opacity: 1;
     padding: 1rem 2rem;
     position: absolute;
-    top: 0;
-    transition: left .3s;
-    transform: translateX(-50%);
+    transition: opacity 0.3s;
     width: 95%;
     max-width: 25rem;
-    z-index: 23;
+    z-index: 230;
   }
   aside.menu header {
     margin-bottom: 0.75rem;
     width: 8rem;
   }
+  aside.menu nav {
+    margin-top: 4.25rem;
+  }
   article.content {
     margin-left: auto;
     margin-right: auto;
+    margin-top: 4.5rem;
     width: 95%;
   }
 

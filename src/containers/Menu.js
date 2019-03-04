@@ -38,27 +38,30 @@ function Menu ({ isMobile, isHidden, toggle, scrollY }) {
 		const hueSeed = Math.round((new Date()).getTime() / 2300) % 361
 		const ribbonHue = (150 + hueSeed) % 361
 		const ribbonColor = `hsl(${ribbonHue}, 45%, 40%)`;
-		style = `.chao {background-color: hsl(${hueSeed}, 70%, 35%);}
+		style = `.chao {background-color: hsl(${hueSeed}, 70%, 35%) !important;}
 			header.ribbon {background-color: ${ribbonColor};transition: background-color 2s;}
 			.ribbon:before, .ribbon:after {border-top-color: hsl(${ribbonHue}, 35%, 30%);}
 			blockquote, blockquote + .attribution { border-left-color: ${ribbonColor};}`
 	}
 
 	const hide = isMobile && isHidden
-	const asideStyle = isMobile ? { top: `${scrollY}px` } : undefined
+	const asideStyle = isMobile ? { top: `${scrollY}px` } : undefined;
+	const showMenuStyle = { top: hide ? "0.5rem" : `${scrollY}px`};
 	return [
 		<Head key="head">
 			<style>{style}</style>
 		</Head>,
 		isMobile && (
-			<div className="showMenuWrapper">
-				<button className={cn('showMenu', { isHidden: !hide })} onClick={toggle} key="showMenu" />
+			<div className={cn("showMenuWrapper", { raised: !hide })} style={showMenuStyle} key="showMenu">
+				<button className={cn("chao showMenu")} onClick={toggle}/>
 			</div>
 		),
 		<aside className={cn('menu', { isHidden: hide })} style={asideStyle} key="menu">
-			<header>
-				<Image className="chao" src="chao.png" />
-			</header>
+			{!isMobile && (
+				<header>
+					<Image className="chao" src="chao.png" />
+				</header>
+			)}
 			<nav onClick={isMobile ? toggle : undefined}>
 				<Link to="/read/cosmogony">Cosmogony</Link>
 				<Link to="/read/wtf">WTF</Link>

@@ -64,7 +64,9 @@ class Discordia extends Component {
 		}
 
 		// Look for the page meta to determine title and prev/next pages
-		const metaIdx = PAGES.findIndex(meta => typeof meta === 'string' ? meta === page : meta.slug === page)
+		const metaIdx = PAGES.findIndex(
+			meta => typeof meta === 'string' ? meta === page : meta.slug === page
+		);
 		if (metaIdx !== -1) {
 			prevPage = PAGES[metaIdx - 1]
 			nextPage = PAGES[metaIdx + 1]
