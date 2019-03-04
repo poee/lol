@@ -53,25 +53,24 @@ aside.menu header {
 }
 
 .showMenuWrapper {
-  left: calc(50% - 2rem);
+  left: calc(50% - 2.5rem);
   position: absolute;
   top: 0.75rem;
   padding-top: 0;
-  transition: padding-top .3s;
-  z-index: 23;
+  transition: padding-top .5s ease-out;
+  z-index: 470;
 }
 .showMenuWrapper.raised {
   outline: none;
-  padding-top: 0.8rem;
+  padding-top: 1.75rem;
   position: absolute;
-  z-index: 470;
 }
 
 button.showMenu {
   background-image: url('/image/chao.png');
   background-size: cover;
-	height: 4rem;
-	width: 4rem;
+	height: 5rem;
+	width: 5rem;
   border-radius: 50%;
   z-index: 23;
 }
@@ -90,6 +89,9 @@ button.showMenu {
     opacity: 0;
     z-index: 15;
   }
+  aside.menu:not(.isHidden) {
+    transition: opacity 0.5s ease-out;
+  }
 
   aside.menu {
     background-color: hsl(48, 16.1%, 98%);
@@ -103,9 +105,9 @@ button.showMenu {
     opacity: 1;
     padding: 1rem 2rem;
     position: absolute;
-    transition: opacity 0.3s;
-    left: 6vw;
-    width: 88vw;
+    left: 13vw;
+    top: 1.25rem;
+    width: 74vw;
     z-index: 230;
   }
   aside.menu header {
@@ -113,12 +115,12 @@ button.showMenu {
     width: 8rem;
   }
   aside.menu nav {
-    margin-top: 4.25rem;
+    margin-top: 5.5rem;
   }
   article.content {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5rem;
+    margin-top: 6rem;
     width: 95%;
     z-index: 23;
   }
