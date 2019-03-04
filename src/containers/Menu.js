@@ -52,7 +52,9 @@ function Menu ({ isMobile, isHidden, toggle, scrollY }) {
 		</Head>,
 		isMobile && (
 			<div className={cn("showMenuWrapper", { raised: !hide })} key="showMenu">
-				<button className={cn("chao showMenu")} onClick={toggle}/>
+				<button className={cn("chao showMenu")}
+					aria-label="Show Menu"
+					onClick={toggle}/>
 			</div>
 		),
 		<aside className={cn('menu', { isHidden: hide })} style={asideStyle} key="menu">

@@ -60,10 +60,8 @@ aside.menu header {
   transition: padding-top .3s;
   z-index: 23;
 }
-.showMenuWrapper:not(.raised) {
-  z-index: 15;
-}
 .showMenuWrapper.raised {
+  outline: none;
   padding-top: 0.5rem;
   position: absolute;
   z-index: 470;
@@ -90,12 +88,11 @@ button.showMenu {
 
   aside.menu.isHidden {
     opacity: 0;
-    max-height: 0;
-    z-index: 0;
+    z-index: 15;
   }
 
   aside.menu {
-    background-color: #f2f1ed;
+    background-color: hsl(48, 16.1%, 98%);
     border-top-left-radius: 50% 5rem;
     border-top-right-radius: 50% 5rem;
     border: thin solid #808080;
