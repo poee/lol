@@ -46,13 +46,12 @@ function Menu ({ isMobile, isHidden, toggle, scrollY }) {
 
 	const hide = isMobile && isHidden
 	const asideStyle = isMobile ? { top: `${scrollY}px` } : undefined;
-	const showMenuStyle = { top: hide ? "0.5rem" : `${scrollY}px`};
 	return [
 		<Head key="head">
 			<style>{style}</style>
 		</Head>,
 		isMobile && (
-			<div className={cn("showMenuWrapper", { raised: !hide })} style={showMenuStyle} key="showMenu">
+			<div className={cn("showMenuWrapper", { raised: !hide })} key="showMenu">
 				<button className={cn("chao showMenu")} onClick={toggle}/>
 			</div>
 		),

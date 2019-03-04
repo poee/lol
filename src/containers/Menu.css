@@ -54,8 +54,8 @@ aside.menu header {
 
 .showMenuWrapper {
   left: calc(50% - 2rem);
-  position: fixed;
-  top: 0.5rem;
+  position: absolute;
+  top: 0.75rem;
   padding-top: 0;
   transition: padding-top .3s;
   z-index: 23;
@@ -107,8 +107,8 @@ button.showMenu {
     padding: 1rem 2rem;
     position: absolute;
     transition: opacity 0.3s;
-    width: 95%;
-    max-width: 25rem;
+    left: 6vw;
+    width: 88vw;
     z-index: 230;
   }
   aside.menu header {
@@ -121,7 +121,7 @@ button.showMenu {
   article.content {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 4.5rem;
+    margin-top: 5rem;
     width: 95%;
   }
 
