@@ -62,7 +62,7 @@ aside.menu header {
 }
 .showMenuWrapper.raised {
   outline: none;
-  padding-top: 0.5rem;
+  padding-top: 0.8rem;
   position: absolute;
   z-index: 470;
 }
@@ -120,6 +120,7 @@ button.showMenu {
     margin-right: auto;
     margin-top: 5rem;
     width: 95%;
+    z-index: 23;
   }
 
   nav a {

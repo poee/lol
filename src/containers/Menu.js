@@ -15,16 +15,10 @@ export default compose(
 	withSizes(mapSizes),
 	withStateHandlers(
 		{ isHidden: true }, {
-			toggle: ({ isHidden, scrollY }) => e => {
+			toggle: ({ isHidden }) => e => {
 				e.stopPropagation()
 				isHidden = !isHidden
-				if (isHidden) {
-					scrollY = 0
-				} else {
-					// When showing, scroll the menu to the current window position
-					scrollY =  window.scrollY + 10
-				}
-				return { isHidden, scrollY: scrollY }
+				return { isHidden }
 			}
 		}
 	),
@@ -45,7 +39,6 @@ function Menu ({ isMobile, isHidden, toggle, scrollY }) {
 	}
 
 	const hide = isMobile && isHidden
-	const asideStyle = isMobile ? { top: `${scrollY}px` } : undefined;
 	return [
 		<Head key="head">
 			<style>{style}</style>
@@ -57,7 +50,7 @@ function Menu ({ isMobile, isHidden, toggle, scrollY }) {
 					onClick={toggle}/>
 			</div>
 		),
-		<aside className={cn('menu', { isHidden: hide })} style={asideStyle} key="menu">
+		<aside className={cn('menu', { isHidden: hide })} key="menu">
 			{!isMobile && (
 				<header>
 					<Image className="chao" src="chao.png" />
