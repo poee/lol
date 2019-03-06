@@ -3,6 +3,8 @@ title: Regions of Empty Space
 slug: empty-space
 ---
 
+<img class="flush" src="/image/ris.sm.jpg" data-source="Heliophysics Resources - NASA" data-link="http://sec.gsfc.nasa.gov/sec_resources_imagegallery.htm">
+
 > See all those things in the night sky? Everything out beyond the stars in our own galaxy? In a few billion years, we'll merge together with Andromeda, the only other large galaxy in our local group, and our combined, giant elliptical galaxy will eventually gobble up the remaining dwarf galaxies orbiting us, and then all we'll have beyond our own galaxy is this: the intergalactic void.
 >
 > Because thanks to dark energy, all of this — every other galaxy, group, cluster, and supercluster of galaxies — **will disappear from our observable Universe**. What's in it for you? The opportunity to know the Universe, as it is right now, and as it won't be in a trillion years.

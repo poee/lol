@@ -2,7 +2,7 @@ import React from 'react'
 import { Link, Head } from 'react-static'
 import withSizes from 'react-sizes';
 import cn from 'classnames'
-import { compose, withStateHandlers, pure } from 'recompose'
+import { compose, pure } from 'recompose'
 
 import './Menu.css'
 import Image from '../comps/Image'
@@ -13,19 +13,10 @@ function mapSizes ({ width }) {
 
 export default compose(
 	withSizes(mapSizes),
-	withStateHandlers(
-		{ isHidden: true }, {
-			toggle: ({ isHidden }) => e => {
-				e.stopPropagation()
-				isHidden = !isHidden
-				return { isHidden }
-			}
-		}
-	),
 	pure
 )(Menu)
 
-function Menu ({ isMobile, isHidden, toggle, scrollY }) {
+function Menu ({ isMobile, expanded, toggle, scrollY }) {
 	// Change hue seed every 30 seconds when in the browser
 	let style;
 	if (typeof window !== 'undefined') {
@@ -38,7 +29,7 @@ function Menu ({ isMobile, isHidden, toggle, scrollY }) {
 			blockquote, blockquote + .attribution { border-left-color: ${ribbonColor};}`
 	}
 
-	const hide = isMobile && isHidden
+	const hide = isMobile && !expanded
 	return [
 		<Head key="head">
 			<style>{style}</style>
@@ -61,7 +52,7 @@ function Menu ({ isMobile, isHidden, toggle, scrollY }) {
 				<Link to="/read/wtf">WTF</Link>
 				<Link to="/discordia/">The Cacophonia</Link>
 				<Link to="/read/light">Light</Link>
-				<Link to="/read/apple">Apple</Link>
+				<Link to="/read/apple">Malus</Link>
 				<Link to="/read/the-pentabarf">The Pentabarf</Link>
 				<small>Names and Lists</small>
 				<Link to="/nom/frood">Frood</Link>

@@ -1,9 +1,7 @@
 ---
-title: Apple
+title: Malus
 slug: apple
 ---
-
-<img class="flush" src="/image/ris.sm.jpg" data-source="Heliophysics Resources - NASA" data-link="http://sec.gsfc.nasa.gov/sec_resources_imagegallery.htm">
 
 <iframe id="ytplayer" type="text/html"  width="100%" height="420" src="https://www.youtube.com/embed/kG4YnA_bo9s?origin=http://poee.lol&start=182&end=292&showinfo=0&theme=light&modestbranding=1"
   frameborder="0" data-link="http://www.youtube.com/watch?feature=player_detailpage&v=kG4YnA_bo9s#t=182"></iframe><br>
@@ -13,6 +11,10 @@ slug: apple
 And every summer it produces apples. And we call it an apple tree, because the tree apples. That's what it does.
 
 Now here is a solar system, inside a galaxy. And one of the peculiarities of this solar system is that, at least on the planet Earth, the thing peoples! In just the same way that an apple tree apples.
+
+<p class="center">
+🍎🍏🍎🍏🍎
+</p>
 
 Now maybe, two million years ago, somebody came from another galaxy, in a flying saucer, and had a look at this solar system. And they looked it over, and shrugged their shoulders and said, "Just a bunch of rocks." And they went away.
 
@@ -30,7 +32,5 @@ Where there are rocks, watch out, watch out!
 <br>Because the rocks are going eventually to come alive.
 
 <img class="flush" src="/image/appleglow.sm.jpg" data-source="Bart - Flickr" data-link="https://secure.flickr.com/photos/cayusa/4402315029/" data-license="https://creativecommons.org/licenses/by-nc/2.0/">
-
-<img src="/image/applefig.jpg" class="flush" data-source="Apples and fig - Scott - Flickr" data-link="https://secure.flickr.com/photos/protactinium/2992460621" data-license="https://creativecommons.org/licenses/by/2.0/">
 
 <a class="next" href="/nom/frood">Frood</a>

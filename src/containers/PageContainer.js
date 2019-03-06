@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import Routes from 'react-static-routes'
+import cn from 'classnames'
+
 import Header from '../comps/Header'
 import Menu from './Menu'
 
@@ -13,7 +15,7 @@ class PageContainer extends Component {
 	constructor(props) {
 		super(props)
 		this.inBrowser = typeof window !== 'undefined'
-		this.state = { fontSize: null }
+		this.state = { fontSize: null, menuExpanded: false }
 	}
 
 	componentDidMount() {
@@ -27,11 +29,16 @@ class PageContainer extends Component {
 	decrease = () => {
 		this.update(-INCREMENT)
 	}
+	toggleMenu = () => {
+		const { menuExpanded } = this.state;
+		this.setState({ menuExpanded: !menuExpanded });
+	}
 	update = (change) => {
 		let fontSize = this.state.fontSize || (
 			this.inBrowser && Number(window.localStorage.getItem('fontSize'))
 		) || BASE_FONT
-		fontSize = Math.max(MIN_FONT,
+		fontSize = Math.max(
+			MIN_FONT,
 			Math.min(MAX_FONT, fontSize + change)
 		)
 
@@ -47,8 +54,9 @@ class PageContainer extends Component {
 	render() {
 		return (
 			<div className="pageContainer" style={this.state.sizeStyle} key="container">
-				<Menu />
-				<article className="content">
+				<Menu toggle={this.toggleMenu}
+						expanded={this.state.menuExpanded} />
+				<article className={cn("content", {blur: this.state.menuExpanded})}>
 					<Header {...this.state} decrease={this.decrease} increase={this.increase} />
 					<Routes />
 				</article>

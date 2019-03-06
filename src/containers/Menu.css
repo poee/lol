@@ -31,8 +31,11 @@ aside.menu header {
 }
 
 .menu nav small {
-  margin-top: 1rem;
+  border-bottom: thin solid lightgray;
   display: block;
+  margin: 0.8rem 0;
+  padding: 0.2rem 0;
+  text-align: right;
 }
 
 .content {
@@ -61,11 +64,12 @@ aside.menu header {
   z-index: 470;
 }
 .showMenuWrapper.raised {
-  outline: none;
   padding-top: 1.75rem;
   position: absolute;
 }
-
+.showMenuWrapper, .showMenuWrapper * {
+  outline: none;
+}
 button.showMenu {
   background-image: url('/image/chao.png');
   background-size: cover;
@@ -94,28 +98,21 @@ button.showMenu {
   }
 
   aside.menu {
-    background-color: hsl(48, 16.1%, 98%);
+    background-color: hsl(48, 40%, 93%);
     border-top-left-radius: 50% 5rem;
     border-top-right-radius: 50% 5rem;
-    border: thin solid #808080;
-    border: thin solid #DDD;
+    border: 2px solid #DDD;
+    box-shadow: #DDD 0 0 10px;
     font-size: 1.25em;
     margin: auto;
     margin-bottom: 0;
     opacity: 1;
-    padding: 1rem 2rem;
+    padding: 7.25rem 2rem 2rem;
     position: absolute;
-    left: 13vw;
+    left: 11vw;
     top: 1.25rem;
-    width: 74vw;
+    width: 78vw;
     z-index: 230;
-  }
-  aside.menu header {
-    margin-bottom: 0.75rem;
-    width: 8rem;
-  }
-  aside.menu nav {
-    margin-top: 5.5rem;
   }
   article.content {
     margin-left: auto;
@@ -123,6 +120,9 @@ button.showMenu {
     margin-top: 6rem;
     width: 95%;
     z-index: 23;
+  }
+  article.content.blur {
+    opacity: 0.2;
   }
 
   nav a {
