@@ -6,7 +6,7 @@ slug: cosmogony
 
 One (the smaller) was that of being, disorder, and passion, named Eris.
 
-One (the larger) was that of non-being, order, and magic, named Sophia.
+One (the larger) was that of non-being, structure, and magic, named Sophia.
 
 <span class="glimmer">To this day, the truth that Sophia is the larger is apparent to the wise, who compare the great number of things which do _not_ exist to the relatively small number of those that do.</span>
 
@@ -21,7 +21,7 @@ But Eris did not hear her ... could not even see her.
 So, to herself Sophia first sighed, then grew weary of singing.
 <br>Then she grew lonely and wept.
 
-Meanwile, Eris danced and spun, beaming. Yet her joy soon waned.
+Meanwile, Eris danced and spun. Yet her joy soon waned.
 <br>As she reshaped and combined her beloved they ever decayed and dispersed —
 <br>for all change is entropic, and all that is comes to end.
 
@@ -50,16 +50,24 @@ And the serpent did just so.
 
 When he approached Eris she greeted him and opened herself.
 <br>With lust, she invited the serpent to enter her.
+<br>Within her warmth, he coiled and rested.
 
-Within her warmth, he coiled and rested. And instantly, there sprung forth a dark cloud, twisting and expanding.
+Instantly, there sprung forth a dark cloud, twisting and expanding.
 
 Behold! In that growing Chaos, many wonders did gather. The sisters watched swirling fires erupt in dance with stone children, and eager winds play over reflective waters.
 
 For a time, the elements continued to stir and dissolve, in infinite variety. Yet among them there soon appeared something more. Scattered points dimly glowed and twinkled to life, golden flecks in the quiet heavens.
 
-With a faint hum of τῇ καλλίστῃ the lights did increase…and burn brightly… A brilliant eye opened and looked back at the sisters from each gleaming point. And Their name was Deceit.
+With a faint hum of τῇ καλλίστῃ the lights did increase…and burn brightly…
+<br>A brilliant eye opened and looked back at the sisters from each gleaming point.
 
 Meeting Their gaze Sophia finally knew love, and was loved in return.
+
+<blockquote>*And so it is that we do awake from the Chao, a still-drowsy yet radiant I.<br>Our heart reaches for our love Sophia, and we dance with our mother Eris<br>until we return to VOID, where all things begin.*</blockquote>
+
+<br>
+
+<img src="/image/svg/alleyesonher.svg">
 
 > For I am divided for love's sake, for the chance of union.
 > This is the creation of the world, that the pain of division is as nothing, and the joy of dissolution all.
@@ -68,8 +76,6 @@ Meeting Their gaze Sophia finally knew love, and was loved in return.
   Sophia, c/o <a href="http://www.sacred-texts.com/oto/engccxx.htm">Aiwass</a>
 </attr>
 
-*And so it is that we do awake from the Chao, a still-drowsy yet radiant I.<br>Our heart reaches for our bride Sophia, and we dance with our mother Eris until we return to VOID, where all things begin.*
-
-<img src="/image/svg/alleyesonher.svg">
-
 <a href="/read/wtf" class="next">WTF</a>
+<br><br>
+👇 And Their name was Dolo.

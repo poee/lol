@@ -68,14 +68,13 @@ aside.menu header {
   position: absolute;
 }
 .showMenuWrapper, .showMenuWrapper * {
-  outline: none;
+  border-radius: 50%;
 }
 button.showMenu {
   background-image: url('/image/chao.png');
   background-size: cover;
 	height: 5rem;
 	width: 5rem;
-  border-radius: 50%;
   z-index: 23;
 }
 

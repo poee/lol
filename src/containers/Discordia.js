@@ -58,7 +58,7 @@ class Discordia extends Component {
 			title = 'Stool of Contents'
 		} else {
 			content = (
-				<Image ref={this.imageRef}
+				<Image className="page" ref={this.imageRef}
 					src={`/pd/${page}.png`} alt={`page ${page}`} onError={onError} />
 			)
 		}

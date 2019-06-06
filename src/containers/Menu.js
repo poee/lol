@@ -52,7 +52,7 @@ function Menu ({ isMobile, expanded, toggle, scrollY }) {
 				<Link to="/read/wtf">WTF</Link>
 				<Link to="/discordia/">The Cacophonia</Link>
 				<Link to="/read/light">Light</Link>
-				<Link to="/read/apple">Malus</Link>
+				<Link to="/read/apple">Apple</Link>
 				<Link to="/read/the-pentabarf">The Pentabarf</Link>
 				<small>Names and Lists</small>
 				<Link to="/nom/frood">Frood</Link>

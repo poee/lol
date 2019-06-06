@@ -6,11 +6,11 @@ slug: frood
 *adj*.
 
 * integrated, whole, way illuminized
-* of summation surpassing constituency
+* of summation surpassing makeup
 
 *n*.
 
-* the individuated agent of 💗
+* the undivided agent of 💗
 
 **Etymology**
 

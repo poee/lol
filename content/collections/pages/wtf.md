@@ -29,12 +29,16 @@ POEE is one manifestation of
 <br>Doings
 </blockquote>
 
-Now with half of the answers, and five times the questions on which your very Liff depends.
+~~engaging Hypertext Relays captain . ..~~
+<br>Now with half of the answers, and five times the questions, on which your very liff depends.
+
 Our species stands at a critical time in its history.
-<br>We have made it through the beginnings of the information revolution with blinding speed, and are left stunned as we try to face energy demands, social restructuring, rise of fuschism, and looming destruction.
+<br>We have moved through the beginnings of the information revolution with exponential speed, yet are left stunned as we face climate ruin, reechoing oppression, and memetic entelechy.
 
 <img alt="be not ye paranoid" src="/image/bnyp.png" class="right">
 Disorder is growing in a most visible sense.
+<br>DOOM
+<br>a baton made of light
 <br>Hail Eris! All Hail Discordia!
 
 > Everyone has a belief system, B.S., the trick is to learn not to take anyone's B.S. too seriously, especially your own.
