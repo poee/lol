@@ -63,7 +63,7 @@ With a faint hum of τῇ καλλίστῃ the lights did increase…and burn b
 
 Meeting Their gaze Sophia finally knew love, and was loved in return.
 
-<blockquote>*And so it is that we do awake from the Chao, a still-drowsy yet radiant I.<br>Our heart reaches for our love Sophia, and we dance with our mother Eris<br>until we return to VOID, where all things begin.*</blockquote>
+<blockquote>*And so it is that we do awake from the Chao, a still-drowsy yet radiant 👁<br>Our heart reaches for our love Sophia, and we dance with our mother Eris<br>until we return to VOID, where all things begin.*</blockquote>
 
 <br>
 
@@ -73,9 +73,11 @@ Meeting Their gaze Sophia finally knew love, and was loved in return.
 > This is the creation of the world, that the pain of division is as nothing, and the joy of dissolution all.
 
 <attr>
-  Sophia, c/o <a href="http://www.sacred-texts.com/oto/engccxx.htm">Aiwass</a>
+  Sophia, c/o Aiwass
 </attr>
 
 <a href="/read/wtf" class="next">WTF</a>
-<br><br>
-👇 And Their name was Dolo.
+
+<footer>
+🍿 And Their name was Dolo.
+</footer>

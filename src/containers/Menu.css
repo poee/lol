@@ -1,5 +1,11 @@
 article.content {
-  margin-bottom: 170px;
+  margin-bottom: 15rem;
+}
+
+article footer {
+  padding-top: 4rem;
+  position: absolute;
+  top: 100%;
 }
 
 aside.menu {

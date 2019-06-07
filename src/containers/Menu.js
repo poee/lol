@@ -55,16 +55,17 @@ function Menu ({ isMobile, expanded, toggle, scrollY }) {
 				<Link to="/read/apple">Apple</Link>
 				<Link to="/read/the-pentabarf">The Pentabarf</Link>
 				<small>Names and Lists</small>
+				<Link to="/nom/gnom">GNOM</Link>
 				<Link to="/nom/frood">Frood</Link>
-				<Link to="/nom/beati">Five Star Divas</Link>
-				<Link to="/nom/floss">FLOSS</Link>
-				<Link to="/nom/holytimes">Holytimes</Link>
 				<Link to="/nom/holyprimes">Holyprimes</Link>
 				<Link to="/nom/holynames">Holynames</Link>
+				<Link to="/nom/holytimes">Holytimes</Link>
+				<Link to="/nom/beati">Five Star Divas</Link>
 				<small>Phrases and Notes</small>
-				<Link to="/read/empty-space">Regions of Empty Space</Link>
+				<Link to="/nom/floss">FLOSS</Link>
 				<Link to="/read/erisian-tarot-spread">Erisian Tarot Spread</Link>
 				<Link to="/read/optimism">On Optimism</Link>
+				<Link to="/read/empty-space">Regions of Empty Space</Link>
 				<Link to="/read/the-rich-economy">The RICH Economy</Link>
 				<Link to="/read/the-richest-85">The Richest 85</Link>
 				<Link to="/read/stage">Stage</Link>

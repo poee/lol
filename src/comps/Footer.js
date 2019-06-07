@@ -5,7 +5,7 @@ import Kopy from './Kopy'
 
 export default function Footer () {
 	return (
-		<footer>
+		<footer className="page">
 			<Kopy />
 		</footer>
 	)
