@@ -5,29 +5,29 @@ slug: holytimes
 
 *<span id="ddate">Today is the first day of the rest of your liff.</span>*
 <br><table width=100%>
-<tr><td class="nowrap">Jan 5</td><td><a href="/nom/beati#hongmeng">Mungday</a><td>{Ch5|</td><td>(∞)</td></tr>
-<tr><td class="nowrap">Jan 11</td><td>Deathday of Aaron Swartz<td>{Ch11|</td><td>(03179)</td></tr>
-<tr><td class="nowrap">Feb 19</td><td>Chaoflux<td>{Ch50|</td><td>(∞)</td></tr>
-<tr><td class="nowrap">Feb 29</td><td>St. Tib's Day<td>{St.Tib|</td><td>(∞)</td></tr>
-<tr><td class="nowrap">Mar 14</td><td>Feast of Coalescence<td>{Co75|</td><td>(?)</td></tr>
-<tr><td class="nowrap">Mar 19</td><td><a href="/nom/beati#vanvanmojo">Mojoday</a><td>{D5|</td><td>(∞)</td></tr>
-<tr><td class="nowrap">Apr 8 -<br>Apr 10</td><td>Festival of Aiwass<td>{D25| -<br>{D27|</td><td>(03070)</td></tr>
-<tr><td class="nowrap">Apr 20</td><td>Honoring of St. Gulik<td>{D37|</td><td>(?)</td></tr>
-<tr><td class="nowrap">May 3</td><td>Discoflux<td>{D50|</td><td>(∞)</td></tr>
-<tr><td class="nowrap">May 22 -<br>June 18</td><td>Abstention of Morpheus (traditional)<td>{D69| -<br>{Co23|</td><td>(∞)</td></tr>
-<tr><td class="nowrap">May 31</td><td><a href="/nom/beati#srisyadasti">Syaday</a><td>{Co5|</td><td>(∞)</td></tr>
-<tr><td class="nowrap">Jun 23</td><td>Festival of Turing<td>{Co28|</td><td>(03078)</td></tr>
-<tr><td class="nowrap">July 15</td><td>Confuflux<td>{Co50|</td><td>(∞)</td></tr>
-<tr><td class="nowrap">July 23</td><td>Festival of Sothis<td>{Co58|</td><td>(03139)</td></tr>
-<tr><td class="nowrap">Aug 12</td><td><a href="/nom/beati#zarathud">Zaraday</a><td>{B5|</td><td>(∞)</td></tr>
-<tr><td class="nowrap">Sept 23</td><td>Epiphany of St. TRIMTAB<td>{B47|</td><td>(03093)</td></tr>
-<tr><td class="nowrap">Sept 26</td><td>Bureflux<td>{B50|</td><td>(∞)</td></tr>
-<tr><td class="nowrap">Oct 12<br>2:24 PM</td><td>Crowleymas<td>{B66.6|</td><td>(03041)</td></tr>
-<tr><td class="nowrap">Oct 24</td><td><a href="/nom/beati#mal-1">Maladay</a><td>{A5|</td><td>(∞)</td></tr>
-<tr><td class="nowrap">Nov 8</td><td>Birthday of Aaron Swartz<td>{A20|</td><td>(03152)</td></tr>
-<tr><td class="nowrap">Nov 11</td><td>Trides of Immanency<td>{A23|</td><td>(∞)</td></tr>
-<tr><td class="nowrap">Dec 8</td><td>Afflux<td>{A50|</td><td>(∞)</td></tr>
-<tr><td class="nowrap">Dec 23</td><td>Festivus<td>{A65|</td><td>(03163)</td></tr>
+<tr><td className="nowrap">Jan 5</td><td><a href="/nom/beati#hongmeng">Mungday</a><td>{Ch5|</td><td>(∞)</td></tr>
+<tr><td className="nowrap">Jan 11</td><td>Deathday of Aaron Swartz<td>{Ch11|</td><td>(03179)</td></tr>
+<tr><td className="nowrap">Feb 19</td><td>Chaoflux<td>{Ch50|</td><td>(∞)</td></tr>
+<tr><td className="nowrap">Feb 29</td><td>St. Tib's Day<td>{St.Tib|</td><td>(∞)</td></tr>
+<tr><td className="nowrap">Mar 14</td><td>Feast of Coalescence<td>{Co75|</td><td>(?)</td></tr>
+<tr><td className="nowrap">Mar 19</td><td><a href="/nom/beati#vanvanmojo">Mojoday</a><td>{D5|</td><td>(∞)</td></tr>
+<tr><td className="nowrap">Apr 8 -<br>Apr 10</td><td>Festival of Aiwass<td>{D25| -<br>{D27|</td><td>(03070)</td></tr>
+<tr><td className="nowrap">Apr 20</td><td>Honoring of St. Gulik<td>{D37|</td><td>(?)</td></tr>
+<tr><td className="nowrap">May 3</td><td>Discoflux<td>{D50|</td><td>(∞)</td></tr>
+<tr><td className="nowrap">May 22 -<br>June 18</td><td>Abstention of Morpheus (traditional)<td>{D69| -<br>{Co23|</td><td>(∞)</td></tr>
+<tr><td className="nowrap">May 31</td><td><a href="/nom/beati#srisyadasti">Syaday</a><td>{Co5|</td><td>(∞)</td></tr>
+<tr><td className="nowrap">Jun 23</td><td>Festival of Turing<td>{Co28|</td><td>(03078)</td></tr>
+<tr><td className="nowrap">July 15</td><td>Confuflux<td>{Co50|</td><td>(∞)</td></tr>
+<tr><td className="nowrap">July 23</td><td>Festival of Sothis<td>{Co58|</td><td>(03139)</td></tr>
+<tr><td className="nowrap">Aug 12</td><td><a href="/nom/beati#zarathud">Zaraday</a><td>{B5|</td><td>(∞)</td></tr>
+<tr><td className="nowrap">Sept 23</td><td>Epiphany of St. TRIMTAB<td>{B47|</td><td>(03093)</td></tr>
+<tr><td className="nowrap">Sept 26</td><td>Bureflux<td>{B50|</td><td>(∞)</td></tr>
+<tr><td className="nowrap">Oct 12<br>2:24 PM</td><td>Crowleymas<td>{B66.6|</td><td>(03041)</td></tr>
+<tr><td className="nowrap">Oct 24</td><td><a href="/nom/beati#mal-1">Maladay</a><td>{A5|</td><td>(∞)</td></tr>
+<tr><td className="nowrap">Nov 8</td><td>Birthday of Aaron Swartz<td>{A20|</td><td>(03152)</td></tr>
+<tr><td className="nowrap">Nov 11</td><td>Trides of Immanency<td>{A23|</td><td>(∞)</td></tr>
+<tr><td className="nowrap">Dec 8</td><td>Afflux<td>{A50|</td><td>(∞)</td></tr>
+<tr><td className="nowrap">Dec 23</td><td>Festivus<td>{A65|</td><td>(03163)</td></tr>
 </table>
 
 #### Upcoming Solar Events
@@ -38,7 +38,7 @@ slug: holytimes
 <tr><td>Dec 22</td><td>Southern Solstice</td><td>{A64|</td></tr>
 </table>
 
-<div class="well">
+<div className="well">
 <form onsubmit="findDdate(this); return false;">
 <input type="text" maxlength=5 size=5 name="year" placeholder="YYYYY" id="dyear">
 <select name="month">
@@ -89,8 +89,8 @@ slug: holytimes
   <option value="31">31st</option>
 </select>
 <br><input type="submit" value="Convert">
-<br><div class="results"></div>
+<br><div className="results"></div>
 </form>
 </div>
 
-<img src="/image/time.jpg" data-link="https://secure.flickr.com/photos/5tein/1100742634/" data-source="Mr_Stein - Flickr" class="flush" data-license="https://creativecommons.org/licenses/by-nc-sa/2.0/">
+<img src="/image/time.jpg" data-link="https://secure.flickr.com/photos/5tein/1100742634/" data-source="Mr_Stein - Flickr" className="flush" data-license="https://creativecommons.org/licenses/by-nc-sa/2.0/">

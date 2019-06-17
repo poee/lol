@@ -3,7 +3,7 @@ title: The Nɒti Growth
 slug: growth
 ---
 
-<img src="/image/growth.png" class="center">
+<img src="/image/growth.png" className="center">
 
 <h3 style="text-align: center">
 The growth looks like a null sign but instead of a slash is<br>The Hand of Eris.

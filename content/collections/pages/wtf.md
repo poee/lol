@@ -3,9 +3,9 @@ title: WTF
 slug: wtf
 ---
 
-<img class="flush" src="/image/froodlarge.png">
+<img className="flush" src="/image/froodlarge.png">
 
-<img src="/image/flake.png" class="left o25" style="width: 15%; margin-right: 10px;">
+<img src="/image/flake.png" className="left o25" style="width: 15%; margin-right: 10px;">
 Did you know that you have a lopsided pineal gland?
 <br><br>Well, probably you do have one, and it’s unfortunate because lopsided Pineal Glands have perverted the Free Spirit of Humanity, and subverted Life into a frustrating, unhappy and hopeless mess.
 <br><br>Fortunately, you have before you a guide that will show you how to discover your salvation fnord through
@@ -18,7 +18,7 @@ POEE is one manifestation of
 <br>and understand
 <br>less
 
-<img class="right" src="/image/poo.png">
+<img className="right" src="/image/poo.png">
 
 <br><br>We are a tribe of philosophers, theologians,
 <br>magicians, scientists, artists, clowns,
@@ -29,13 +29,13 @@ POEE is one manifestation of
 <br>Doings
 </blockquote>
 
-~~engaging Hypertext Relays captain . ..~~
+~~engaging Hypertext Relays, captain . ..~~
 <br>Now with half of the answers, and five times the questions, on which your very liff depends.
 
 Our species stands at a critical time in its history.
 <br>We have moved through the beginnings of the information revolution with exponential speed, yet are left stunned as we face climate ruin, reechoing oppression, and memetic entelechy.
 
-<img alt="be not ye paranoid" src="/image/bnyp.png" class="right">
+<img alt="be not ye paranoid" src="/image/bnyp.png" className="right">
 Disorder is growing in a most visible sense.
 <br>DOOM
 <br>a baton made of light
@@ -51,5 +51,5 @@ Disorder is growing in a most visible sense.
 
 <attr>Our Lady of Discord, Eris</attr>
 
-<a href="/read/cosmogony" class="prev">Cosmogony</a>
-<a href="/read/light" class="next">Light</a>
+<a href="/read/cosmogony" className="prev">Cosmogony</a>
+<a href="/read/light" className="next">Light</a>

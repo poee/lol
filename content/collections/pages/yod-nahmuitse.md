@@ -3,7 +3,7 @@ title: YOD NAHMUITSE
 slug: yod-nahmuitse
 ---
 
-<div class="mono">
+<div className="mono">
 <p>Damn you, shite.
 <br>Oy, haunted Sim.</p>
 
@@ -17,4 +17,4 @@ slug: yod-nahmuitse
 <br>&nbsp; &nbsp;muse yon HADIT.</p>
 </div>
 
-<a href="/sigil" class="next">make</a>
+<a href="/sigil" className="next">make</a>

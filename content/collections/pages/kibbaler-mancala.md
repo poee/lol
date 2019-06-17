@@ -3,9 +3,9 @@ title: Kibbaler Mancala
 slug: kibbaler-mancala
 ---
 
-<img class="flush" src="/image/mancala.sm.png">
+<img className="flush" src="/image/mancala.sm.png">
 
-<p class="center">
+<p className="center">
 <h3>A Counting Game
 <br><small>Rules and Methods</small></h3>
 </p>
@@ -14,15 +14,15 @@ slug: kibbaler-mancala
 
 And consider the table in front of you, that you may place a light colored stone there. This is absence.
 
-<img class="nozoom" src="/image/bottle_0.png">
+<img className="nozoom" src="/image/bottle_0.png">
 
 And consider then a light stone. This is presence.
 
-<img class="nozoom" src="/image/bottle_1.png">
+<img className="nozoom" src="/image/bottle_1.png">
 
 Place a dark above a light.
 
-<img class="nozoom" src="/image/bottle_1.png">
-<img class="nozoom" src="/image/bottle_0.png" >
+<img className="nozoom" src="/image/bottle_1.png">
+<img className="nozoom" src="/image/bottle_0.png" >
 
 This is the presence of the first holy prime, II, and the absence of another.

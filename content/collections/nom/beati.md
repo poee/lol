@@ -5,7 +5,7 @@ slug: beati
 
 ## Five Star Divas
 <a id="hongmeng"></a>
-<img class="right morph" src="/image/hungmeng.png" data-morph="http://image.poee.lol/chao.filled.black.sm.png">
+<img className="right morph" src="/image/hungmeng.png" data-morph="http://image.poee.lol/chao.filled.black.sm.png">
 
 ### Hong Meng
 * A Sage of Ancient China, he originally devised the Sacred Chao. An apostle of many names.
@@ -18,7 +18,7 @@ slug: beati
 * Lucky Number: 6
 
 <a id="vanvanmojo"></a>
-<img class="right morph" src="/image/van_van_mojo.png" data-morph="http://image.poee.lol/v.sm.png">
+<img className="right morph" src="/image/van_van_mojo.png" data-morph="http://image.poee.lol/v.sm.png">
 
 ### Dr. Van Van Mojo
 * D.H.V., Doctor of Hoodoo and Vexes. Magickal researcher and possessor of great power. Maker of fine dolls.
@@ -40,7 +40,7 @@ His name in Sanskrit means: <i>All affirmations are true in some sense, false in
 * Lucky Number: 3
 
 <a id="zarathud"></a>
-<img class="right morph" src="/image/zarathud.png" data-morph="http://image.poee.lol/growth.sm.png">
+<img className="right morph" src="/image/zarathud.png" data-morph="http://image.poee.lol/growth.sm.png">
 
 ### Zarathud the Staunch
 * A hard nosed Hermit of Medieval Europe and Chaosphe Bible Banger. Discovered <a href="/read/the-pentabarf">the Five Commandments</a>.
@@ -53,7 +53,7 @@ His name in Sanskrit means: <i>All affirmations are true in some sense, false in
 * Lucky Number: 10
 
 <a id="mal-1"></a>
-<img class="right morph" src="/image/mal1.png" data-morph="http://image.poee.lol/3y3.sm.png">
+<img className="right morph" src="/image/mal1.png" data-morph="http://image.poee.lol/3y3.sm.png">
 
 ### Malaclypse the Elder
 * Little is known of him, a shady figure of antiquity and rumored secret agent. Known to be a wanderer and shapeshifter, he followed a 5-pointed Star through the alleys of Rome, Damascus, Baghdad, Jerusalem, Mecca and Cairo, bearing a sign that seemed to read "DOOM". This is a misunderstanding; the sign actually read "DUMB". Mal-1 is a Non-Prophet. Inventor of bingo.
@@ -69,7 +69,7 @@ His name in Sanskrit means: <i>All affirmations are true in some sense, false in
 
 ## Saints/Nites Second Class
 
-<img src="/image/she.png" class="right nozoom">
+<img src="/image/she.png" className="right nozoom">
 <ul>
 <li>Pope Bob the Irreverant Omnirelevant
 <li>Lucifer St. Douchebag the Genius
@@ -120,5 +120,5 @@ His name in Sanskrit means: <i>All affirmations are true in some sense, false in
   <li>Wilhelm Reich</li>
 </random>
 
-<img class="right" src="/image/spacecadets.png" style="width: 63%">
-<img class="left" src="/image/gulik.png" style="position: relative; bottom: -55px">
+<img className="right" src="/image/spacecadets.png" style="width: 63%">
+<img className="left" src="/image/gulik.png" style="position: relative; bottom: -55px">

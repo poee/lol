@@ -7,7 +7,7 @@ Libber V is divided into four wards and two phases.
 
 The first ward is **Eastward**. The second is **Sunward**: the direction of the noonday sun. The third is **Westward**. The last is **Poleward**: the direction of the nearest of Earth's poles. If you live in the Northern Hemisphere, Poleward is North.
 
-<img src="/image/libberV.sm.png" class="flush">
+<img src="/image/libberV.sm.png" className="flush">
 
 
 Begin by orientating yourself. Modern phones typically include a compass if you aren't sure which direction is East. If performing Libber V indoors, choosing the nearest wall to each of the cardinal directions is fine - no need to worry about facing precisely East.
@@ -52,23 +52,23 @@ Return to face **Eastward**. Give the sign of BEAUTY.
 
 Intone
 
-<img class="center padded nozoom" src="/image/v1.nh.png">
+<img className="center padded nozoom" src="/image/v1.nh.png">
 
-<img class="center padded nozoom" src="/image/v2.png">
+<img className="center padded nozoom" src="/image/v2.png">
 
 Turning deasil, face **Westward**,
 
-<img class="center padded nozoom" src="/image/v3.png">
+<img className="center padded nozoom" src="/image/v3.png">
 
 Face **Poleward**. Give the sign of UMBRA. Maintain the sign until exhaustion, then intone
 
-<img class="center padded nozoom" src="/image/v4.png">
+<img className="center padded nozoom" src="/image/v4.png">
 
 Let your arms fall, and step outside the circle.
 
-<a class="next" href="/read/libber-v-signs">signs</a>
+<a className="next" href="/read/libber-v-signs">signs</a>
 
 - - -
 
 <br> <h3 style="text-align: center">Libber V should be performed at least 5 times daily for full affect.</h3>
-<img class="center" src="/image/nuit.gif" data-source="Hyrax riding tortoise - animals-riding-animals.tumblr.com" data-link="http://animals-riding-animals.tumblr.com/post/50292705047/hyrax-riding-tortoise" style="width: 55%">
+<img className="center" src="/image/nuit.gif" data-source="Hyrax riding tortoise - animals-riding-animals.tumblr.com" data-link="http://animals-riding-animals.tumblr.com/post/50292705047/hyrax-riding-tortoise" style="width: 55%">

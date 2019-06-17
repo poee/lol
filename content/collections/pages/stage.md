@@ -3,7 +3,7 @@ title: Stage
 slug: stage
 ---
 
-<img class="flush" src="/image/milkyway.sm.jpg" data-source="'Grand Design' Spiral Galaxy M81 ~ HubbleSite Photographs" data-link="http://hubblesite.org/newscenter/archive/releases/2007/19/image/a/">
+<img className="flush" src="/image/milkyway.sm.jpg" data-source="'Grand Design' Spiral Galaxy M81 ~ HubbleSite Photographs" data-link="http://hubblesite.org/newscenter/archive/releases/2007/19/image/a/">
 
 > In the beginning there was VOID, who had two daughters; one (the smaller) was that of BEING, named ERIS, and one (the larger) was of NON-BEING, named ANERIS. (To this day, the fundamental truth that Aneris is the larger is apparent to all who compare the great number of things that do not exist with the comparatively small number of things that do exist.)
 
@@ -13,7 +13,7 @@ We emerge from a 3.5 billion year long evolutionary process, and find ourselves 
 
 It may be wise to take a look around and try to figure out where the hell we are, what the hell is going on around here, and who the hell's underwear we're wearing.
 
-<img class="w35" src="/image/eyes.png">
+<img className="w35" src="/image/eyes.png">
 
 The observable universe is a sphere centered around Earth. It measures **46 billion light-years** from Earth to edge, and represents all information which has reached Earth since the Big Bang.
 
@@ -37,9 +37,9 @@ This means that likely everything you have *ever found interesting* — everythi
 
 *Light travels one light-year in 30 million seconds, but travels from one side of the Earth to the other in 0.04s — less than one half of one tenth of a second.* Welcome home.
 
-<img class="center" src="/image/observable_universe.jpg">
+<img className="center" src="/image/observable_universe.jpg">
 
-<a href="/read/light" class="next">Light</a>
+<a href="/read/light" className="next">Light</a>
 
 #### Info
 * [The Scale of the Universe](http://htwins.net/scale2/)

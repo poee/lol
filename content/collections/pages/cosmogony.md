@@ -8,7 +8,7 @@ One (the smaller) was that of being, disorder, and passion, named Eris.
 
 One (the larger) was that of non-being, structure, and magic, named Sophia.
 
-<span class="glimmer">To this day, the truth that Sophia is the larger is apparent to the wise, who compare the great number of things which do _not_ exist to the relatively small number of those that do.</span>
+<span className="glimmer">To this day, the truth that Sophia is the larger is apparent to the wise, who compare the great number of things which do _not_ exist to the relatively small number of those that do.</span>
 
 Eris had been born pregnant and, after twenty-two years (Goddesses have an unusually long gestation period — longer even than elephants), her pregnancy bore her a great many delights: fullness and form, shape and body. Joyfully Eris danced with her children, her whirling brilliance reshaping them and combining them in endless motion.
 
@@ -25,7 +25,7 @@ Meanwile, Eris danced and spun. Yet her joy soon waned.
 <br>As she reshaped and combined her beloved they ever decayed and dispersed —
 <br>for all change is entropic, and all that is comes to end.
 
-<hr class="mirrorY" type="wave" />
+<hr className="mirrorY" type="wave" />
 <p style="text-align: center">
 Eris lamented that VOID should beget her to bear only destruction and loss.
 <br><br>In her loneliness Sophia cursed, "~~Why?~~", and slept.
@@ -34,11 +34,11 @@ Eris lamented that VOID should beget her to bear only destruction and loss.
 
 <hr type="wave" />
 
-<p class="center">
+<p className="center">
   <br>Then at once, a dream took hold of Sophia.
   <br>She moved through a senseless, endless emptiness.
   <br><br>But look,
-  <br><br><img class="w35" src="/image/eyes.png">
+  <br><br><img className="w35" src="/image/eyes.png">
   <br>therein she caught sight of five magnificent stones:
   <br>of yellow; of red; of blue; of black; and of gold
   <br>Between them shone the essence of potential and the Laws of Elegant Light.
@@ -76,7 +76,7 @@ Meeting Their gaze Sophia finally knew love, and was loved in return.
   Sophia, c/o Aiwass
 </attr>
 
-<a href="/read/wtf" class="next">WTF</a>
+<a href="/read/wtf" className="next">WTF</a>
 
 <footer>
 🍿 And Their name was Dolo.

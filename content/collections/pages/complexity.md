@@ -3,7 +3,7 @@ title: Complexity
 slug: complexity
 ---
 
-<img class="flush" src="/image/complex.sm.jpg" data-source=" Michael Heiss - Flickr" data-link="https://secure.flickr.com/photos/michaelheiss/3090102907" data-license="https://creativecommons.org/licenses/by-nc-sa/2.0/">
+<img className="flush" src="/image/complex.sm.jpg" data-source=" Michael Heiss - Flickr" data-link="https://secure.flickr.com/photos/michaelheiss/3090102907" data-license="https://creativecommons.org/licenses/by-nc-sa/2.0/">
 
 By developing language, we opened ourselves up to **information**, and began to use it as a resource.
 
@@ -22,7 +22,7 @@ We propose that information is real, and that humanity's endeavor for knowledge 
 
 Our existence may likely be an unplanned accident of evolution. Nevertheless it represents a sacred opportunity to do something nothing else can, to use our unique ability to more fully explore the world of information.
 
-<a href="/read/long-view" class="next">The Long View</a>
+<a href="/read/long-view" className="next">The Long View</a>
 
 - - -
 #### Interesting Information:

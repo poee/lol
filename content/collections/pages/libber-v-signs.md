@@ -15,7 +15,7 @@ An evocative posture of Mercury. With your elbows at your sides, raise your hand
 * Who: THOTH
 * Fourfold Name: YHVH
 
-<img class="right nozoom" src="/image/re.png" style="width: auto">
+<img className="right nozoom" src="/image/re.png" style="width: auto">
 
 ### The sign of RAY'S
 An evocative posture of the Sun. Raise your arms to the heavens and look upward, basking in sunlight. Your hands are spread open with palms facing you.
@@ -26,7 +26,7 @@ An evocative posture of the Sun. Raise your arms to the heavens and look upward,
 * Who: ERIS
 * Fourfold Name: ADNI
 
-<img class="w50" src="/image/pan.sm.png">
+<img className="w50" src="/image/pan.sm.png">
 
 ### The sign of DEATH
 An evocative posture of Venus. Cross your arms over your chest and rest a hand on each shoulder, to form an X over the heart.

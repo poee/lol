@@ -7,4 +7,4 @@ slug: why-work-as-we-know-it-may-be-immoral
 
 <attr>Saul of Hearts - <a href="https://medium.com/career-pathing/463ff6dfec1b"><i>Why Work As We Know It May Be Immoral</i></a></attr>
 
-<a href="https://medium.com/career-pathing/463ff6dfec1b" class="next">read more</a>
+<a href="https://medium.com/career-pathing/463ff6dfec1b" className="next">read more</a>

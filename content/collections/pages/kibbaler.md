@@ -3,7 +3,7 @@ title: Kibbaler
 slug: kibbaler
 ---
 
-<p class="center">
+<p className="center">
   <h3>The Mysteree of the Kibbaler
   <br><small>Comprehensive Mystical Language Algorithm</small></h3>
 </p>
@@ -17,7 +17,7 @@ slug: kibbaler
 
 The Kibbaler does not require mastery of esoteric knowledge, Hebrew correspondences or even arithmetic. It is simple, accessible, and 105% reliable, utilizing an easy to memorize formula:
 
-<div class="well">Kibbalistic accounting := length of word</div>
+<div className="well">Kibbalistic accounting := length of word</div>
 
 Mostly English Examples
 
@@ -43,6 +43,6 @@ Although the ~~Illuminated Seers~~ sought to craft languages with perfect Kibbal
 
 As you come to greater understanding of the mystereeous system here revealed, beware their peppered red herrings, which lurk in lexeme galore.
 
-<img src="/image/rabbit+quill.png" class="center nozoom">
+<img src="/image/rabbit+quill.png" className="center nozoom">
 
 <img src="/image/world.sm.png">

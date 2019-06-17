@@ -3,9 +3,9 @@ title: FLOSS
 slug: floss
 ---
 
-<img class="w35" src="/image/svg/floss.svg" alt="FLOSS Logo" />
+<img className="w35" src="/image/svg/floss.svg" alt="FLOSS Logo" />
 
-<p class="center">
+<p className="center">
   Frood Cabal releases writings under a
   <br>FLOSS - *Free/Libre Open Source Scripture* poetic license.
 

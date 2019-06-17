@@ -12,7 +12,7 @@ And every summer it produces apples. And we call it an apple tree, because the t
 
 Now here is a solar system, inside a galaxy. And one of the peculiarities of this solar system is that, at least on the planet Earth, the thing peoples! In just the same way that an apple tree apples.
 
-<p class="center">
+<p className="center">
 🍎🍏🍎🍏🍎
 </p>
 
@@ -32,6 +32,6 @@ Where there are rocks, watch out, watch out!
 <br>Because the rocks are going eventually to come alive.
 
 <br> 
-<img class="flush" src="/image/appleglow.sm.jpg" data-source="Bart - Flickr" data-link="https://secure.flickr.com/photos/cayusa/4402315029/" data-license="https://creativecommons.org/licenses/by-nc/2.0/">
+<img className="flush" src="/image/appleglow.sm.jpg" data-source="Bart - Flickr" data-link="https://secure.flickr.com/photos/cayusa/4402315029/" data-license="https://creativecommons.org/licenses/by-nc/2.0/">
 
-<a class="next" href="/nom/frood">Frood</a>
+<a className="next" href="/nom/frood">Frood</a>

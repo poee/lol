@@ -3,7 +3,7 @@ title: On Optimism
 slug: optimism
 ---
 
-<img class="flush" src="/image/geodesic.sm.jpg" data-source="Nic Redhead - Flickr" data-link="https://secure.flickr.com/photos/somethingness/7686828996/" data-license="https://creativecommons.org/licenses/by-sa/2.0/">
+<img className="flush" src="/image/geodesic.sm.jpg" data-source="Nic Redhead - Flickr" data-link="https://secure.flickr.com/photos/somethingness/7686828996/" data-license="https://creativecommons.org/licenses/by-sa/2.0/">
 
 > *What do you foresee for the future of the planet and its people? Is there reason for optimism?*
 >
@@ -15,4 +15,4 @@ slug: optimism
 
 <attr>An interview with Robert Anton Wilson</attr>
 
-<a class="next" href="http://www.subgenius.com/bigfist/fun/devivals/XXDAYad/X0022_Robert_Anton_Wilson_.html">read more</a>
+<a className="next" href="http://www.subgenius.com/bigfist/fun/devivals/XXDAYad/X0022_Robert_Anton_Wilson_.html">read more</a>

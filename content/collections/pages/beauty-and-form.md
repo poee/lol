@@ -3,7 +3,7 @@ title: Beauty and Form
 slug: beauty-and-form
 ---
 
-<img class="flush" src="/image/antennaeg.jpg" data-source="Colliding Antennae Galaxies - NASA Photograph" data-link="http://www.nasa.gov/multimedia/imagegallery/image_feature_1086.html">
+<img className="flush" src="/image/antennaeg.jpg" data-source="Colliding Antennae Galaxies - NASA Photograph" data-link="http://www.nasa.gov/multimedia/imagegallery/image_feature_1086.html">
 
 > *Socrates:* "Since the beautiful is opposite of the ugly, they are two."  
 > *Glaucon:* "Of course."  

@@ -3,7 +3,7 @@ title: Regions of Empty Space
 slug: empty-space
 ---
 
-<img class="flush" src="/image/ris.sm.jpg" data-source="Heliophysics Resources - NASA" data-link="http://sec.gsfc.nasa.gov/sec_resources_imagegallery.htm">
+<img className="flush" src="/image/ris.sm.jpg" data-source="Heliophysics Resources - NASA" data-link="http://sec.gsfc.nasa.gov/sec_resources_imagegallery.htm">
 
 > See all those things in the night sky? Everything out beyond the stars in our own galaxy? In a few billion years, we'll merge together with Andromeda, the only other large galaxy in our local group, and our combined, giant elliptical galaxy will eventually gobble up the remaining dwarf galaxies orbiting us, and then all we'll have beyond our own galaxy is this: the intergalactic void.
 >
@@ -13,6 +13,6 @@ slug: empty-space
 
 <attr>Empty space has more energy than everything in the Universe, combined - <a href="http://scienceblogs.com/startswithabang/2012/07/26/empty-space-has-more-energy-than-everything-in-the-universe-combined/">ScienceBlogs</a></attr>
 
-<a href="http://scienceblogs.com/startswithabang/2012/07/26/empty-space-has-more-energy-than-everything-in-the-universe-combined/" class="next">read more</a>
+<a href="http://scienceblogs.com/startswithabang/2012/07/26/empty-space-has-more-energy-than-everything-in-the-universe-combined/" className="next">read more</a>
 
-<img src="/image/questions.png" class="shins">
+<img src="/image/questions.png" className="shins">
