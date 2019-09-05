@@ -72,12 +72,6 @@ img.left, img.right {
   margin: 0.5rem;
 }
 
-img.flush {
-  margin: 0 -1.5rem;
-  max-width: none;
-  width: calc(100% + 3rem);
-}
-
 img.showInfo {
   margin-bottom: 3em;
 }
@@ -148,6 +142,12 @@ img + .attribution {
   widtH: 100%;
 }
 
+.flush {
+  margin: 0 -1.5rem;
+  max-width: none;
+  width: calc(100% + 3rem);
+}
+
 .glimmer {
   background-color: hsla(0, 0%, 95%, 0.3);
   border-color: lightgray;
@@ -158,6 +158,12 @@ img + .attribution {
   font-style: italic;
   opacity: 0.95;
   padding: 1px 4px;
+}
+
+.impact {
+  font-family: "Impact", "Charcoal", sans-serif;
+  font-size: 1.5em;
+  text-align: center;
 }
 
 .license {

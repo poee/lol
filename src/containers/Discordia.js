@@ -47,8 +47,9 @@ class Discordia extends Component {
 		let prevPage
 		let nextPage
 		let title
-		const slug = (typeof window !== 'undefined' && window.location)
-			&& (window.location.hash || '').match(/#((\d+)|(\w+))$/)
+		const { history } = this.props;
+		const slug = (history.location && history.location.hash || '')
+			.match(/#((\d+)|(\w+))$/)
 		const page = slug
 			? slug[2] ? zeroPad(slug[2]) : slug[1] // For numeric slugs, zero pad
 			: 'front' // Default page
@@ -70,7 +71,7 @@ class Discordia extends Component {
 		if (metaIdx !== -1) {
 			prevPage = PAGES[metaIdx - 1]
 			nextPage = PAGES[metaIdx + 1]
-			title = PAGES[metaIdx].title
+			title = PAGES[metaIdx].title || page;
 		}
 
 		let prevGuess

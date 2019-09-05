@@ -5,7 +5,7 @@ export const PAGES = [
 	{ title: 'Front', slug: 'front' },
 	{ title: 'Interview', slug: 'interview' },
 	{ title: 'Title', slug: 'title' },
-	{ title: 'Joshua Norton Cabal', slug: '00001' },
+	{ title: 'Frood Cabal', slug: '00001' },
 	{ title: 'The Sacred Chao (illustration)', slug: '00003' },
 	{ title: 'Five Commandments (The Pentabarf)', slug: '00004' },
 	{ title: 'Zen Story', slug: '00005' },
