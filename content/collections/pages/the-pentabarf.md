@@ -23,6 +23,6 @@ V - A Discordian is Prohibited of Believing what they read.
 
 #### IT IS SO WRITTEN! SO BE IT. HAIL DISCORDIA!
 
-<img src="/image/re.png" />
+<img src="/image/re.png">
 
 <stamp>PROSECUTORS WILL BE TRANSGRESSICUTED.</stamp>

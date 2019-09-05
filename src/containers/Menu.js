@@ -6,6 +6,7 @@ import { compose, pure } from 'recompose'
 
 import './Menu.css'
 import Image from '../comps/Image'
+import SmallCaps from '../comps/SmallCaps';
 
 function mapSizes ({ width }) {
 	return { isMobile: width < 768 }
@@ -55,7 +56,7 @@ function Menu ({ isMobile, expanded, toggle, scrollY }) {
 				<Link to="/read/apple">Apple</Link>
 				<Link to="/read/the-pentabarf">The Pentabarf</Link>
 				<small>Names and Lists</small>
-				<Link to="/nom/gnom">GNOM</Link>
+				<Link to="/nom/gnom"><SmallCaps>Gnom</SmallCaps></Link>
 				<Link to="/nom/frood">Frood</Link>
 				<Link to="/nom/holyprimes">Holyprimes</Link>
 				<Link to="/nom/holynames">Holynames</Link>

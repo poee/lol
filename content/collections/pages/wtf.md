@@ -3,13 +3,14 @@ title: WTF
 slug: wtf
 ---
 
-<img className="flush" src="/image/froodlarge.png">
-
 <img src="/image/flake.png" className="left o25" style="width: 15%; margin-right: 10px;">
 Did you know that you have a lopsided pineal gland?
 <br><br>Well, probably you do have one, and it’s unfortunate because lopsided Pineal Glands have perverted the Free Spirit of Humanity, and subverted Life into a frustrating, unhappy and hopeless mess.
-<br><br>Fortunately, you have before you a guide that will show you how to discover your salvation fnord through
-~~Eris, the Goddess of Confusion~~. It will advise you how to balance your Pineal Gland and reach spiritual Illumination. And it will teach you how to turn your miserable mess into a beautiful, joyful, and splendid one. Do you believe that?
+<br><br>Fortunately, you have before you a guide that will show you how to discover your salvation fnord through *Eris, the Goddess of Confusion*. It will advise you how to balance your Pineal Gland and reach spiritual Illumination. And it will teach you how to turn your miserable mess into a beautiful, joyful, and splendid one. Can you believe that?
+
+~~engaging Hypertext Relays, captain . ..~~
+
+Now with half the answers, and still available for the one-time introductory price of 29 flax⁉
 
 <blockquote>
 POEE is one manifestation of
@@ -28,9 +29,6 @@ POEE is one manifestation of
 <br>and with Her
 <br>Doings
 </blockquote>
-
-~~engaging Hypertext Relays, captain . ..~~
-<br>Now with half of the answers, and five times the questions, on which your very liff depends.
 
 Our species stands at a critical time in its history.
 <br>We have moved through the beginnings of the information revolution with exponential speed, yet are left stunned as we face climate ruin, reechoing oppression, and memetic entelechy.

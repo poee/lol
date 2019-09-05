@@ -3,7 +3,7 @@ title: FLOSS
 slug: floss
 ---
 
-<img className="w35" src="/image/svg/floss.svg" alt="FLOSS Logo" />
+<img className="w35" src="/image/svg/floss.svg" alt="FLOSS Logo">
 
 <p className="center">
   Frood Cabal releases writings under a

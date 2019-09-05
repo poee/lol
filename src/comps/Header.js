@@ -8,7 +8,7 @@ import { MIN_FONT, MAX_FONT } from '../containers/PageContainer'
 function Header ({
 	page, fontSize, decrease, increase,
 }) {
-	const title = ['POEE.lol']
+	const title = ['POEE 👽']
 	if (page && page.title) {
 		title.unshift(page.title)
 	}

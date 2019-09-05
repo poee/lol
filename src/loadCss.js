@@ -1,5 +1,12 @@
 const color = '#943838'
 const loadCss = `
+@font-face {
+  font-family: "Noto Sans";
+  src: url("/font/NotoSans-webfont.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
   overflow-y:scroll;
 }
