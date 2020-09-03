@@ -25,7 +25,7 @@
     "chokidar": "2.0.3",
     "classnames": "^2.2.6",
     "ddate": "^0.1.10",
-    "htmr": "^0.7.0",
+    "htmr": "^0.8.7",
     "jdown": "^0.3.0",
     "knuth-shuffle": "^1.0.8",
     "react": "^16.8.3",
