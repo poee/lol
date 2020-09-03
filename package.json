@@ -42,6 +42,6 @@
     "chai": "^4.2.0",
     "eslint-config-react-tools": "1.x.x",
     "js-yaml": "^3.13.1",
-    "serve": ">=7.0.0"
+    "serve": ">=10.1.2"
   }
 }
