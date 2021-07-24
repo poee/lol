@@ -64,6 +64,7 @@ function Menu ({ isMobile, expanded, toggle, scrollY }) {
 				<Link to="/nom/beati">Five Star Divas</Link>
 				<small>Phrases and Notes</small>
 				<Link to="/nom/floss">FLOSS</Link>
+				<Link to="/read/orange">joke's on ∪</Link>
 				<Link to="/read/erisian-tarot-spread">Erisian Tarot Spread</Link>
 				<Link to="/read/the-rich-economy">The RICH Economy</Link>
 				<Link to="/read/stage">Stage</Link>
