@@ -44,3 +44,5 @@ It's not particularly funny. In fact it's quite boring.
 > Don’t trust atoms, they make up everything.
 
 <attr>Gift shop t-shirts available nationwide</attr>
+
+<a className="next" href="/read/apple">Apple</a>

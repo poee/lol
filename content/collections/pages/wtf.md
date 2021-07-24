@@ -28,6 +28,7 @@ POEE is one manifestation of
 <br>ERIS GODDESS OF CONFUSION
 <br>and with Her
 <br>Doings
+
 </blockquote>
 
 Our species stands at a critical time in its history.
@@ -50,4 +51,4 @@ Disorder is growing in a most visible sense.
 <attr>Our Lady of Discord, Eris</attr>
 
 <a href="/read/cosmogony" className="prev">Cosmogony</a>
-<a href="/read/light" className="next">Light</a>
+<a href="/read/orange" className="next">Orange</a>

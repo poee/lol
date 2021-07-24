@@ -50,22 +50,22 @@ function Menu ({ isMobile, expanded, toggle, scrollY }) {
 			)}
 			<nav onClick={isMobile ? toggle : undefined}>
 				<Link to="/read/cosmogony">Cosmogony</Link>
-				<Link to="/read/wtf">WTF</Link>
-				<Link to="/discordia/">The Cacophonia</Link>
 				<Link to="/read/light">Light</Link>
+				<Link to="/read/wtf">WTF</Link>
+				<Link to="/read/orange">joke's on ∪</Link>
 				<Link to="/read/apple">Apple</Link>
-				<Link to="/read/the-pentabarf">The Pentabarf</Link>
+				<Link to="/discordia/">The Cacophonia</Link>
 				<small>Names and Lists</small>
 				<Link to="/nom/frood">Frood</Link>
 				<Link to="/nom/gnom"><SmallCaps>Gnom</SmallCaps></Link>
+				<Link to="/nom/floss">FLOSS</Link>
+				<Link to="/nom/beati">Five Star Divas</Link>
 				<Link to="/nom/holyprimes">Holyprimes</Link>
 				<Link to="/nom/holynames">Holynames</Link>
 				<Link to="/nom/holytimes">Holytimes</Link>
-				<Link to="/nom/beati">Five Star Divas</Link>
 				<small>Phrases and Notes</small>
-				<Link to="/nom/floss">FLOSS</Link>
-				<Link to="/read/orange">joke's on ∪</Link>
 				<Link to="/read/erisian-tarot-spread">Erisian Tarot Spread</Link>
+				<Link to="/read/the-pentabarf">The Pentabarf</Link>
 				<Link to="/read/the-rich-economy">The RICH Economy</Link>
 				<Link to="/read/stage">Stage</Link>
 				<Link to="/read/optimism">On Optimism</Link>

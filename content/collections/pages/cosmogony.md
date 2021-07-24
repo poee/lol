@@ -85,7 +85,7 @@ Meeting Their gaze Sophia finally knew love, and was loved in return.
   Sophia, c/o Aiwass
 </attr>
 
-<a href="/read/wtf" className="next">WTF</a>
+<a href="/read/light" className="next">Light</a>
 
 <footer>
 🍿 And Their name was Dolo.

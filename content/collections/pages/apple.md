@@ -3,9 +3,6 @@ title: Malus
 slug: apple
 ---
 
-<iframe className="flush" id="ytplayer" type="text/html"  width="100%" height="420" src="https://www.youtube.com/embed/kG4YnA_bo9s?origin=http://poee.lol&start=182&end=292&showinfo=0&theme=light&modestbranding=1"
-  frameborder="0" data-link="http://www.youtube.com/watch?feature=player_detailpage&v=kG4YnA_bo9s#t=182"></iframe><br>
-
 ### Look, here is a tree in the garden.
 
 And every summer it produces apples. And we call it an apple tree, because the tree apples. That's what it does.
