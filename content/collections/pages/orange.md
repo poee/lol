@@ -5,7 +5,7 @@ slug: orange
 
 ### Can god make up a joke she doesn't understand?
 
-Some old fools are still asking if god can lift infinitely heavy rocks, but Erisians know the answer is "yes, after a nap", and choose to probe the deeper questions.
+Some tedious fools are still asking if god can lift infinitely heavy rocks, but Erisians know the answer is "yes, after a nap", and choose to probe the deeper questions.
 
 What does it take to think up a joke? Is it the free-association of different words, arriving at a novel sentence?
 
@@ -21,7 +21,7 @@ Whoever thought up that joke, they needed to be in a world that already had knoc
 
 <attr>Carl Sagan</attr>
 
-There is no way to jump to this punchline and skip all the intervening context which made it possible. You cannot, so to speak, make up this joke "from scratch". Now you might say, what if I just took an infinite number of typewriting monkeys, surely they would arrive at this punchline much more quickly than the complete works of Shakespeare. And that's fair - if they only were typing ASCII characters they would have a 1 in 7.2x10<sup>75</sup> chance of producing that sentence at random, the same chance as any other 36-character long string. If there were one trillion monkeys each typing out one sentence every millisecond, it would only take about 1.66×10<sup>43</sup> ages of the universe. _So you're telling me there's a chance._
+There is no way to jump to this punchline and skip all the intervening context which made it possible. You cannot, so to speak, make up this joke "from scratch". Now you might say, what if I just took an infinite number of typewriting monkeys, surely they would arrive at this punchline much more quickly than the complete works of Shakespeare. And that's fair - if they only were typing ASCII characters they would have a 1 in 7.2×10<sup>75</sup> chance of producing that sentence at random, the same chance as any other 36-character long string. If there were one trillion monkeys each typing out one sentence every millisecond, it would only take about 1.66×10<sup>43</sup> ages of the universe. _So you're telling me there's a chance._
 
 But would they understand it? Could it be a _joke_ if it had no known referent and was simply produced randomly? Would Eris find it delightful when she told it? Or would she not _get it_?
 

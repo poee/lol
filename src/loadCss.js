@@ -1,10 +1,11 @@
-const color = '#943838'
+const color = "#943838";
 const loadCss = `
 @font-face {
   font-family: "Noto Sans";
   src: url("/font/NotoSans-webfont.woff");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 html {
@@ -93,6 +94,6 @@ body {
     transform: scale(0.9);
   }
 }
-`
+`;
 
-export default loadCss
+export default loadCss;

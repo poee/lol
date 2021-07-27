@@ -20,8 +20,11 @@ aside.menu {
   width: 100%;
 }
 
-.chao, .ribbon {
+.chao,
+.ribbon {
   background-color: hsl(180, 15%, 40%);
+  transition: all 2s ease-out;
+  transition-property: background-color, transform;
 }
 
 aside.menu header {
@@ -32,7 +35,7 @@ aside.menu header {
 }
 
 .menu nav a {
-  display: table;
+  display: block;
   padding: 0.35rem;
 }
 
@@ -46,7 +49,7 @@ aside.menu header {
 
 .content {
   background-color: white;
-  box-shadow: 0 0 6px rgba(0,0,0,0.2);
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
   display: inline-block;
   padding: 0 1.5rem 3rem;
   position: relative;
@@ -66,27 +69,32 @@ aside.menu header {
   position: absolute;
   top: 0.75rem;
   padding-top: 0;
-  transition: padding-top .5s ease-out;
+  transition: padding-top 0.5s linear;
   z-index: 470;
 }
 .showMenuWrapper.raised {
-  padding-top: 1.75rem;
+  padding-top: 1rem;
   position: absolute;
 }
-.showMenuWrapper, .showMenuWrapper * {
+.showMenuWrapper.raised .chao {
+  transform: rotateX(-180deg) rotateY(180deg);
+}
+.showMenuWrapper,
+.showMenuWrapper * {
   border-radius: 50%;
 }
-button.showMenu {
-  background-image: url('/image/chao.png');
+button.chao.showMenu {
+  background-image: url("/image/chao.png");
   background-size: cover;
-	height: 5rem;
-	width: 5rem;
+  height: 5rem;
+  width: 5rem;
   z-index: 23;
 }
 
 /* Small screen rules */
 @media screen and (max-width: 767px) {
-  aside.menu, .content {
+  aside.menu,
+  .content {
     display: table;
   }
 
@@ -98,16 +106,13 @@ button.showMenu {
     opacity: 0;
     z-index: 15;
   }
-  aside.menu:not(.isHidden) {
-    transition: opacity 0.5s ease-out;
-  }
 
   aside.menu {
-    background-color: hsl(48, 40%, 93%);
+    background-color: hsl(48, 30%, 98%);
     border-top-left-radius: 50% 5rem;
     border-top-right-radius: 50% 5rem;
-    border: 2px solid #DDD;
-    box-shadow: #DDD 0 0 10px;
+    border: 2px solid #ddd;
+    box-shadow: #ddd 0 0 10px;
     font-size: 1.25em;
     margin: auto;
     margin-bottom: 0;
@@ -115,7 +120,7 @@ button.showMenu {
     padding: 7.25rem 2rem 2rem;
     position: absolute;
     left: 11vw;
-    top: 1.25rem;
+    top: 0.25rem;
     width: 78vw;
     z-index: 230;
   }
@@ -127,7 +132,8 @@ button.showMenu {
     z-index: 23;
   }
   article.content.blur {
-    opacity: 0.2;
+    opacity: 0.6;
+    filter: blur(3px);
   }
 
   nav a {
