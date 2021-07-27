@@ -225,11 +225,15 @@ ul.circle {
 }
 
 blockquote + .attribution {
-  border-left: 3px solid #1a7440;
   font-size: 0.9;
   margin-top: -15px;
   margin-bottom: 2rem;
   text-align: right;
+}
+
+blockquote,
+blockquote + attribution {
+  border-left: 3px solid var(--ribbon-color, #1a7440);
 }
 
 img + .attribution {
@@ -303,14 +307,10 @@ aside.menu {
 }
 
 .chao {
-  width: 100%;
-}
-
-.chao,
-.ribbon {
-  background-color: hsl(180, 15%, 40%);
+  background-color: var(--chao-color, hsl(179, 15%, 40%));
   transition: all 2s ease-out;
   transition-property: background-color, transform;
+  width: 100%;
 }
 
 aside.menu header {

@@ -1,5 +1,6 @@
 import "../styles/global.css";
 import type { AppProps } from "next/app";
+import Head from "next/head";
 import { MDXProvider } from "@mdx-js/react";
 
 import PageContainer from "../src/containers/PageContainer";
@@ -25,8 +26,31 @@ const transform = {
 };
 
 function MyApp({ Component, pageProps }: AppProps) {
+  let style = null;
+  if (typeof window !== "undefined") {
+    const hueSeed = Math.round(new Date().getTime() / 2299) % 361;
+    const ribbonHue = (149 + hueSeed) % 361;
+    style = (
+      <style key="variables">
+        {`:root {
+            --chao-color: hsl(${hueSeed}, 69%, 35%);
+            --ribbon-color: hsl(${ribbonHue}, 44%, 40%);
+            --ribbon-border-color: hsl(${ribbonHue}, 34%, 30%);
+          }`}
+      </style>
+    );
+    // style = `.chao {background-color:  !important;}
+    // 	header.ribbon {background-color: ${ribbonColor};}
+    // 	.ribbon:before, .ribbon:after {border-top-color: ;}
+    // 	blockquote, blockquote + .attribution {border-left-color: ${ribbonColor};}`;
+  }
+
   return (
     <MDXProvider components={transform}>
+      <Head>
+        <link href="/image/favicon.png" rel="shortcut icon" />
+        {style}
+      </Head>
       <PageContainer>
         <Component {...pageProps} />
       </PageContainer>

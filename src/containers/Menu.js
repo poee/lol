@@ -1,5 +1,4 @@
 import React from "react";
-import Head from "next/head";
 import Link from "next/link";
 import cn from "classnames";
 
@@ -9,25 +8,10 @@ import SmallCaps from "../components/SmallCaps";
 // 	return { isMobile: width < 768 };
 // }
 
-export default function Menu({ isMobile = true, expanded, toggle }) {
-	// Change hue seed every 30 seconds when in the browser
-	let style;
-	if (typeof window !== "undefined") {
-		const hueSeed = Math.round(new Date().getTime() / 2300) % 361;
-		const ribbonHue = (150 + hueSeed) % 361;
-		const ribbonColor = `hsl(${ribbonHue}, 45%, 40%)`;
-		style = `.chao {background-color: hsl(${hueSeed}, 70%, 35%) !important;}
-			header.ribbon {background-color: ${ribbonColor};}
-			.ribbon:before, .ribbon:after {border-top-color: hsl(${ribbonHue}, 35%, 30%);}
-			blockquote, blockquote + .attribution {border-left-color: ${ribbonColor};}`;
-	}
-
+export default function Menu({ isMobile, expanded, toggle }) {
 	const hide = isMobile && !expanded;
 	return (
 		<React.Fragment>
-			<Head>
-				<style>{style}</style>
-			</Head>
 			{isMobile && (
 				<div
 					className={cn("showMenuWrapper", { raised: !hide })}
