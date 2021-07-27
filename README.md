@@ -2,15 +2,16 @@
 
 Or, How I Found Goddess And What She Did With Me When I Found Her
 
-*wherein is explained everything worth knowing about absolutely anything*
+_wherein is explained everything worth knowing about absolutely anything_
 
-Free/Libre Open Source Scripture  - coliberation welcome
+Free/Libre Open Source Scripture - coliberation welcome
 
 To run locally:
 
-```
-npm install
-npm start
+```bash
+npm run dev
+# or
+yarn dev
 ```
 
 ![Folle](public/image/inf.sm.png)

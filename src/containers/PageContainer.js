@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import Routes from "react-static-routes";
 import cn from "classnames";
 
-import Header from "../comps/Header";
+import Header from "../components/Header";
 import Menu from "./Menu";
 
 const BASE_FONT = 95;
@@ -69,7 +68,7 @@ class PageContainer extends Component {
 						decrease={this.decrease}
 						increase={this.increase}
 					/>
-					<Routes />
+					{this.props.children}
 				</article>
 			</div>
 		);

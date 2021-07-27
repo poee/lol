@@ -2,7 +2,7 @@ import React from "react";
 import { Head, Loading, Router } from "react-static";
 import { hot } from "react-hot-loader";
 
-import Footer from "./comps/Footer";
+import Footer from "./components/Footer";
 import PageContainer from "./containers/PageContainer";
 
 import "./app.css";
