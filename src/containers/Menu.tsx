@@ -5,12 +5,16 @@ import { useMediaQuery } from "@react-hookz/web";
 
 import SmallCaps from "../components/SmallCaps";
 
-export default function Menu() {
+export default function Menu({
+  expanded,
+  toggle,
+}: {
+  expanded: boolean;
+  toggle: () => void;
+}) {
   const isMobile = useMediaQuery("(max-width : 767px)");
-  const [isExpanded, setIsExpanded] = useState(false);
-  const toggleIsExpanded = () => setIsExpanded((curr) => !curr);
 
-  const raised = isMobile && isExpanded;
+  const raised = isMobile && expanded;
   return (
     <React.Fragment>
       {isMobile && (
@@ -19,7 +23,7 @@ export default function Menu() {
             key="chao-button"
             className={cn("chao showMenu")}
             aria-label="Show Menu"
-            onClick={toggleIsExpanded}
+            onClick={toggle}
           />
         </div>
       )}
@@ -29,7 +33,7 @@ export default function Menu() {
             <img className="chao" src="/image/chao.png" />
           </header>
         )}
-        <nav onClick={isMobile ? toggleIsExpanded : undefined}>
+        <nav onClick={isMobile ? toggle : undefined}>
           <Link href="/read/cosmogony">Cosmogony</Link>
           <Link href="/read/light">Light</Link>
           <Link href="/read/wtf">WTF</Link>
