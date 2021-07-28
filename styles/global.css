@@ -232,7 +232,7 @@ blockquote + .attribution {
 }
 
 blockquote,
-blockquote + attribution {
+blockquote + .attribution {
   border-left: 3px solid var(--ribbon-color, #1a7440);
 }
 

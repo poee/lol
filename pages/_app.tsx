@@ -12,7 +12,7 @@ import Divider from "../src/components/Divider";
 import Kopy from "../src/components/Kopy";
 import Random from "../src/components/Random";
 import Stamp from "../src/components/Stamp";
-// import Image from "../src/components/Image";
+import Image from "../src/components/Image";
 
 const transform = {
   // a: Link,
@@ -20,7 +20,7 @@ const transform = {
   del: SmallCaps,
   hr: Divider,
   kopy: Kopy,
-  // img: Image,
+  img: Image,
   random: Random,
   stamp: Stamp,
 };
@@ -39,10 +39,6 @@ function MyApp({ Component, pageProps }: AppProps) {
           }`}
       </style>
     );
-    // style = `.chao {background-color:  !important;}
-    // 	header.ribbon {background-color: ${ribbonColor};}
-    // 	.ribbon:before, .ribbon:after {border-top-color: ;}
-    // 	blockquote, blockquote + .attribution {border-left-color: ${ribbonColor};}`;
   }
 
   return (
