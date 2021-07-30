@@ -1,0 +1,24 @@
+.stool {
+  width: 50%;
+  max-width: 4rem;
+  grid-area: stool;
+}
+
+.arrowLeft {
+  grid-area: arrowLeft;
+}
+
+.arrowRight {
+  grid-area: arrowRight;
+  transform: rotateY(180deg);
+}
+
+.discordia nav {
+  display: grid;
+  grid-template-areas: "arrowLeft stool arrowRight";
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  align-items: center;
+  justify-items: center;
+  margin-top: 1rem;
+}

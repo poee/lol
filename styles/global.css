@@ -421,8 +421,4 @@ button.chao.showMenu {
     opacity: 0.6;
     filter: blur(3px);
   }
-
-  nav a {
-    padding: 0.6rem;
-  }
 }
