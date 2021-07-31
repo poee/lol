@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import Link from "next/link";
 import cn from "classnames";
 import { useMediaQuery } from "@react-hookz/web";
 
-import SmallCaps from "../components/SmallCaps";
+import SmallCaps from "../SmallCaps";
 
 export default function Menu({
   expanded,
@@ -16,7 +16,7 @@ export default function Menu({
 
   const raised = isMobile && expanded;
   return (
-    <React.Fragment>
+    <>
       {isMobile && (
         <div className={cn("showMenuWrapper", { raised })} key="showMenu">
           <button
@@ -64,6 +64,6 @@ export default function Menu({
           <Link href="/read/empty-space">Regions of Empty Space</Link>
         </nav>
       </aside>
-    </React.Fragment>
+    </>
   );
 }

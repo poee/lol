@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 
 import styles from "./css/Header.module.css";
-import { MIN_FONT, MAX_FONT } from "../containers/PageContainer";
+import { MIN_FONT, MAX_FONT } from "../components/layout/PageContainer";
 import { useTitleContext } from "../hooks/titleContext";
 
 function Header({ fontSize, decrease, increase }) {

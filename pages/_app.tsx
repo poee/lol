@@ -4,7 +4,7 @@ import Head from "next/head";
 import { MDXProvider, MDXProviderComponents } from "@mdx-js/react";
 import { ReactNode, useState } from "react";
 
-import PageContainer from "../src/containers/PageContainer";
+import PageContainer from "../src/components/layout/PageContainer";
 
 import Attribution from "../src/components/Attribution";
 import Divider from "../src/components/Divider";
