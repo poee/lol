@@ -1,0 +1,27 @@
+.attribution {
+  background-color: #eaeaea;
+  border-radius: 0 0 5px 5px;
+  margin: 0;
+  padding: 5px 10px;
+}
+
+blockquote.quote + .attribution {
+  font-size: 0.9;
+  margin-top: -15px;
+  margin-bottom: 2rem;
+  text-align: right;
+}
+
+blockquote.quote,
+blockquote.quote + .attribution {
+  border-left: 3px solid var(--ribbon-color, #1a7440);
+}
+
+img + .attribution {
+  font-size: 0.9em;
+  position: absolute;
+  top: 100%;
+  padding: 0.4em;
+  text-align: center;
+  width: 100%;
+}
