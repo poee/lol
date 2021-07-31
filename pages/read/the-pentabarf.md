@@ -1,7 +1,6 @@
----
-title: The Pentabarf
-slug: the-pentabarf
----
+export const meta = {
+title: "The Pentabarf"
+}
 
 <img className="w25" src="/image/eyeball.png" />
 

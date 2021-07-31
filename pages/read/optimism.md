@@ -1,7 +1,6 @@
----
-title: On Optimism
-slug: optimism
----
+export const meta = {
+title: "On Optimism"
+}
 
 <img className="flush" src="/image/geodesic.sm.jpg" data-source="Nic Redhead - Flickr" data-link="https://secure.flickr.com/photos/somethingness/7686828996/" data-license="https://creativecommons.org/licenses/by-sa/2.0/" />
 

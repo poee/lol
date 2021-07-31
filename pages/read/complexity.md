@@ -1,7 +1,6 @@
----
-title: Complexity
-slug: complexity
----
+export const meta = {
+title: "Complexity"
+}
 
 <img className="flush" src="/image/complex.sm.jpg" data-source=" Michael Heiss - Flickr" data-link="https://secure.flickr.com/photos/michaelheiss/3090102907" data-license="https://creativecommons.org/licenses/by-nc-sa/2.0/" />
 

@@ -1,7 +1,6 @@
----
-title: How Many People Have Ever Lived on Earth?
-slug: how-many-people
----
+export const meta = {
+title: "How Many People Have Ever Lived on Earth?"
+}
 
 > <img src="/image/prb.png" />
 

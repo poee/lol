@@ -1,7 +1,6 @@
----
-title: Holyprimes
-slug: holyprimes
----
+export const meta = {
+title: "Holyprimes"
+}
 
 <p className="prime">II</p>
 

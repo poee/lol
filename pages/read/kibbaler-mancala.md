@@ -1,7 +1,6 @@
----
-title: Kibbaler Mancala
-slug: kibbaler-mancala
----
+export const meta = {
+title: "Kibbaler Mancala"
+}
 
 <img className="flush" src="/image/mancala.sm.png" />
 

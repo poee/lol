@@ -1,7 +1,6 @@
----
-title: Enterprise
-slug: enterprise
----
+export const meta = {
+title: "Enterprise"
+}
 
 Approximately 2.6 million years ago, humans began using the first stone tools, created by breaking sharp pieces off of larger rocks.
 

@@ -1,7 +1,6 @@
----
-title: Stage
-slug: stage
----
+export const meta = {
+title: "Stage"
+}
 
 <img className="flush" src="/image/milkyway.sm.jpg" data-source="'Grand Design' Spiral Galaxy M81 ~ HubbleSite Photographs" data-link="http://hubblesite.org/newscenter/archive/releases/2007/19/image/a/" />
 

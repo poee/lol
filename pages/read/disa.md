@@ -1,7 +1,6 @@
----
-title: The 5+1 Great Disappointments
-slug: disappointments
----
+export const meta = {
+title: "The 5+1 Great Disappointments"
+}
 
 ### 1. Loneliness
 
@@ -9,11 +8,11 @@ The first Disappointment is a simple observable fact, one both cosmic and person
 
 Our personal loneliness seems dull and petty in comparison, but it's no less disheartening. No other person can ever truly understand us, to see the world the way we see it. We can never truly communicate the content of our minds. Although we may make friends, gain reputation, or fall in love, every living thing still dies alone.
 
-### 2. [*c*](https://en.wikipedia.org/wiki/Speed_of_light)
+### 2. [_c_](https://en.wikipedia.org/wiki/Speed_of_light)
 
-If we did, optimistically, discover other regions of interesting space, it would take a *very* long time to visit, or even to communicate with any intelligences there. As far as we can tell, the Universe stubbornly refuses to allow anything, not even information, to move any faster than the universal transmission speed limit of around 300,000,000 meters per second, *c*.
+If we did, optimistically, discover other regions of interesting space, it would take a _very_ long time to visit, or even to communicate with any intelligences there. As far as we can tell, the Universe stubbornly refuses to allow anything, not even information, to move any faster than the universal transmission speed limit of around 300,000,000 meters per second, _c_.
 
-We don't yet know how common intelligence is in the Universe, nor do we know how far humanity will spread among the stars. We can allow ourselves to think positively, and imagine a future "Galactic Federation" of enlightened worlds. But... if we can't break *c*, it seems that all Life will be forever fragmented, dealing with delays and nearly insurmountable information horizons which isolate and compartmentalize any knowledge growth within the network.
+We don't yet know how common intelligence is in the Universe, nor do we know how far humanity will spread among the stars. We can allow ourselves to think positively, and imagine a future "Galactic Federation" of enlightened worlds. But... if we can't break _c_, it seems that all Life will be forever fragmented, dealing with delays and nearly insurmountable information horizons which isolate and compartmentalize any knowledge growth within the network.
 
 ### 3. [The Inverse-square law](https://en.wikipedia.org/wiki/Inverse-square_law)
 
@@ -21,7 +20,7 @@ The inverse-square law for light intensity describes the fact that radiation los
 
 For comparison, although the Earth is only 2.6 times further away from the Sun than Mercury, the Sun's intensity is felt nearly seven times weaker (thankfully!) here than it is at Mercury. At a larger scale, Eris is nearly 70 times further away from the Sun than Earth, but the Sun's intensity is nearly 4,500 times weaker there than here.
 
-A 1kW signal from a transmitter on Earth has an intensity of 80 W/m<sup>2</sup>, one meter from the source. Let's be optimistic and assume that life evolves on the nearest known mesoplanet [Tae Ceti e](https://en.wikipedia.org/wiki/Tau_Ceti_e). That same signal will be diminished to 6.28x10<sup>-23</sup> W/m<sup>2</sup> by the time it reaches Tau Ceti e.  By the time it reaches the next closest known mesoplanet, [Gliese 667 Cc](https://en.wikipedia.org/wiki/Gliese_667_Cc) we're down to 1.6x10<sup>-33</sup> W/m<sup>2</sup>. You can see where we're going here.
+A 1kW signal from a transmitter on Earth has an intensity of 80 W/m<sup>2</sup>, one meter from the source. Let's be optimistic and assume that life evolves on the nearest known mesoplanet [Tae Ceti e](https://en.wikipedia.org/wiki/Tau_Ceti_e). That same signal will be diminished to 6.28x10<sup>-23</sup> W/m<sup>2</sup> by the time it reaches Tau Ceti e. By the time it reaches the next closest known mesoplanet, [Gliese 667 Cc](https://en.wikipedia.org/wiki/Gliese_667_Cc) we're down to 1.6x10<sup>-33</sup> W/m<sup>2</sup>. You can see where we're going here.
 
 ### 4. [Dark Energy](https://en.wikipedia.org/wiki/Dark_energy)
 
@@ -43,4 +42,4 @@ This Disappointment is a +1 for a few reasons. Firstly, it's not necessarily uni
 
 In the meantime though, it really does suck. No matter how much you learn, how much you are beloved, how much money you make, or how deeply you enjoy your life, it will come to an end. You won't get to see how the human race grows after you die. There will be a sweet new computer interface that comes out in the year 2209 and you won't get to try it. Your grandchildren will have grandchildren, hopefully, but they'll never be able to meet you.
 
-There's a third reason death is a +1, though: it's not all bad. Death is a motivator.  Death is something that puts our lives in perspective, something that's always with us and which has defined our species' ascent. It provides a driving force of urgency behind our actions, it forces us to take risks and act boldly rather than wait for the perfect moment. Death cleans house, too. Our brains tend to lose their sponginess as we get older - it becomes harder to grasp new ideas or to change our minds. Death helps the human race grow and change. We're all just nodes in a network, and sometimes you just have to take a node offline so a fresh one can take its place.
+There's a third reason death is a +1, though: it's not all bad. Death is a motivator. Death is something that puts our lives in perspective, something that's always with us and which has defined our species' ascent. It provides a driving force of urgency behind our actions, it forces us to take risks and act boldly rather than wait for the perfect moment. Death cleans house, too. Our brains tend to lose their sponginess as we get older - it becomes harder to grasp new ideas or to change our minds. Death helps the human race grow and change. We're all just nodes in a network, and sometimes you just have to take a node offline so a fresh one can take its place.

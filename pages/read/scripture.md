@@ -1,9 +1,9 @@
----
-title: Scripture
-slug: scripture
----
+export const meta = {
+title: "Scripture"
+}
 
 ### The Gratuitous Graces of the Empress
+
 1. The Great Helper
 2. Solve
 3. Coagula
@@ -11,6 +11,7 @@ slug: scripture
 5. ?
 
 ### The Provisions
+
 1. The Shelter
 2. The Word
 3. The Eye

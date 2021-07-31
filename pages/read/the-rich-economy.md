@@ -1,7 +1,6 @@
----
-title: The RICH Economy
-slug: the-rich-economy
----
+export const meta = {
+title: "The RICH Economy"
+}
 
 <img src="/image/magazine.sm.jpg" className="flush" data-source="1979 book Future Cities: Homes and Living into the 21st Century, Matt Novak - Flickr" data-link="https://secure.flickr.com/photos/sots/1271028593/in/photolist-2Wjmw6-6dAFJb-6sfW22" />
 

@@ -1,7 +1,6 @@
----
-title: Stele
-slug: stele
----
+export const meta = {
+title: "Stele"
+}
 
 <img className="flush" src="/image/stele.sm.jpg" data-source="Wikimedia Commons" data-link="https://commons.wikimedia.org/wiki/File:Stelae_front.jpg" />
 <blockquote>

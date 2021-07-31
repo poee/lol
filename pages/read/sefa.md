@@ -1,7 +1,6 @@
----
-title: Sefa
-slug: sefa
----
+export const meta = {
+title: "Sefa"
+}
 
 > Then blossom decks the bower's bough<br />the bothie blooms, the sea meads gleam<br />the wide world racks the restless mind<br />of him who on the full flood tide<br />determines to depart
 

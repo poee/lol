@@ -1,7 +1,6 @@
----
-title: Adoration of Nuit
-slug: adoration-of-nuit
----
+export const meta = {
+title: "Adoration of Nuit"
+}
 
 <blockquote>
 <p>I adore Thee, Nuit, adore the agonies and trials

@@ -1,7 +1,6 @@
----
-title: As Many Wisefolk have Said.
-slug: entheatrope
----
+export const meta = {
+title: "As Many Wisefolk have Said."
+}
 
 > The classical serotonergic psychedelics LSD, psilocybin, mescaline are not known to cause brain damage and are regarded as non-addictive. Clinical studies do not suggest that psychedelics cause long-term mental health problems. Psychedelics have been used in the Americas for thousands of years. Over 30 million people currently living in the US have used LSD, psilocybin, or mescaline.
 >

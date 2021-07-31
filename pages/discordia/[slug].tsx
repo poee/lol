@@ -7,11 +7,13 @@ import Image from "../../src/components/Image";
 import { PAGES, ROUTE_PREFIX, SlugInfo } from "../../src/data/discordia";
 import Link from "next/link";
 import { GetStaticPathsResult, GetStaticPropsResult } from "next";
+import { useUpdateTitle } from "../../src/hooks/titleContext";
 
 type DiscordiaPageParams = {
   prevSlug: string;
   nextSlug: string;
   slug: string;
+  title: string;
 };
 
 // function onError(error: SyntheticEvent<HTMLImageElement>) {
@@ -23,9 +25,11 @@ type DiscordiaPageParams = {
 
 export default function Discordia({
   slug,
+  title,
   nextSlug,
   prevSlug,
 }: DiscordiaPageParams) {
+  useUpdateTitle(title);
   let content;
 
   content = (
@@ -104,9 +108,12 @@ export async function getStaticProps({
   });
   const prev = PAGES[pageIdx - 1];
   const next = PAGES[pageIdx + 1];
+  const thisPage = PAGES[pageIdx];
+  const title = typeof thisPage === "string" ? "" : thisPage.title;
   return {
     props: {
       slug,
+      title,
       prevSlug: prev ? getSlugFromSlugInfo(prev) : "",
       nextSlug: next ? getSlugFromSlugInfo(next) : "",
     },

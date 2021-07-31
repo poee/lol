@@ -1,7 +1,6 @@
----
-title: Unity
-slug: unity
----
+export const meta = {
+title: "Unity"
+}
 
 <img className="flush" src="/image/magnum_chaos.sm.jpg" />
 

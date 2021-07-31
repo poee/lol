@@ -1,7 +1,6 @@
----
-title: Gnoms and Mopes
-slug: gnom
----
+export const meta = {
+title: "Gnoms and Mopes"
+}
 
 You are a ~~Gnom~~. After much deliberation, the orange smoke billowing from the chimney in the Attic can confirm it.
 

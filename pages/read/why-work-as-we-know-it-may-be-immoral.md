@@ -1,9 +1,8 @@
----
-title: Why Work as We Know It May Be Immoral
-slug: why-work-as-we-know-it-may-be-immoral
----
+export const meta = {
+title: "Why Work as We Know It May Be Immoral"
+}
 
-> Bullshit. *Passions are what change the world.*
+> Bullshit. _Passions are what change the world._
 
 <attr>Saul of Hearts - <a href="https://medium.com/career-pathing/463ff6dfec1b"><i>Why Work As We Know It May Be Immoral</i></a></attr>
 

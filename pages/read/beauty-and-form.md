@@ -1,7 +1,6 @@
----
-title: Beauty and Form
-slug: beauty-and-form
----
+export const meta = {
+title: "Beauty and Form"
+}
 
 <img className="flush" src="/image/antennaeg.jpg" data-source="Colliding Antennae Galaxies - NASA Photograph" data-link="http://www.nasa.gov/multimedia/imagegallery/image_feature_1086.html" />
 

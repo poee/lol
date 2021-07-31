@@ -1,7 +1,6 @@
----
-title: YOD NAHMUITSE
-slug: yod-nahmuitse
----
+export const meta = {
+title: "YOD NAHMUITSE"
+}
 
 <div className="mono">
 <p>Damn you, shite.

@@ -1,7 +1,6 @@
----
-title: Regions of Empty Space
-slug: empty-space
----
+export const meta = {
+title: "Regions of Empty Space"
+}
 
 <img className="flush" src="/image/ris.sm.jpg" data-source="Heliophysics Resources - NASA" data-link="http://sec.gsfc.nasa.gov/sec_resources_imagegallery.htm" />
 
