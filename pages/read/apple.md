@@ -28,7 +28,8 @@ slug: apple
 > But we're thinking in a way, you see, that disconnects the intelligence from the rocks.
 >
 > Where there are rocks, watch out, watch out!
-> <br />Because the rocks are going eventually to come alive.
+>
+> Because the rocks are going eventually to come alive.
 
 <attr>Alan Watts</attr>
 
