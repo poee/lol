@@ -6,7 +6,7 @@ import { ReactNode, useState } from "react";
 
 import PageContainer from "../src/components/layout/PageContainer";
 
-import Attribution from "../src/components/Attribution";
+import { Attribution, Blockquote } from "../src/components/Blockquote";
 import Divider from "../src/components/Divider";
 import Footer from "../src/components/Footer";
 import Image from "../src/components/Image";
@@ -32,6 +32,7 @@ const PageTitleWrapper = ({
 const transform: MDXProviderComponents = {
   a: Link,
   attr: Attribution,
+  blockquote: Blockquote,
   del: SmallCaps,
   hr: Divider,
   img: Image,

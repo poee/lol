@@ -2,7 +2,7 @@ export const meta = {
 title: "Malus Aforethought"
 }
 
-<iframe width="100%" height="350" src="https://www.youtube.com/embed/JZbThJg6ehU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe className="flush" width="100%" height="350" src="https://www.youtube.com/embed/JZbThJg6ehU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > ### Look, here is a tree in the garden.
 >

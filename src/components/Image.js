@@ -1,7 +1,7 @@
 import React, { useCallback, useState } from "react";
 import cn from "classnames";
 
-import Attribution from "./Attribution";
+import { Attribution } from "./Blockquote";
 
 export default function Image(props) {
 	const {
