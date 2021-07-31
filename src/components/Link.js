@@ -6,9 +6,16 @@ export default function WrappedLink({
 	className,
 	...otherProps
 } = {}) {
+	if (otherProps.href) {
+		return (
+			<Link {...otherProps}>
+				<a className={className}>{children}</a>
+			</Link>
+		);
+	}
 	return (
-		<Link {...otherProps}>
-			<a className={className}>{children}</a>
-		</Link>
+		<a className={className} {...otherProps}>
+			{children}
+		</a>
 	);
 }
