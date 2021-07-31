@@ -1,168 +1,172 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <link rel="shortcut icon" href="/themes/frood/img/favicon.png">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="/themes/frood/img/favicon.png" />
 
-  <title>Sigil Studio</title>
+    <title>Sigil Studio</title>
 
-  <style>
-    @font-face {
-      font-family: "Noto Sans";
-      src: url("/font/NotoSans-webfont.woff");
-      font-weight: normal;
-      font-style: normal;
-    }
+    <style>
+      @font-face {
+        font-family: "Noto Sans";
+        src: url("/font/NotoSans-webfont.woff");
+        font-weight: normal;
+        font-style: normal;
+      }
 
-    body {
+      body {
         margin: 0;
-        background: #43525a url('/sigil/salvage.gif');
+        background: #43525a url("/sigil/salvage.gif");
         font-family: "Noto Sans", sans-serif;
         overflow-y: scroll;
-    }
+      }
 
-    #container {
-        background: url('/sigil/gradient.png') repeat-x top center;
+      #container {
+        background: url("/sigil/gradient.png") repeat-x top center;
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 1000px;
-    }
+      }
 
-    #header {
+      #header {
         padding-top: 200px;
         text-align: center;
-    }
+      }
 
-    h1 {
-        color: #CCC;
-        text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
-    }
+      h1 {
+        color: #ccc;
+        text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777,
+          0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333,
+          0px 8px 7px #001135;
+      }
 
-    h1, h2, h3 {
-        font-family: 'Exo';
+      h1,
+      h2,
+      h3 {
+        font-family: "Exo";
         font-weight: 900;
         margin-bottom: 16px;
         text-rendering: auto;
-    }
+      }
 
-    #original {
+      #original {
         background-color: rgba(25, 25, 25, 0.6);
-        box-shadow: 0 7px 19px #AAA;
-        color: #CCCCCC;
+        box-shadow: 0 7px 19px #aaa;
+        color: #cccccc;
         font-size: 30px;
         padding: 10px;
         width: 900px;
-    }
+      }
 
-    #solve_contain {
+      #solve_contain {
         width: 450px;
         height: 104px;
         margin: auto;
         padding-top: 39px;
         position: relative;
-    }
-    #solve_button {
+      }
+      #solve_button {
         position: relative;
-        font-family: 'Exo';
-        background-color: #EDE593;
+        font-family: "Exo";
+        background-color: #ede593;
         font-size: 20px;
         border-radius: 5px;
         border: 0;
         cursor: pointer;
-    }
-    #solve_button:hover {
+      }
+      #solve_button:hover {
         box-shadow: 0px 0px 20px white;
-    }
-    #coagula {
-      width: 1024px;
-      height: 0px;
-      margin: auto;
-      background: url('/sigil/paper.png');
-      position: relative;
-      left: -9999px;
-      top: -9999px;
-    }
-    #coagula_canvas {
+      }
+      #coagula {
+        width: 1024px;
+        height: 0px;
+        margin: auto;
+        background: url("/sigil/paper.png");
+        position: relative;
+        left: -9999px;
+        top: -9999px;
+      }
+      #coagula_canvas {
         position: absolute;
         top: 372px;
         left: 0;
         height: 325px;
         width: 550px;
-    }
-    #write_wrap {
-      position: absolute;
-      left: 550px;
-      top: 100px;
-      width: 474px;
-      height: 768px;
-      float: right;
-    }
-    #write_wrap > * {
-      transform: rotate(2.3deg);
-      font-family: 'luxi_monoregular', 'monospace';
-      font-size: 20px;
-      line-height: 35px;
-      width: 350px;
-      height: 562px;
-      left: 45px;
-      top: 107px;
-      position: absolute;
-    }
-    #write_echo {
-    }
-    #write {
-      background-color: transparent;
-      border: none;
-      padding: 0;
-      margin: 0;
-      opacity: 0.3;
-    }
-    .aether {
-      color: #2265BF;
-    }
-    .intrusion {
-      color: #BF301C;
-    }
-    #voweltog {
-      background-color: #3B2D74;
-      cursor: pointer;
-      height: 28px;
-      left: 265px;
-      opacity: 0.4;
-      position: absolute;
-      top: 728px;
-      width: 30px;
-    }
-  </style>
+      }
+      #write_wrap {
+        position: absolute;
+        left: 550px;
+        top: 100px;
+        width: 474px;
+        height: 768px;
+        float: right;
+      }
+      #write_wrap > * {
+        transform: rotate(2.3deg);
+        font-family: "luxi_monoregular", "monospace";
+        font-size: 20px;
+        line-height: 35px;
+        width: 350px;
+        height: 562px;
+        left: 45px;
+        top: 107px;
+        position: absolute;
+      }
+      #write_echo {
+      }
+      #write {
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        margin: 0;
+        opacity: 0.3;
+      }
+      .aether {
+        color: #2265bf;
+      }
+      .intrusion {
+        color: #bf301c;
+      }
+      #voweltog {
+        background-color: #3b2d74;
+        cursor: pointer;
+        height: 28px;
+        left: 265px;
+        opacity: 0.4;
+        position: absolute;
+        top: 728px;
+        width: 30px;
+      }
+    </style>
 
-   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-   <script src="kinetic-v5.1.0.min.js"></script>
-   <script src="script.js"></script>
-</head>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="kinetic-v5.1.0.min.js"></script>
+    <script src="script.js"></script>
+  </head>
 
-<body>
-  <div id="container">
-  <div id="header">
-      <h1>What are your words?</h1>
-      <form action="#" id="f_original">
-        <input type="text" id="original">
-        <div id="solve_contain">
-            <input type="submit" value="Solve" id="solve_button">
+  <body>
+    <div id="container">
+      <div id="header">
+        <h1>What are your words?</h1>
+        <form action="#" id="f_original">
+          <input type="text" id="original" />
+          <div id="solve_contain">
+            <input type="submit" value="Solve" id="solve_button" />
+          </div>
+        </form>
+      </div>
+      <br />
+      <div id="coagula">
+        <div id="voweltog"></div>
+        <div id="coagula_canvas"></div>
+        <div id="write_wrap">
+          <div id="write_echo"></div>
+          <textarea id="write" wrap="hard"></textarea>
         </div>
-      </form>
-  </div>
-  <br>
-  <div id="coagula">
-    <div id="voweltog"></div>
-    <div id="coagula_canvas"></div>
-    <div id="write_wrap">
-      <div id="write_echo"></div>
-      <textarea id="write" wrap="hard"></textarea>
+      </div>
     </div>
-  </div>
-  </div>
-</body>
+  </body>
 </html>

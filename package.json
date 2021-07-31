@@ -1,6 +1,7 @@
 {
-  "name": "POEE.lol",
-  "main": "index.js",
+  "name": "poee.lol",
+  "version": "2.0.0",
+  "private": true,
   "keywords": [
     "poee",
     "discordian",
@@ -14,34 +15,29 @@
     "url": "https://github.com/poee/lol.git"
   },
   "scripts": {
-    "start": "react-static start",
-    "stage": "react-static build --staging",
-    "build": "react-static build",
-    "serve": "serve dist -p 3000",
-    "lint": "eslint ."
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "array-sort": "^1.0.0",
-    "chokidar": "2.0.3",
-    "classnames": "^2.2.6",
-    "ddate": "^0.1.10",
-    "htmr": "^0.7.0",
-    "jdown": "^0.3.0",
+    "@mdx-js/loader": "^1.6.22",
+    "@mdx-js/react": "^1.6.22",
+    "@next/mdx": "^11.0.1",
+    "@react-hookz/web": "^6.0.1",
+    "classnames": "^2.3.1",
     "knuth-shuffle": "^1.0.8",
-    "react": "^16.8.3",
-    "react-document-title": "^2.0.3",
-    "react-dom": "^16.8.3",
-    "react-hot-loader": "^4.0.0-beta.21",
-    "react-router": "^4.2.0",
-    "react-sizes": "^1.0.4",
-    "react-static": "^5.9.12",
-    "recompose": "^0.30.0",
-    "shebang-loader": "0.0.1"
+    "next": "11.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
   },
   "devDependencies": {
-    "chai": "^4.2.0",
-    "eslint-config-react-tools": "1.x.x",
-    "js-yaml": "^3.13.1",
-    "serve": ">=7.0.0"
+    "@types/classnames": "^2.3.1",
+    "@types/mdx-js__react": "^1.5.4",
+    "@types/react": "17.0.15",
+    "eslint": "7.31.0",
+    "eslint-config-next": "11.0.1",
+    "typescript": "4.3.5"
   }
 }

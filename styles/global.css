@@ -1,0 +1,424 @@
+@font-face {
+  font-family: "Noto Sans";
+  src: url("/font/NotoSans-webfont.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  border: 0;
+  box-sizing: border-box;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: #f2f1ed;
+  color: #34495e;
+  font-family: "Noto Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  position: relative;
+}
+
+.heart {
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  transform: rotate(45deg);
+  transform-origin: 32px 32px;
+  position: fixed;
+  top: 40%;
+  left: calc(50% - 32px);
+}
+.heart div {
+  top: 23px;
+  left: 19px;
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  background: #943838;
+  animation: heart 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.heart div:after,
+.heart div:before {
+  content: " ";
+  position: absolute;
+  display: block;
+  width: 26px;
+  height: 26px;
+  background: #943838;
+}
+.heart div:before {
+  left: -17px;
+  border-radius: 50% 0 0 50%;
+}
+.heart div:after {
+  top: -17px;
+  border-radius: 50% 50% 0 0;
+}
+@keyframes heart {
+  0% {
+    transform: scale(0.95);
+  }
+  5% {
+    transform: scale(1.1);
+  }
+  39% {
+    transform: scale(0.85);
+  }
+  45% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
+
+a {
+  color: #34495e;
+}
+
+a:hover {
+  color: #27ae60;
+}
+
+a.next,
+a.prev {
+  background-color: #f2f1ed;
+  border: thin solid black;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 5px;
+  text-decoration: none;
+}
+
+a.next {
+  float: right;
+}
+
+a.next:after {
+  content: " >";
+}
+
+a.prev:before {
+  content: "< ";
+}
+
+blockquote {
+  border-left: 3px solid #1a7440;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+
+div,
+img {
+  margin: auto;
+  display: block;
+}
+
+hr {
+  clear: both;
+}
+
+hr.end {
+  height: 0.25rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+img.w50 {
+  width: 50%;
+}
+img.w35 {
+  width: 35%;
+}
+img.w25 {
+  width: 25%;
+}
+img.o75 {
+  opacity: 0.75;
+}
+img.o25 {
+  opacity: 0.25;
+}
+
+img.left,
+img.right {
+  width: 30%;
+  margin: 0.5rem;
+}
+
+img.showInfo {
+  margin-bottom: 3em;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin: 1.2rem 0;
+}
+
+ul,
+ol {
+  margin: 0.5rem 1.5rem;
+}
+
+ul.soc {
+  background: no-repeat right bottom url(/image/svg/stool.svg);
+  background-size: 85px;
+  min-height: 85px;
+}
+
+ul.circle {
+  list-style: circle;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.center {
+  text-align: center;
+}
+
+.mirror {
+  transform: scaleX(-1);
+}
+
+.mirrorY {
+  transform: scaleY(-1);
+}
+
+.attribution {
+  background-color: #eaeaea;
+  border-radius: 0 0 5px 5px;
+  margin: 0;
+  padding: 4px 10px;
+}
+
+blockquote + .attribution {
+  font-size: 0.9;
+  margin-top: -15px;
+  margin-bottom: 2rem;
+  text-align: right;
+}
+
+blockquote,
+blockquote + .attribution {
+  border-left: 3px solid var(--ribbon-color, #1a7440);
+}
+
+img + .attribution {
+  font-size: 0.9em;
+  position: absolute;
+  top: 100%;
+  padding: 0.4em;
+  text-align: center;
+  width: 100%;
+}
+
+iframe {
+  margin: 0 auto 1rem;
+}
+
+.flush {
+  margin: 0 -1.5rem;
+  max-width: none;
+  width: calc(100% + 3rem);
+}
+
+.glimmer {
+  background-color: hsla(0, 0%, 95%, 0.3);
+  border-color: lightgray;
+  border-style: solid;
+  border-width: 0 2px;
+  border-radius: 5px;
+  line-height: 1.3;
+  font-style: italic;
+  opacity: 0.95;
+  padding: 1px 4px;
+}
+
+.impact {
+  font-family: "Impact", "Charcoal", sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.license {
+  background: no-repeat left url("/image/cc.png");
+  margin-left: 1em;
+  padding-left: 20px;
+}
+
+.prime {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.scaps {
+  font-variant: small-caps;
+}
+
+article.content {
+  margin-bottom: 15rem;
+}
+
+article footer {
+  padding-top: 4rem;
+  position: absolute;
+  top: 100%;
+}
+
+aside.menu {
+  display: inline-block;
+  margin-bottom: 170px;
+  padding-right: 1.5rem;
+  vertical-align: top;
+  width: 25%;
+}
+
+.chao {
+  background-color: var(--chao-color, hsl(179, 15%, 40%));
+  transition: all 2s ease-out;
+  transition-property: background-color, transform;
+  width: 100%;
+}
+
+aside.menu header {
+  margin: 0 auto 1.5rem auto;
+  max-width: 90%;
+  min-height: 8rem;
+  width: 13rem;
+}
+
+.menu nav a {
+  display: block;
+  padding: 0.35rem;
+}
+
+.menu nav small {
+  border-bottom: thin solid lightgray;
+  display: block;
+  margin: 0.8rem 0;
+  padding: 0.2rem 0;
+  text-align: right;
+}
+
+.content {
+  background-color: white;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  padding: 0 1.5rem 3rem;
+  position: relative;
+  width: 75%;
+}
+
+.pageContainer {
+  margin: auto;
+  max-width: 900px;
+  padding: 3rem 1rem;
+  position: relative;
+  width: 100%;
+}
+
+.showMenuWrapper {
+  left: calc(50% - 2.5rem);
+  position: absolute;
+  top: 0.75rem;
+  padding-top: 0;
+  transition: padding-top 0.5s linear;
+  z-index: 470;
+}
+.showMenuWrapper.raised {
+  padding-top: 1rem;
+  position: absolute;
+}
+.showMenuWrapper.raised .chao {
+  transform: rotateX(-180deg) rotateY(180deg);
+}
+.showMenuWrapper,
+.showMenuWrapper * {
+  border-radius: 50%;
+}
+button.chao.showMenu {
+  background-image: url("/image/chao.png");
+  background-size: cover;
+  height: 5rem;
+  width: 5rem;
+  z-index: 23;
+}
+
+/* Small screen rules */
+@media screen and (max-width: 767px) {
+  aside.menu,
+  .content {
+    display: table;
+  }
+
+  .pageContainer {
+    padding: 0.5rem;
+  }
+
+  aside.menu.isHidden {
+    opacity: 0;
+    z-index: 15;
+  }
+
+  aside.menu {
+    background-color: hsl(48, 30%, 98%);
+    border-top-left-radius: 51% 5rem;
+    border-top-right-radius: 50% 5rem;
+    border: 2px solid #ddd;
+    box-shadow: #ddd 0 0 10px;
+    font-size: 1.25em;
+    margin: auto;
+    margin-bottom: 0;
+    opacity: 1;
+    padding: 7.25rem 2rem 2rem;
+    position: absolute;
+    left: 11vw;
+    top: 0.25rem;
+    width: 78vw;
+    z-index: 230;
+  }
+  article.content {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6rem;
+    width: 95%;
+    z-index: 23;
+  }
+  article.content.blur {
+    opacity: 0.6;
+    filter: blur(3px);
+  }
+}
