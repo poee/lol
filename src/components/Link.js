@@ -1,8 +1,14 @@
-import React from 'react'
-import { Link } from 'react-static'
+import Link from "next/link";
+import React from "react";
 
-export default function WrappedLink ({ href, ...otherProps } = {}) {
+export default function WrappedLink({
+	children,
+	className,
+	...otherProps
+} = {}) {
 	return (
-		<Link to={href} {...otherProps} />
-	)
+		<Link {...otherProps}>
+			<a className={className}>{children}</a>
+		</Link>
+	);
 }

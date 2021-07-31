@@ -7,14 +7,15 @@ import { ReactNode, useState } from "react";
 import PageContainer from "../src/containers/PageContainer";
 
 import Attribution from "../src/components/Attribution";
-// import Link from "../src/components/Link";
-import SmallCaps from "../src/components/SmallCaps";
 import Divider from "../src/components/Divider";
-import Kopy from "../src/components/Kopy";
 import Footer from "../src/components/Footer";
-import Random from "../src/components/Random";
-import Stamp from "../src/components/Stamp";
 import Image from "../src/components/Image";
+import Kopy from "../src/components/Kopy";
+import Link from "../src/components/Link";
+import Random from "../src/components/Random";
+import SmallCaps from "../src/components/SmallCaps";
+import Stamp from "../src/components/Stamp";
+
 import { TitleContext, useUpdateTitle } from "../src/hooks/titleContext";
 
 const PageTitleWrapper = ({
@@ -29,12 +30,12 @@ const PageTitleWrapper = ({
 };
 
 const transform: MDXProviderComponents = {
-  // a: Link,
+  a: Link,
   attr: Attribution,
   del: SmallCaps,
   hr: Divider,
-  kopy: Kopy,
   img: Image,
+  kopy: Kopy,
   random: Random,
   stamp: Stamp,
   wrapper: PageTitleWrapper,
