@@ -2,7 +2,7 @@ export const meta = {
 title: "Erisian Tarot Spread"
 }
 
-As we learn in The Honest Book of Truth, [Fred 1:6](/discordia/#00046), when order is at its strongest, disorder escalates. Eris is at her most apparent when emerging from the stark backdrop of Order.
+As we learn in The Honest Book of Truth, [Fred 1:6](/discordia/00046), when order is at its strongest, disorder escalates. Eris is at her most apparent when emerging from the stark backdrop of Order.
 
 The Erisian spread can only be done once, when a new deck is opened.
 
