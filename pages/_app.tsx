@@ -10,6 +10,7 @@ import Attribution from "../src/components/Attribution";
 import SmallCaps from "../src/components/SmallCaps";
 import Divider from "../src/components/Divider";
 import Kopy from "../src/components/Kopy";
+import Footer from "../src/components/Footer";
 import Random from "../src/components/Random";
 import Stamp from "../src/components/Stamp";
 import Image from "../src/components/Image";
@@ -57,6 +58,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <PageContainer>
         <Component {...pageProps} />
       </PageContainer>
+      <Footer />
     </MDXProvider>
   );
 }
