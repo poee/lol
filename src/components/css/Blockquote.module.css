@@ -5,6 +5,11 @@
   padding: 5px 10px;
 }
 
+blockquote.quote {
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+
 blockquote.quote + .attribution {
   font-size: 0.9;
   margin-top: -15px;
