@@ -23,10 +23,19 @@ const PageTitleWrapper = ({
   meta,
 }: {
   children: ReactNode;
-  meta?: { title?: string };
+  meta?: { description?: string; title?: string };
 }) => {
   useUpdateTitle(meta?.title ?? "");
-  return <>{children}</>;
+  return (
+    <>
+      <Head>
+        {meta?.description && (
+          <meta name="description" content={meta.description}></meta>
+        )}
+      </Head>
+      {children}
+    </>
+  );
 };
 
 const transform: MDXProviderComponents = {

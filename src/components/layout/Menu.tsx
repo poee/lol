@@ -59,8 +59,6 @@ export default function Menu({
           <Link href="/read/stage">Stage</Link>
           <Link href="/read/optimism">On Optimism</Link>
           <Link href="/read/beauty-and-form">Beauty and Form</Link>
-          <Link href="/read/entheatrope">As Many Wisefolk Have Said.</Link>
-          <Link href="/read/the-richest-85">The Richest 85</Link>
           <Link href="/read/empty-space">Regions of Empty Space</Link>
         </nav>
       </aside>
