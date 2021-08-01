@@ -23,10 +23,19 @@ const PageTitleWrapper = ({
   meta,
 }: {
   children: ReactNode;
-  meta?: { title?: string };
+  meta?: { description?: string; title?: string };
 }) => {
   useUpdateTitle(meta?.title ?? "");
-  return <>{children}</>;
+  return (
+    <>
+      <Head>
+        {meta?.description && (
+          <meta name="description" content={meta.description}></meta>
+        )}
+      </Head>
+      {children}
+    </>
+  );
 };
 
 const transform: MDXProviderComponents = {
@@ -44,7 +53,7 @@ const transform: MDXProviderComponents = {
 
 const APP_TITLE = "POEE 👽";
 
-function MyApp({ Component, pageProps }: AppProps) {
+export default function MyApp({ Component, pageProps }: AppProps) {
   const [pageTitle, setPageTitle] = useState("");
 
   let style = null;
@@ -83,4 +92,3 @@ function MyApp({ Component, pageProps }: AppProps) {
     </TitleContext.Provider>
   );
 }
-export default MyApp;

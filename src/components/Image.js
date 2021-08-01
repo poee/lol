@@ -7,7 +7,6 @@ export default function Image(props) {
 	const {
 		className,
 		forwardedRef,
-		src,
 		"data-source": source,
 		"data-link": link,
 		"data-license": license,
@@ -24,7 +23,6 @@ export default function Image(props) {
 	const combinedProps = {
 		...otherProps,
 		className: cn(className, { showInfo }),
-		src,
 	};
 
 	// Build attribution panel
@@ -52,7 +50,6 @@ export default function Image(props) {
 	return (
 		<p>
 			<img
-				alt=""
 				key="image"
 				{...combinedProps}
 				ref={forwardedRef}
