@@ -26,4 +26,4 @@ title: "Holyprimes"
 
 ---
 
-<br /><img src="/image/00101.sm.png" />
+<br /><img width="300px" height="auto" src="/image/00101.png" />

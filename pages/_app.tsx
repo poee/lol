@@ -44,7 +44,7 @@ const transform: MDXProviderComponents = {
 
 const APP_TITLE = "POEE 👽";
 
-function MyApp({ Component, pageProps }: AppProps) {
+export default function MyApp({ Component, pageProps }: AppProps) {
   const [pageTitle, setPageTitle] = useState("");
 
   let style = null;
@@ -83,4 +83,3 @@ function MyApp({ Component, pageProps }: AppProps) {
     </TitleContext.Provider>
   );
 }
-export default MyApp;
