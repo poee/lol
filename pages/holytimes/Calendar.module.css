@@ -1,0 +1,52 @@
+.details {
+  font-size: 1.5em;
+  margin: 2rem 0;
+}
+
+.season {
+  grid-column: 1;
+}
+
+.seasonLabel {
+}
+
+.moon {
+  grid-column: 2;
+}
+
+.divider {
+  background-color: honeydew;
+  grid-column: span 7;
+  border: thin solid gray;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  text-align: center;
+  width: 100%;
+}
+
+.null {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+.recognition {
+  background-color: plum;
+}
+
+.null {
+  background-color: ;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 4px;
+}
+
+.yearButton {
+  color: #222;
+  font-size: 1rem;
+  margin: 0 5px;
+  padding: 6px;
+}
