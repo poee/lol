@@ -51,7 +51,7 @@ export default function Menu({
           <Link href="/read/beati">Five Star Divas</Link>
           <Link href="/read/holyprimes">Holyprimes</Link>
           <Link href="/read/holynames">Holynames</Link>
-          <Link href="/read/holytimes">Holytimes</Link>
+          <Link href="/holytimes">Holytimes</Link>
           <small>Phrases and Notes</small>
           <Link href="/read/erisian-tarot-spread">Erisian Tarot Spread</Link>
           <Link href="/read/the-pentabarf">The Pentabarf</Link>

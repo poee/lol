@@ -30,6 +30,7 @@ export function Calendar() {
 
   const [year, setYear] = useState(() => legacyYear - YEAR_OFFSET);
   const leapYear = isLeapYear(new Date(year + YEAR_OFFSET, 0, 1));
+
   // For all the days of the year, build day elements.
   const days = Array.from({ length: 364 }, (v, i) => i).reduce<CalendarAcc>(
     (acc, dayOfYear) => {
@@ -64,7 +65,7 @@ export function Calendar() {
           className={className}
           key={dayOfYear}
           monthDay={acc.dayOfMonth}
-          dayOfYear={dayOfYear + 1}
+          dayOfYear={dayOfYear + 1 + (leapYear ? 1 : 0)}
         />
       );
       acc.dayOfMonth += 1;
@@ -82,14 +83,17 @@ export function Calendar() {
 
   return (
     <>
-      <div className={styles.details}>
-        Year: {year} ({YEAR_OFFSET + year})
+      <div className={styles.year}>
         <button
           className={styles.yearButton}
           onClick={() => setYear((current) => current - 1)}
         >
           Prev
         </button>
+        <div>
+          Year: {year}
+          <div className={styles.dayOfYear}>{YEAR_OFFSET + year}</div>
+        </div>
         <button
           className={styles.yearButton}
           onClick={() => setYear((current) => current + 1)}
