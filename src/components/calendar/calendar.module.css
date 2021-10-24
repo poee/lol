@@ -7,13 +7,18 @@
   border: thin solid #eee;
   border-radius: 3px;
   text-align: center;
-  padding: 2px 0.7rem;
+  padding: 8px 2px;
   width: 100%;
 }
 
 .dayOfYear {
   color: hsl(0deg 0% 80%);
   font-size: 0.7em;
+}
+
+.focused {
+  border-color: cadetblue;
+  box-shadow: 0 0 4px cadetblue;
 }
 
 .moon {
@@ -38,6 +43,15 @@
   background-color: plum;
 }
 
+.tooltip {
+  display: flex;
+  flex-direction: column;
+}
+
+.tooltip p {
+  margin: 0;
+}
+
 .weekday {
   font-size: 1.5em;
   border-bottom: thin solid #ddd;
@@ -50,8 +64,8 @@
 .grid {
   background-color: hsl(40deg 40% 95%);
   display: grid;
-  grid-template-columns: auto repeat(6, 1fr);
-  grid-gap: 6px;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 5px;
   padding: 6px;
 }
 

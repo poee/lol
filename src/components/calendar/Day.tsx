@@ -6,12 +6,25 @@ import styles from "./calendar.module.css";
 interface Props {
   className: string;
   dayOfYear: number;
+  isFocused: boolean;
+  setFocus: (dayOfYear: number) => void;
   monthDay: ReactNode;
 }
-export function Day({ className, dayOfYear, monthDay }: Props) {
+
+export function Day({
+  className,
+  dayOfYear,
+  isFocused,
+  setFocus,
+  monthDay,
+}: Props) {
   return (
-    <div className={clsx(styles.day, className)}>
-      {monthDay} <div className={styles.dayOfYear}>{dayOfYear}</div>
-    </div>
+    <button
+      data-tip={dayOfYear}
+      className={clsx(styles.day, className, isFocused && styles.focused)}
+      onClick={() => setFocus(dayOfYear)}
+    >
+      {monthDay}
+    </button>
   );
 }
