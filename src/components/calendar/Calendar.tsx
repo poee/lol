@@ -1,12 +1,15 @@
-import { getYear, isLeapYear } from "date-fns";
+import clsx from "clsx";
+import { addDays, format, getYear, isLeapYear, setDayOfYear } from "date-fns";
 import { FC, useState } from "react";
+import ReactTooltip from "react-tooltip";
+
 import { Day } from "./Day";
 import { useUpdateTitle } from "../../hooks/titleContext";
 
 import styles from "./calendar.module.css";
-import clsx from "clsx";
 
 const YEAR_OFFSET = 2000;
+const DOY_OFFSET = 78;
 const SEASON_LENGTH = 91;
 const SEASON_NAMES = [
   "Northward Equinox",
@@ -25,16 +28,15 @@ type CalendarAcc = {
 
 export function Calendar() {
   useUpdateTitle("Holytimes Calendar");
-  const now = new Date();
-  const legacyYear = getYear(now);
-
-  const [year, setYear] = useState(() => legacyYear - YEAR_OFFSET);
+  const [year, setYear] = useState(() => getYear(new Date()) - YEAR_OFFSET);
   const leapYear = isLeapYear(new Date(year + YEAR_OFFSET, 0, 1));
+
+  const [focusedDay, setFocusedDay] = useState(1);
 
   // For all the days of the year, build day elements.
   const days = Array.from({ length: 364 }, (v, i) => i).reduce<CalendarAcc>(
-    (acc, dayOfYear) => {
-      const isSeasonDay = dayOfYear % SEASON_LENGTH === 0;
+    (acc, dayOrd) => {
+      const isSeasonDay = dayOrd % SEASON_LENGTH === 0;
       if (acc.dayOfMonth === 31) {
         acc.dayOfMonth = 1;
         acc.month += 1;
@@ -60,12 +62,18 @@ export function Calendar() {
         className = styles.moon;
       }
 
+      // The ordinal day is not exactly equivalent to dayOfYear.
+      // Add 1 to correct 0-index, and add another 1 on leap years
+      // to reflect day (-1)
+      const dayOfYear = dayOrd + 1 + (leapYear ? 1 : 0);
       acc.elements.push(
         <Day
-          className={className}
           key={dayOfYear}
+          className={className}
+          dayOfYear={dayOfYear}
+          isFocused={focusedDay === dayOfYear}
           monthDay={acc.dayOfMonth}
-          dayOfYear={dayOfYear + 1 + (leapYear ? 1 : 0)}
+          setFocus={setFocusedDay}
         />
       );
       acc.dayOfMonth += 1;
@@ -83,6 +91,28 @@ export function Calendar() {
 
   return (
     <>
+      <ReactTooltip
+        getContent={(dayTip) => {
+          const dayOfYear = parseInt(dayTip);
+          if (isNaN(dayOfYear)) {
+            console.log("nan", { dayOfYear });
+            return "error";
+          }
+          let thisYear = year + YEAR_OFFSET;
+          const date = addDays(
+            new Date(thisYear, 2, 20),
+            leapYear ? dayOfYear - 2 : dayOfYear - 1
+          );
+          return (
+            <div className={styles.tooltip}>
+              <p>{`Day #${dayOfYear}`}</p>
+              <p>{format(date, "eee MMM do, yyyy")}</p>
+            </div>
+          );
+        }}
+        effect="solid"
+        place="bottom"
+      />
       <div className={styles.year}>
         <button
           className={styles.yearButton}
