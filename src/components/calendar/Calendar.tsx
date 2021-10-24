@@ -1,9 +1,10 @@
 import { getYear, isLeapYear } from "date-fns";
 import { FC, useState } from "react";
-import { Day } from "../../src/components/calendar/Day";
-import { useUpdateTitle } from "../../src/hooks/titleContext";
+import { Day } from "./Day";
+import { useUpdateTitle } from "../../hooks/titleContext";
 
-import styles from "./Calendar.module.css";
+import styles from "./calendar.module.css";
+import clsx from "clsx";
 
 const YEAR_OFFSET = 2000;
 const SEASON_LENGTH = 91;
@@ -22,7 +23,7 @@ type CalendarAcc = {
   elements: JSX.Element[];
 };
 
-export default function Calendar() {
+export function Calendar() {
   useUpdateTitle("Holytimes Calendar");
   const now = new Date();
   const legacyYear = getYear(now);
@@ -105,8 +106,8 @@ export default function Calendar() {
         <div className={styles.divider}>Month 1</div>
         <WeekRow hasSeason seasonName={SEASON_NAMES[0]} />
         {days.elements}
+        <div className={`${styles.divider} ${styles.null}`}>∅ NULL DAY ∅</div>
       </section>
-      <div className={`${styles.divider} ${styles.null}`}>∅ NULL DAY ∅</div>
     </>
   );
 }
@@ -118,14 +119,17 @@ const WeekRow: FC<{ hasSeason: boolean; seasonName?: string }> = ({
 }) => (
   <>
     {hasSeason && (
-      <div className={styles.seasonLabel} title={seasonName}>{`🌍`}</div>
+      <div
+        className={clsx(styles.seasonLabel, styles.weekday)}
+        title={seasonName}
+      >{`🌍`}</div>
     )}
-    <div className={styles.moon}>🌚︎</div>
-    <div>♂</div>
-    <div>☿</div>
-    <div>♀</div>
-    <div>♄</div>
-    <div>🌞︎</div>
+    <div className={clsx(styles.moon, styles.weekday)}>🌚︎</div>
+    <div className={styles.weekday}>♂</div>
+    <div className={styles.weekday}>☿</div>
+    <div className={styles.weekday}>♀</div>
+    <div className={styles.weekday}>♄</div>
+    <div className={styles.weekday}>🌞︎</div>
     {children}
   </>
 );

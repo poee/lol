@@ -7,7 +7,17 @@
   grid-column: 1;
 }
 
-.seasonLabel {
+.day {
+  background-color: white;
+  border-radius: 3px;
+  text-align: center;
+  padding: 2px 1rem;
+  width: 100%;
+}
+
+.dayOfYear {
+  color: hsl(0deg 0% 80%);
+  font-size: 0.7em;
 }
 
 .moon {
@@ -19,9 +29,8 @@
   grid-column: span 7;
   border: thin solid gray;
   padding: 0.5rem;
-  margin: 1rem 0;
+  margin: 0.5rem 0.25rem;
   text-align: center;
-  width: 100%;
 }
 
 .null {
@@ -34,14 +43,21 @@
   background-color: plum;
 }
 
-.null {
-  background-color: ;
+.weekday {
+  font-size: 1.5em;
+  border-bottom: thin solid #ddd;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 0.25rem;
+  margin-bottom: 0.25rem;
 }
 
 .grid {
+  background-color: hsl(40deg 40% 95%);
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  grid-gap: 4px;
+  grid-template-columns: auto repeat(6, 1fr);
+  grid-gap: 6px;
+  padding: 6px;
 }
 
 .yearButton {
