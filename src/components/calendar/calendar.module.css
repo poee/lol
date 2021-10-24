@@ -9,9 +9,10 @@
 
 .day {
   background-color: white;
+  border: thin solid #eee;
   border-radius: 3px;
   text-align: center;
-  padding: 2px 1rem;
+  padding: 2px 0.7rem;
   width: 100%;
 }
 
@@ -27,7 +28,6 @@
 .divider {
   background-color: honeydew;
   grid-column: span 7;
-  border: thin solid gray;
   padding: 0.5rem;
   margin: 0.5rem 0.25rem;
   text-align: center;

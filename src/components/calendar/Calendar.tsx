@@ -97,12 +97,12 @@ export function Calendar() {
           Next
         </button>
       </div>
-      {leapYear && (
-        <div className={`${styles.divider} ${styles.recognition}`}>
-          -1 | Recognition Day
-        </div>
-      )}
       <section className={styles.grid}>
+        {leapYear && (
+          <div className={`${styles.divider} ${styles.recognition}`}>
+            -1 | Deliberation Day
+          </div>
+        )}
         <div className={styles.divider}>Month 1</div>
         <WeekRow hasSeason seasonName={SEASON_NAMES[0]} />
         {days.elements}
