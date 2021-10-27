@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import { ReactNode } from "react";
+import { Dispatch, ReactNode, SetStateAction } from "react";
 
 import styles from "./calendar.module.css";
 
@@ -7,7 +7,7 @@ interface Props {
   className: string;
   dayOfYear: number;
   isFocused: boolean;
-  setFocus: (dayOfYear: number) => void;
+  setFocus: Dispatch<SetStateAction<number>>;
   monthDay: ReactNode;
 }
 
@@ -22,7 +22,7 @@ export function Day({
     <button
       data-tip={dayOfYear}
       className={clsx(styles.day, className, isFocused && styles.focused)}
-      onClick={() => setFocus(dayOfYear)}
+      onClick={() => setFocus((curr) => (curr === dayOfYear ? -1 : dayOfYear))}
     >
       {monthDay}
     </button>

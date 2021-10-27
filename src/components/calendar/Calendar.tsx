@@ -7,16 +7,8 @@ import { Day } from "./Day";
 import { useUpdateTitle } from "../../hooks/titleContext";
 
 import styles from "./calendar.module.css";
-
-const YEAR_OFFSET = 2000;
-const DOY_OFFSET = 78;
-const SEASON_LENGTH = 91;
-const SEASON_NAMES = [
-  "Northward Equinox",
-  "Northern Solstice",
-  "Sothward Equinox",
-  "Southern Solstice",
-];
+import { YEAR_OFFSET, MONTH_NAMES, SEASON_NAMES } from "./constants";
+import { FocusInfo } from "./FocusInfo";
 
 type CalendarAcc = {
   dayOfWeek: number;
@@ -31,7 +23,7 @@ export function Calendar() {
   const [year, setYear] = useState(() => getYear(new Date()) - YEAR_OFFSET);
   const leapYear = isLeapYear(new Date(year + YEAR_OFFSET, 0, 1));
 
-  const [focusedDay, setFocusedDay] = useState(1);
+  const [focusedDay, setFocusedDay] = useState(-1);
 
   // For all the days of the year, build day elements.
   const days = Array.from(
@@ -63,7 +55,7 @@ export function Calendar() {
               className={styles.season}
               dayOfYear={dayOrd}
               isFocused={focusedDay === dayOrd}
-              monthDay="∅"
+              monthDay="∅ ∅ ∅"
               setFocus={setFocusedDay}
             />,
             <div className={`${styles.gap} ${styles.null}`}>NULL DAY</div>
@@ -80,7 +72,7 @@ export function Calendar() {
       if (acc.dayOfMonth % 31 === 0) {
         acc.elements.push(
           <div key={`month-${acc.month}`} className={styles.month}>
-            Month {acc.month}
+            Month {acc.month} -- {MONTH_NAMES[acc.month - 1]}
           </div>,
           <WeekRow
             key={`month-week-${acc.month}`}
@@ -130,28 +122,6 @@ export function Calendar() {
 
   return (
     <>
-      <ReactTooltip
-        getContent={(dayTip) => {
-          const dayOfYear = parseInt(dayTip);
-          if (isNaN(dayOfYear)) {
-            console.log("nan", { dayOfYear });
-            return "error";
-          }
-          let thisYear = year + YEAR_OFFSET;
-          const date = addDays(
-            new Date(thisYear, 2, leapYear ? 21 : 22),
-            dayOfYear
-          );
-          return (
-            <div className={styles.tooltip}>
-              <p>{`Day #${dayOfYear + 1}`}</p>
-              <p>{format(date, "eee MMM do, yyyy")}</p>
-            </div>
-          );
-        }}
-        effect="solid"
-        place="bottom"
-      />
       <div className={styles.year}>
         <button
           className={styles.yearButton}
@@ -171,6 +141,7 @@ export function Calendar() {
         </button>
       </div>
       <section className={styles.grid}>{days.elements}</section>
+      <FocusInfo dayOfYear={focusedDay} leapYear={leapYear} year={year} />
     </>
   );
 }
