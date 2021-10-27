@@ -7,16 +7,8 @@ import { Day } from "./Day";
 import { useUpdateTitle } from "../../hooks/titleContext";
 
 import styles from "./calendar.module.css";
-
-const YEAR_OFFSET = 2000;
-const DOY_OFFSET = 78;
-const SEASON_LENGTH = 91;
-const SEASON_NAMES = [
-  "Northward Equinox",
-  "Northern Solstice",
-  "Sothward Equinox",
-  "Southern Solstice",
-];
+import { YEAR_OFFSET, MONTH_NAMES, SEASON_NAMES } from "./constants";
+import { FocusInfo } from "./FocusInfo";
 
 type CalendarAcc = {
   dayOfWeek: number;
@@ -31,22 +23,65 @@ export function Calendar() {
   const [year, setYear] = useState(() => getYear(new Date()) - YEAR_OFFSET);
   const leapYear = isLeapYear(new Date(year + YEAR_OFFSET, 0, 1));
 
-  const [focusedDay, setFocusedDay] = useState(1);
+  const [focusedDay, setFocusedDay] = useState(-1);
 
   // For all the days of the year, build day elements.
-  const days = Array.from({ length: 364 }, (v, i) => i).reduce<CalendarAcc>(
+  const days = Array.from(
+    { length: leapYear ? 366 : 365 },
+    (v, i) => i
+  ).reduce<CalendarAcc>(
     (acc, dayOrd) => {
-      const isSeasonDay = dayOrd % SEASON_LENGTH === 0;
-      if (acc.dayOfMonth === 31) {
-        acc.dayOfMonth = 1;
-        acc.month += 1;
+      if ([182, 183].includes(dayOrd)) {
+        if (leapYear && dayOrd === 182) {
+          acc.elements.push(
+            <Day
+              key={dayOrd}
+              className={styles.season}
+              dayOfYear={dayOrd}
+              isFocused={focusedDay === dayOrd}
+              monthDay="-1"
+              setFocus={setFocusedDay}
+            />,
+            <div className={`${styles.gap} ${styles.leap}`}>Calendar Day</div>
+          );
+          acc.dayOfMonth = 0;
+          acc.dayOfWeek = 0;
+          return acc;
+        }
+        if (dayOrd === (leapYear ? 183 : 182)) {
+          acc.elements.push(
+            <Day
+              key={dayOrd}
+              className={styles.season}
+              dayOfYear={dayOrd}
+              isFocused={focusedDay === dayOrd}
+              monthDay="∅ ∅ ∅"
+              setFocus={setFocusedDay}
+            />,
+            <div className={`${styles.gap} ${styles.null}`}>NULL DAY</div>
+          );
+          acc.dayOfMonth = 0;
+          acc.dayOfWeek = 0;
+          return acc;
+        }
+      }
+
+      const isSeasonDay = leapYear
+        ? [0, 91, 184, 275].includes(dayOrd)
+        : [0, 91, 183, 274].includes(dayOrd);
+      if (acc.dayOfMonth % 31 === 0) {
         acc.elements.push(
-          <div className={styles.divider}>Month {acc.month}</div>,
+          <div key={`month-${acc.month}`} className={styles.month}>
+            Month {acc.month} -- {MONTH_NAMES[acc.month - 1]}
+          </div>,
           <WeekRow
+            key={`month-week-${acc.month}`}
             hasSeason={isSeasonDay}
             seasonName={isSeasonDay ? SEASON_NAMES[acc.season - 1] : undefined}
           />
         );
+        acc.dayOfMonth = 1;
+        acc.month += 1;
       }
       let className = "";
       if (isSeasonDay) {
@@ -62,16 +97,12 @@ export function Calendar() {
         className = styles.moon;
       }
 
-      // The ordinal day is not exactly equivalent to dayOfYear.
-      // Add 1 to correct 0-index, and add another 1 on leap years
-      // to reflect day (-1)
-      const dayOfYear = dayOrd + 1 + (leapYear ? 1 : 0);
       acc.elements.push(
         <Day
-          key={dayOfYear}
+          key={dayOrd}
           className={className}
-          dayOfYear={dayOfYear}
-          isFocused={focusedDay === dayOfYear}
+          dayOfYear={dayOrd}
+          isFocused={focusedDay === dayOrd}
           monthDay={acc.dayOfMonth}
           setFocus={setFocusedDay}
         />
@@ -91,28 +122,6 @@ export function Calendar() {
 
   return (
     <>
-      <ReactTooltip
-        getContent={(dayTip) => {
-          const dayOfYear = parseInt(dayTip);
-          if (isNaN(dayOfYear)) {
-            console.log("nan", { dayOfYear });
-            return "error";
-          }
-          let thisYear = year + YEAR_OFFSET;
-          const date = addDays(
-            new Date(thisYear, 2, 20),
-            leapYear ? dayOfYear - 2 : dayOfYear - 1
-          );
-          return (
-            <div className={styles.tooltip}>
-              <p>{`Day #${dayOfYear}`}</p>
-              <p>{format(date, "eee MMM do, yyyy")}</p>
-            </div>
-          );
-        }}
-        effect="solid"
-        place="bottom"
-      />
       <div className={styles.year}>
         <button
           className={styles.yearButton}
@@ -131,17 +140,8 @@ export function Calendar() {
           Next
         </button>
       </div>
-      <section className={styles.grid}>
-        {leapYear && (
-          <div className={`${styles.divider} ${styles.recognition}`}>
-            -1 | Deliberation Day
-          </div>
-        )}
-        <div className={styles.divider}>Month 1</div>
-        <WeekRow hasSeason seasonName={SEASON_NAMES[0]} />
-        {days.elements}
-        <div className={`${styles.divider} ${styles.null}`}>∅ NULL DAY ∅</div>
-      </section>
+      <section className={styles.grid}>{days.elements}</section>
+      <FocusInfo dayOfYear={focusedDay} leapYear={leapYear} year={year} />
     </>
   );
 }

@@ -6,6 +6,7 @@
   background-color: white;
   border: thin solid #eee;
   border-radius: 3px;
+  font-size: 1.1em;
   text-align: center;
   padding: 8px 2px;
   width: 100%;
@@ -21,16 +22,39 @@
   box-shadow: 0 0 4px cadetblue;
 }
 
+.focusInfo {
+  background-color: #e9e9e9;
+  border: thin solid #333;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding: 0.5rem 1rem;
+  position: sticky;
+  width: 100%;
+}
+.focusInfo p {
+  margin: 0;
+}
+
 .moon {
   grid-column: 2;
 }
 
-.divider {
+.month {
   background-color: honeydew;
   grid-column: span 7;
   padding: 0.5rem;
   margin: 0.5rem 0.25rem;
   text-align: center;
+}
+
+.gap {
+  grid-column: span 6;
+  padding: 0.5rem;
+  text-align: center;
+  width: 100%;
 }
 
 .null {
@@ -39,17 +63,8 @@
   font-weight: bold;
 }
 
-.recognition {
+.leap {
   background-color: plum;
-}
-
-.tooltip {
-  display: flex;
-  flex-direction: column;
-}
-
-.tooltip p {
-  margin: 0;
 }
 
 .weekday {
