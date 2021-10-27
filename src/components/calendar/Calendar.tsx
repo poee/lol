@@ -1,7 +1,7 @@
 import clsx from "clsx";
-import { addDays, format, getYear, isLeapYear, setDayOfYear } from "date-fns";
+import { getYear, isLeapYear } from "date-fns";
+import Link from "next/link";
 import { FC, useState } from "react";
-import ReactTooltip from "react-tooltip";
 
 import { Day } from "./Day";
 import { useUpdateTitle } from "../../hooks/titleContext";
@@ -55,7 +55,7 @@ export function Calendar() {
               className={styles.season}
               dayOfYear={dayOrd}
               isFocused={focusedDay === dayOrd}
-              monthDay="∅ ∅ ∅"
+              monthDay="∅"
               setFocus={setFocusedDay}
             />,
             <div className={`${styles.gap} ${styles.null}`}>NULL DAY</div>
@@ -122,6 +122,9 @@ export function Calendar() {
 
   return (
     <>
+      <p>
+        <Link href="/holytimes/info">More Information</Link>
+      </p>
       <div className={styles.year}>
         <button
           className={styles.yearButton}
