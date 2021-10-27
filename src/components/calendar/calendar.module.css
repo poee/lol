@@ -6,6 +6,7 @@
   background-color: white;
   border: thin solid #eee;
   border-radius: 3px;
+  font-size: 1.1em;
   text-align: center;
   padding: 8px 2px;
   width: 100%;
@@ -25,12 +26,19 @@
   grid-column: 2;
 }
 
-.divider {
+.month {
   background-color: honeydew;
   grid-column: span 7;
   padding: 0.5rem;
   margin: 0.5rem 0.25rem;
   text-align: center;
+}
+
+.gap {
+  grid-column: span 6;
+  padding: 0.5rem;
+  text-align: center;
+  width: 100%;
 }
 
 .null {
@@ -39,7 +47,7 @@
   font-weight: bold;
 }
 
-.recognition {
+.leap {
   background-color: plum;
 }
 
