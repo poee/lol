@@ -30,35 +30,35 @@ export function Calendar() {
     { length: leapYear ? 366 : 365 },
     (v, i) => i
   ).reduce<CalendarAcc>(
-    (acc, dayOrd) => {
-      if ([182, 183].includes(dayOrd)) {
-        if (leapYear && dayOrd === 182) {
+    (acc, dayIdx) => {
+      if ([182, 183].includes(dayIdx)) {
+      if (dayIdx === 182) {
           acc.elements.push(
             <Day
-              key={dayOrd}
+              key={dayIdx}
               className={styles.season}
-              dayOfYear={dayOrd}
-              isFocused={focusedDay === dayOrd}
-              monthDay="-1"
+              dayOfYear={dayIdx}
+              isFocused={focusedDay === dayIdx}
+              monthDay="∅"
               setFocus={setFocusedDay}
             />,
-            <div className={`${styles.gap} ${styles.leap}`}>Calendar Day</div>
+            <div className={`${styles.gap} ${styles.null}`}>INTERMISSION</div>
           );
           acc.dayOfMonth = 0;
           acc.dayOfWeek = 0;
           return acc;
         }
-        if (dayOrd === (leapYear ? 183 : 182)) {
+        if (leapYear && dayIdx === 183) {
           acc.elements.push(
             <Day
-              key={dayOrd}
+              key={dayIdx}
               className={styles.season}
-              dayOfYear={dayOrd}
-              isFocused={focusedDay === dayOrd}
-              monthDay="∅"
+              dayOfYear={dayIdx}
+              isFocused={focusedDay === dayIdx}
+              monthDay="#"
               setFocus={setFocusedDay}
             />,
-            <div className={`${styles.gap} ${styles.null}`}>NULL DAY</div>
+            <div className={`${styles.gap} ${styles.leap}`}>Calendar Day (leap years only)</div>
           );
           acc.dayOfMonth = 0;
           acc.dayOfWeek = 0;
@@ -67,8 +67,8 @@ export function Calendar() {
       }
 
       const isSeasonDay = leapYear
-        ? [0, 91, 184, 275].includes(dayOrd)
-        : [0, 91, 183, 274].includes(dayOrd);
+        ? [0, 91, 184, 275].includes(dayIdx)
+        : [0, 91, 183, 274].includes(dayIdx);
       if (acc.dayOfMonth % 31 === 0) {
         acc.elements.push(
           <div key={`month-${acc.month}`} className={styles.month}>
@@ -99,10 +99,10 @@ export function Calendar() {
 
       acc.elements.push(
         <Day
-          key={dayOrd}
+          key={dayIdx}
           className={className}
-          dayOfYear={dayOrd}
-          isFocused={focusedDay === dayOrd}
+          dayOfYear={dayIdx}
+          isFocused={focusedDay === dayIdx}
           monthDay={acc.dayOfMonth}
           setFocus={setFocusedDay}
         />
