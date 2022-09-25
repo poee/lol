@@ -17,4 +17,4 @@ yarn dev
 ![Folle](public/image/inf.sm.png)
 
 Episkopos Folle Ad Infinitum
-<br>📧 : episkopos[🅰️†]poee.lol
+<br>📧 : episkopos[/-\+]poee.lol

@@ -51,19 +51,25 @@ const transform: MDXProviderComponents = {
   wrapper: PageTitleWrapper,
 };
 
-const APP_TITLE = "POEE 👽";
+const APP_TITLE = "POEE";
+const EMOJIS = [
+  "👽", "💩", "🌻", "🛎", "🗝", "🍄", "🎲", "🎟", "🚩", "⛲", "🔮", "🌬",
+]
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   const [pageTitle, setPageTitle] = useState("");
 
+  const now = new Date()
+  const hueMod = Math.round(now.getTime() / 2299) % 361;
+  const hourMod = now.getHours() % EMOJIS.length;
+
   let style = null;
   if (typeof window !== "undefined") {
-    const hueSeed = Math.round(new Date().getTime() / 2299) % 361;
-    const ribbonHue = (149 + hueSeed) % 361;
+    const ribbonHue = (149 + hueMod) % 361;
     style = (
       <style key="variables">
         {`:root {
-            --chao-color: hsl(${hueSeed}, 69%, 35%);
+            --chao-color: hsl(${hueMod}, 69%, 35%);
             --ribbon-color: hsl(${ribbonHue}, 44%, 40%);
             --ribbon-border-color: hsl(${ribbonHue}, 34%, 30%);
           }`}
@@ -76,12 +82,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       <MDXProvider components={transform}>
         <Head>
           <link href="/image/favicon.png" rel="shortcut icon" />
-          <title>{[pageTitle, APP_TITLE].join(" ~ ")}</title>
-          <script
-            defer
-            data-domain="poee.lol"
-            src="https://plausible.io/js/plausible.js"
-          ></script>
+          <title>{[pageTitle, EMOJIS[hourMod], APP_TITLE].join(" ~ ")}</title>
           {style}
         </Head>
         <PageContainer>
