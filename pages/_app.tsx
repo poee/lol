@@ -53,7 +53,7 @@ const transform: MDXProviderComponents = {
 
 const APP_TITLE = "POEE";
 const EMOJIS = [
-  "👽", "💩", "🌻", "🛎", "🗝", "🍄", "🎲", "🎟", "🚩", "⛲", "🔮", "🌬",
+  "👽", "💩", "🌻", "🛎", "🗝", "🍄", "🎲", "🕷", "🌊", "🍏", "🔮", "🎱",
 ]
 
 export default function MyApp({ Component, pageProps }: AppProps) {
