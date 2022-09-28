@@ -30,7 +30,7 @@ export default function Menu({
       <aside className={cn("menu", { isHidden: !raised })} key="menu">
         {!isMobile && (
           <header key="header">
-            <img className="chao" src="/image/chao.png" />
+            <img className="chao" src="/image/caco.png" />
           </header>
         )}
         <nav onClick={isMobile ? toggle : undefined}>
