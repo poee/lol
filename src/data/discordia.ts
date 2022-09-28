@@ -8,6 +8,7 @@ export const PAGES: Array<SlugInfo> = [
 	{ title: "Interview", slug: "interview" },
 	{ title: "Title", slug: "title" },
 	{ title: "Frood Cabal", slug: "00001" },
+	{ title: "FLOSS", slug: "00002" },
 	{ title: "The Sacred Caco (illustration)", slug: "00003" },
 	{ title: "Five Commandments (The Pentabarf)", slug: "00004" },
 	{ title: "Zen Story", slug: "00005" },
