@@ -276,7 +276,6 @@ aside.menu {
 .chao {
   background-color: var(--chao-color, hsl(179, 15%, 40%));
   transition: all 2s ease-out;
-  transition-property: background-color, transform;
   width: 100%;
 }
 
@@ -321,16 +320,14 @@ aside.menu header {
   left: calc(50% - 2.5rem);
   position: absolute;
   top: 0.75rem;
-  padding-top: 0;
-  transition: padding-top 0.5s linear;
+  margin-top: 0;
+  transition: all 0.5s linear;
   z-index: 470;
 }
 .showMenuWrapper.raised {
-  padding-top: 1rem;
+  margin-top: 1rem;
   position: absolute;
-}
-.showMenuWrapper.raised .chao {
-  transform: rotateX(-180deg) rotateY(180deg);
+  transform: rotateX(-180deg);
 }
 .showMenuWrapper,
 .showMenuWrapper * {
