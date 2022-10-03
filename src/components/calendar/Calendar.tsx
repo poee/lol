@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import { getYear, isLeapYear } from "date-fns";
+import { getDayOfYear, getYear, isLeapYear } from "date-fns";
 import Link from "next/link";
 import { FC, useState } from "react";
 
@@ -7,7 +7,7 @@ import { Day } from "./Day";
 import { useUpdateTitle } from "../../hooks/titleContext";
 
 import styles from "./calendar.module.css";
-import { YEAR_OFFSET, MONTH_NAMES, SEASON_NAMES } from "./constants";
+import { DOY_OFFSET, YEAR_OFFSET, MONTH_NAMES, SEASON_NAMES } from "./constants";
 import { FocusInfo } from "./FocusInfo";
 
 type CalendarAcc = {
@@ -20,10 +20,11 @@ type CalendarAcc = {
 
 export function Calendar() {
   useUpdateTitle("Holytimes Calendar");
-  const [year, setYear] = useState(() => getYear(new Date()) - YEAR_OFFSET);
-  const leapYear = isLeapYear(new Date(year + YEAR_OFFSET, 0, 1));
+  const today = new Date()
+  const [year, setYear] = useState(() => getYear(today));
+  const leapYear = isLeapYear(new Date(year, 0, 1)); // was Jan 1st of this year a leap year?
 
-  const [focusedDay, setFocusedDay] = useState(-1);
+  const [focusedDay, setFocusedDay] = useState(getDayOfYear(today) - DOY_OFFSET);
 
   // For all the days of the year, build day elements.
   const days = Array.from(
@@ -125,6 +126,7 @@ export function Calendar() {
       <p>
         <Link href="/holytimes/info">More Information</Link>
       </p>
+      <FocusInfo dayOfYear={focusedDay} leapYear={leapYear} year={year} />
       <div className={styles.year}>
         <button
           className={styles.yearButton}
@@ -133,8 +135,8 @@ export function Calendar() {
           Prev
         </button>
         <div>
-          Year: {year}
-          <div className={styles.dayOfYear}>{YEAR_OFFSET + year}</div>
+          Year: {year - YEAR_OFFSET}
+          <div className={styles.dayOfYear}>{year}</div>
         </div>
         <button
           className={styles.yearButton}
@@ -144,7 +146,6 @@ export function Calendar() {
         </button>
       </div>
       <section className={styles.grid}>{days.elements}</section>
-      <FocusInfo dayOfYear={focusedDay} leapYear={leapYear} year={year} />
     </>
   );
 }

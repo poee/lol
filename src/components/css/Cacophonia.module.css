@@ -22,3 +22,12 @@
   justify-items: center;
   margin-top: 1rem;
 }
+
+.pageWrapper {
+  min-height: 600px;
+  transition: filter 0.1s ease-out;
+}
+.pageWrapper:not(.isLoaded) {
+  background: url('/image/loading.gif') center no-repeat;
+  filter: blur(2px);
+}

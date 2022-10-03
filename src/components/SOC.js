@@ -16,7 +16,7 @@ export default function SOC() {
 					const displayedSlug = parseInt(page.slug);
 					return (
 						<li key={page.slug}>
-							<Link href={`/discordia/${page.slug}`}>
+							<Link href={`/cacophonia/${page.slug}`}>
 								{`${!isNaN(displayedSlug) ? `${displayedSlug} - ` : ""} ${
 									page.title
 								}`}
