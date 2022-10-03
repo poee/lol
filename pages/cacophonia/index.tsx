@@ -4,7 +4,7 @@ import { useEffect } from "react";
 export default function RedirectToFront() {
   const router = useRouter();
   useEffect(() => {
-    router.replace("/discordia/front"), [router];
+    router.replace("/cacophonia/front"), [router];
   });
   return null;
 }

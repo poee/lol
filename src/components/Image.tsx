@@ -3,7 +3,7 @@ import cn from "classnames";
 
 import { Attribution } from "./Blockquote";
 
-export default function Image(props) {
+export default function Image(props: any) {
 	const {
 		className,
 		forwardedRef,

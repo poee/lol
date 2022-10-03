@@ -39,7 +39,7 @@ export default function Menu({
           <Link href="/read/wtf">WTF</Link>
           <Link href="/read/orange">joke&apos;s on ∪</Link>
           <Link href="/read/apple">Apple</Link>
-          <Link href="/discordia/">The Cacophonia</Link>
+          <Link href="/cacophonia/">The Cacophonia</Link>
           <small>Names and Lists</small>
           <Link href="/read/frood">Frood</Link>
           <Link href="/read/gnom">

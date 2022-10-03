@@ -1,15 +1,16 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
+import React, { useEffect, useState } from "react";
 
-import styles from "../../src/components/css/Discordia.module.css";
+import styles from "../../src/components/css/Cacophonia.module.css";
 
 import Image from "../../src/components/Image";
 import { PAGES, ROUTE_PREFIX, SlugInfo } from "../../src/data/discordia";
 import Link from "next/link";
 import { GetStaticPathsResult, GetStaticPropsResult } from "next";
 import { useUpdateTitle } from "../../src/hooks/titleContext";
+import clsx from "clsx";
 
-type DiscordiaPageParams = {
+type CacophoniaPageParams = {
   prevSlug: string;
   nextSlug: string;
   slug: string;
@@ -23,28 +24,32 @@ type DiscordiaPageParams = {
 //   }
 // }
 
-export default function Discordia({
+export default function Cacophonia({
   slug,
   title,
   nextSlug,
   prevSlug,
-}: DiscordiaPageParams) {
+}: CacophoniaPageParams) {
   useUpdateTitle(title);
+  const [isLoaded, setIsLoaded] = useState(false)
+  useEffect(() => setIsLoaded(false), [slug])
+
   let content;
 
   content = (
-    <Image
-      className="page"
-      src={`/pd/${slug}.png`}
-      alt={`page ${slug}`}
-      // onError={onError}
-    />
+    <section className={clsx(styles.pageWrapper, { [styles.isLoaded]: isLoaded })}>
+      <Image
+        className="page"
+        key={slug}
+        src={`/caco/${slug}.png`}
+        alt={`page ${slug}`}
+        onLoad={() => setIsLoaded(true)}
+      />
+    </section>
   );
 
   return (
     <div className={styles.discordia}>
-      {content}
-      <hr />
       <nav>
         {prevSlug && (
           <Link href={ROUTE_PREFIX + prevSlug}>
@@ -74,6 +79,8 @@ export default function Discordia({
           </a>
         </Link>
       </nav>
+      <hr />
+      {content}
     </div>
   );
 }
@@ -82,7 +89,7 @@ const getSlugFromSlugInfo = (slugInfo: SlugInfo): string =>
   typeof slugInfo === "string" ? slugInfo : slugInfo.slug;
 
 export async function getStaticPaths(): Promise<
-  GetStaticPathsResult<Pick<DiscordiaPageParams, "slug">>
+  GetStaticPathsResult<Pick<CacophoniaPageParams, "slug">>
 > {
   const paths = PAGES.map((slugInfo, idx) => {
     const slug = getSlugFromSlugInfo(slugInfo);
@@ -98,8 +105,8 @@ export async function getStaticPaths(): Promise<
 export async function getStaticProps({
   params: { slug },
 }: {
-  params: Pick<DiscordiaPageParams, "slug">;
-}): Promise<GetStaticPropsResult<DiscordiaPageParams>> {
+  params: Pick<CacophoniaPageParams, "slug">;
+}): Promise<GetStaticPropsResult<CacophoniaPageParams>> {
   const pageIdx = PAGES.findIndex((slugInfo) => {
     if (typeof slugInfo === "string") {
       return slugInfo === slug;

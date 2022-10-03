@@ -1,5 +1,5 @@
 export const TITLE = " ~ Cacophonia Discordia - POEE.lol";
-export const ROUTE_PREFIX = "/discordia/";
+export const ROUTE_PREFIX = "/cacophonia/";
 
 
 export type SlugInfo = { title: string; slug: string; } | string;
